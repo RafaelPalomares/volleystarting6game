@@ -1,5 +1,7 @@
 import { PLAYERS, COUNTRIES, Player, Position } from '@/data/players';
 
+export type GameMode = 'classic' | 'daily';
+
 export interface SpinResult {
   country: typeof COUNTRIES[number];
   players: Player[];
@@ -12,10 +14,11 @@ export interface RosterSlot {
 }
 
 export interface GameState {
+  mode: GameMode;
   round: number;
   roster: RosterSlot[];
   currentSpin: SpinResult | null;
-  skipsLeft: number;    // skip country (re-spin)
+  skipsLeft: number;
   isComplete: boolean;
   result: TeamResult | null;
 }
@@ -40,8 +43,9 @@ const ROSTER_TEMPLATE: RosterSlot[] = [
   { position: 'S', label: 'Setter', player: null },
 ];
 
-export function newGame(): GameState {
+export function newGame(mode: GameMode = 'classic'): GameState {
   return {
+    mode,
     round: 0,
     roster: ROSTER_TEMPLATE.map((s) => ({ ...s })),
     currentSpin: null,
@@ -52,13 +56,11 @@ export function newGame(): GameState {
 }
 
 export function spin(pickedIds: number[], position: Position): SpinResult {
-  // Pick random country that has available players FOR THIS POSITION
   const available = COUNTRIES.filter((c) =>
     PLAYERS.some((p) => p.countryCode === c.code && !pickedIds.includes(p.id) && p.position === position),
   );
 
   if (available.length === 0) {
-    // Fallback: show all remaining players of this position
     return {
       country: { name: 'Free Agents', code: 'INT', flag: '🌍' },
       players: PLAYERS.filter((p) => !pickedIds.includes(p.id) && p.position === position).slice(0, 15),
@@ -68,6 +70,15 @@ export function spin(pickedIds: number[], position: Position): SpinResult {
   const country = available[Math.floor(Math.random() * available.length)];
   const players = PLAYERS
     .filter((p) => p.countryCode === country.code && !pickedIds.includes(p.id) && p.position === position)
+    .sort((a, b) => b.overall - a.overall);
+
+  return { country, players };
+}
+
+export function spinDaily(countryCode: string, position: Position, pickedIds: number[]): SpinResult {
+  const country = COUNTRIES.find((c) => c.code === countryCode) || COUNTRIES[0];
+  const players = PLAYERS
+    .filter((p) => p.countryCode === countryCode && !pickedIds.includes(p.id) && p.position === position)
     .sort((a, b) => b.overall - a.overall);
 
   return { country, players };
@@ -84,22 +95,21 @@ export function calculateResult(roster: RosterSlot[]): TeamResult {
 
   const strengthRating = totalAttack + totalBlock + totalServe + totalDefense + totalSetting;
 
-  // Overall: boosted average — take best stats more into account
   const avgOverall = players.reduce((a, p) => a + p.overall, 0) / players.length;
   const bestPlayer = Math.max(...players.map((p) => p.overall));
   const overall = Math.min(99, Math.round(avgOverall * 0.75 + bestPlayer * 0.25 + 5));
 
   let grade: string;
-  if (overall >= 92) grade = 'S+';
-  else if (overall >= 87) grade = 'S';
-  else if (overall >= 82) grade = 'S-';
-  else if (overall >= 78) grade = 'A+';
-  else if (overall >= 74) grade = 'A';
-  else if (overall >= 70) grade = 'A-';
-  else if (overall >= 66) grade = 'B+';
-  else if (overall >= 62) grade = 'B';
-  else if (overall >= 58) grade = 'B-';
-  else if (overall >= 54) grade = 'C+';
+  if (overall >= 97) grade = 'S+';
+  else if (overall >= 94) grade = 'S';
+  else if (overall >= 91) grade = 'S-';
+  else if (overall >= 88) grade = 'A+';
+  else if (overall >= 85) grade = 'A';
+  else if (overall >= 82) grade = 'A-';
+  else if (overall >= 80) grade = 'B+';
+  else if (overall >= 78) grade = 'B';
+  else if (overall >= 76) grade = 'B-';
+  else if (overall >= 74) grade = 'C+';
   else grade = 'C';
 
   return { strengthRating, totalAttack, totalBlock, totalServe, totalDefense, totalSetting, overall, grade };
