@@ -84,20 +84,22 @@ export function calculateResult(roster: RosterSlot[]): TeamResult {
 
   const strengthRating = totalAttack + totalBlock + totalServe + totalDefense + totalSetting;
 
-  // Overall: average of all player overalls
-  const overall = Math.round(players.reduce((a, p) => a + p.overall, 0) / players.length);
+  // Overall: boosted average — take best stats more into account
+  const avgOverall = players.reduce((a, p) => a + p.overall, 0) / players.length;
+  const bestPlayer = Math.max(...players.map((p) => p.overall));
+  const overall = Math.min(99, Math.round(avgOverall * 0.75 + bestPlayer * 0.25 + 5));
 
   let grade: string;
-  if (overall >= 85) grade = 'S+';
-  else if (overall >= 80) grade = 'S';
-  else if (overall >= 75) grade = 'S-';
-  else if (overall >= 70) grade = 'A+';
-  else if (overall >= 67) grade = 'A';
-  else if (overall >= 63) grade = 'A-';
-  else if (overall >= 60) grade = 'B+';
-  else if (overall >= 57) grade = 'B';
-  else if (overall >= 54) grade = 'B-';
-  else if (overall >= 50) grade = 'C+';
+  if (overall >= 92) grade = 'S+';
+  else if (overall >= 87) grade = 'S';
+  else if (overall >= 82) grade = 'S-';
+  else if (overall >= 78) grade = 'A+';
+  else if (overall >= 74) grade = 'A';
+  else if (overall >= 70) grade = 'A-';
+  else if (overall >= 66) grade = 'B+';
+  else if (overall >= 62) grade = 'B';
+  else if (overall >= 58) grade = 'B-';
+  else if (overall >= 54) grade = 'C+';
   else grade = 'C';
 
   return { strengthRating, totalAttack, totalBlock, totalServe, totalDefense, totalSetting, overall, grade };

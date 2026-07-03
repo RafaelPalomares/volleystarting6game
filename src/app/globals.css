@@ -3,34 +3,60 @@
 @tailwind utilities;
 
 body {
-  background: #0a0a1a;
+  background: #07080f;
   color: #f0f0f0;
   overflow-x: hidden;
 }
 
 .glow-red {
-  box-shadow: 0 0 30px rgba(233, 69, 96, 0.4), 0 0 60px rgba(233, 69, 96, 0.1);
+  box-shadow: 0 0 25px rgba(233, 69, 96, 0.35), 0 0 50px rgba(233, 69, 96, 0.1);
 }
 
 .glow-gold {
-  box-shadow: 0 0 30px rgba(251, 191, 36, 0.4), 0 0 60px rgba(251, 191, 36, 0.1);
+  box-shadow: 0 0 25px rgba(251, 191, 36, 0.35);
 }
 
 .gradient-border {
-  position: relative;
-  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
-  border: 1px solid rgba(233, 69, 96, 0.3);
+  background: linear-gradient(145deg, #10131a 0%, #0d0f17 100%);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.gradient-border:hover {
+  border-color: rgba(233, 69, 96, 0.3);
 }
 
 .stat-bar {
-  height: 6px;
+  height: 5px;
   border-radius: 3px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.06);
   overflow: hidden;
 }
 
 .stat-bar-fill {
   height: 100%;
   border-radius: 3px;
-  transition: width 0.8s ease-out;
+  transition: width 0.8s cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.court-bg {
+  background: linear-gradient(180deg, #1b6b2f 0%, #145522 40%, #145522 60%, #0f4019 100%);
+}
+
+.player-card {
+  background: rgba(12, 14, 20, 0.85);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: all 0.2s ease;
+}
+
+.player-card:hover {
+  border-color: rgba(233, 69, 96, 0.4);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 20px rgba(233, 69, 96, 0.1);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 2px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.2); }
