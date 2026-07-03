@@ -1,62 +1,67 @@
 'use client';
 
-import { useState, useCallback } from 'react';
+import { useState, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
-  createInitialGameState,
-  spin,
+  TEAM_SLOTS,
+  searchPlayers,
   calculateTeamRating,
-  type GameState,
+  type TeamSlot,
+  type TeamResult,
 } from '@/lib/game';
-import { Player, COUNTRIES, PLAYERS } from '@/data/players';
+import { Player, Position, POSITIONS, COUNTRIES } from '@/data/players';
 
 export default function Home() {
-  const [gameState, setGameState] = useState<GameState | null>(null);
-  const [isSpinning, setIsSpinning] = useState(false);
-  const [selectedPlayer, setSelectedPlayer] = useState<Player | null>(null);
+  const [team, setTeam] = useState<TeamSlot[]>(TEAM_SLOTS.map((s) => ({ ...s })));
+  const [activeSlot, setActiveSlot] = useState<number | null>(null);
+  const [swapMode, setSwapMode] = useState<number | null>(null);
+  const [search, setSearch] = useState('');
+  const [posFilter, setPosFilter] = useState<Position | 'ALL'>('ALL');
+  const [showResult, setShowResult] = useState(false);
 
-  const startGame = () => {
-    setGameState(createInitialGameState());
-    setSelectedPlayer(null);
+  const pickedIds = team.filter((s) => s.player).map((s) => s.player!.id);
+  const filledCount = team.filter((s) => s.player).length;
+  const teamResult = useMemo(() => calculateTeamRating(team), [team]);
+
+  const filteredPlayers = useMemo(() => {
+    return searchPlayers(search, posFilter).filter((p) => !pickedIds.includes(p.id));
+  }, [search, posFilter, pickedIds]);
+
+  const selectPlayer = (player: Player) => {
+    if (activeSlot === null) return;
+    const newTeam = [...team];
+    newTeam[activeSlot] = { ...newTeam[activeSlot], player };
+    setTeam(newTeam);
+    setActiveSlot(null);
+    setSearch('');
   };
 
-  const getPickedIds = (): number[] => {
-    if (!gameState) return [];
-    return gameState.team.filter((s) => s.player).map((s) => s.player!.id);
-  };
-
-  const doSpin = useCallback(() => {
-    setIsSpinning(true);
-    setSelectedPlayer(null);
-    setTimeout(() => {
-      const result = spin(getPickedIds());
-      setGameState((prev) => prev ? { ...prev, currentSpin: result } : prev);
-      setIsSpinning(false);
-    }, 1000);
-  }, [gameState]);
-
-  const doRespin = () => {
-    if (!gameState || gameState.reSpinsLeft <= 0) return;
-    setGameState((prev) => prev ? { ...prev, reSpinsLeft: prev.reSpinsLeft - 1 } : prev);
-    doSpin();
-  };
-
-  const selectPlayer = (player: Player) => setSelectedPlayer(player);
-
-  const confirmSelection = () => {
-    if (!gameState || !selectedPlayer) return;
-    const nextRound = gameState.round + 1;
-    const newTeam = [...gameState.team];
-    newTeam[gameState.round] = { ...newTeam[gameState.round], player: selectedPlayer };
-
-    const isComplete = nextRound >= gameState.maxRounds;
-    if (isComplete) {
-      const result = calculateTeamRating(newTeam);
-      setGameState({ ...gameState, round: nextRound, team: newTeam, currentSpin: null, isComplete: true, result });
+  const handleSlotClick = (index: number) => {
+    if (swapMode !== null) {
+      // Swap players
+      const newTeam = [...team];
+      const temp = newTeam[swapMode].player;
+      newTeam[swapMode] = { ...newTeam[swapMode], player: newTeam[index].player };
+      newTeam[index] = { ...newTeam[index], player: temp };
+      setTeam(newTeam);
+      setSwapMode(null);
     } else {
-      setGameState({ ...gameState, round: nextRound, team: newTeam, currentSpin: null });
+      setActiveSlot(index);
+      setPosFilter(team[index].position);
     }
-    setSelectedPlayer(null);
+  };
+
+  const clearSlot = (index: number) => {
+    const newTeam = [...team];
+    newTeam[index] = { ...newTeam[index], player: null };
+    setTeam(newTeam);
+  };
+
+  const resetTeam = () => {
+    setTeam(TEAM_SLOTS.map((s) => ({ ...s })));
+    setActiveSlot(null);
+    setSwapMode(null);
+    setShowResult(false);
   };
 
   const posColor = (pos: string) => {
@@ -65,284 +70,210 @@ export default function Home() {
       case 'OPP': return 'from-red-500 to-red-700';
       case 'MB': return 'from-purple-500 to-purple-700';
       case 'S': return 'from-yellow-500 to-yellow-700';
+      case 'LIB': return 'from-green-500 to-green-700';
       default: return 'from-gray-500 to-gray-700';
     }
   };
 
-  const flag = (code: string) => COUNTRIES.find((c) => c.code === code)?.flag || '🏳️';
-
-  // === LANDING ===
-  if (!gameState) {
-    return (
-      <div className="min-h-screen flex flex-col items-center justify-center px-4">
-        <motion.div
-          initial={{ scale: 0.8, opacity: 0 }}
-          animate={{ scale: 1, opacity: 1 }}
-          transition={{ duration: 0.5 }}
-          className="text-center"
-        >
-          <p className="text-5xl mb-4">🏐</p>
-          <h1 className="text-5xl md:text-7xl font-black mb-3 tracking-tight">
-            <span className="text-white">Starting</span>{' '}
-            <span className="text-court-accent">6</span>
-          </h1>
-          <p className="text-gray-400 mb-12 max-w-sm mx-auto">
-            Spin a country. Draft a player. Build the highest-rated VNL lineup.
-          </p>
-
-          <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            onClick={startGame}
-            className="px-10 py-4 bg-court-accent text-white text-lg font-bold rounded-2xl glow-red"
-          >
-            PLAY
-          </motion.button>
-
-          <div className="mt-12 grid grid-cols-3 gap-8 max-w-xs mx-auto text-center">
-            <div>
-              <p className="text-2xl font-bold text-court-accent">6</p>
-              <p className="text-xs text-gray-500">Picks</p>
-            </div>
-            <div>
-              <p className="text-2xl font-bold text-yellow-400">{PLAYERS.length}</p>
-              <p className="text-xs text-gray-500">Players</p>
-            </div>
-            <div>
-              <p className="text-2xl font-bold text-blue-400">18</p>
-              <p className="text-xs text-gray-500">Nations</p>
-            </div>
-          </div>
-        </motion.div>
-      </div>
-    );
-  }
-
-  // === RESULT ===
-  if (gameState.isComplete && gameState.result) {
-    const { result } = gameState;
-    const ratingColor = result.overallRating >= 85 ? 'text-yellow-400' : result.overallRating >= 70 ? 'text-green-400' : 'text-white';
-
-    return (
-      <div className="min-h-screen flex flex-col items-center justify-center px-4 py-8">
-        <motion.div
-          initial={{ scale: 0.5, opacity: 0 }}
-          animate={{ scale: 1, opacity: 1 }}
-          transition={{ type: 'spring', duration: 0.8 }}
-          className="text-center mb-8"
-        >
-          <p className="text-sm text-gray-400 uppercase tracking-widest mb-2">Team Rating</p>
-          <h2 className={`text-7xl md:text-9xl font-black ${ratingColor}`}>
-            {result.overallRating}
-          </h2>
-          <p className="text-2xl font-bold mt-2 text-gray-300">Grade: {result.grade}</p>
-        </motion.div>
-
-        {/* Stat breakdown */}
-        <div className="w-full max-w-md mb-8">
-          <div className="gradient-border rounded-2xl p-5 space-y-3">
-            {[
-              { label: 'Attack', value: result.attackRating, color: 'bg-red-500' },
-              { label: 'Block', value: result.blockRating, color: 'bg-purple-500' },
-              { label: 'Serve', value: result.serveRating, color: 'bg-blue-500' },
-              { label: 'Defense', value: result.defenseRating, color: 'bg-green-500' },
-              { label: 'Setting', value: result.settingRating, color: 'bg-yellow-500' },
-            ].map((s) => (
-              <div key={s.label} className="flex items-center gap-3">
-                <span className="text-xs text-gray-400 w-16">{s.label}</span>
-                <div className="stat-bar flex-1">
-                  <div className={`stat-bar-fill ${s.color}`} style={{ width: `${s.value}%` }} />
-                </div>
-                <span className="text-sm font-bold w-8 text-right">{s.value}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        {/* Roster */}
-        <div className="w-full max-w-md space-y-2 mb-8">
-          {gameState.team.map((slot, i) => (
-            <motion.div
-              key={i}
-              initial={{ x: -40, opacity: 0 }}
-              animate={{ x: 0, opacity: 1 }}
-              transition={{ delay: i * 0.08 }}
-              className="gradient-border rounded-xl p-3 flex items-center gap-3"
-            >
-              <div className={`w-9 h-9 rounded-lg bg-gradient-to-br ${posColor(slot.position)} flex items-center justify-center text-white text-xs font-bold`}>
-                {slot.position}
-              </div>
-              <div className="flex-1 min-w-0">
-                <p className="font-medium text-sm truncate">{slot.player?.name}</p>
-                <p className="text-xs text-gray-500">{flag(slot.player?.countryCode || '')} {slot.player?.country}</p>
-              </div>
-              <p className="text-sm font-bold text-court-accent">{slot.player?.overall}</p>
-            </motion.div>
-          ))}
-        </div>
-
-        <motion.button
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-          onClick={startGame}
-          className="px-8 py-3 bg-court-accent text-white font-bold rounded-xl glow-red"
-        >
-          PLAY AGAIN
-        </motion.button>
-      </div>
-    );
-  }
-
-  // === GAME ===
-  const currentSlot = gameState.team[gameState.round];
+  const flag = (code: string) => COUNTRIES.find((c) => c.code === code)?.flag || '🌍';
 
   return (
-    <div className="min-h-screen px-4 py-6 max-w-2xl mx-auto">
+    <div className="min-h-screen px-4 py-6 max-w-5xl mx-auto">
       {/* Header */}
       <div className="flex items-center justify-between mb-6">
-        <h1 className="text-xl font-black">
-          Starting <span className="text-court-accent">6</span>
-        </h1>
-        <div className="flex items-center gap-4 text-sm text-gray-400">
-          <span>Pick <span className="text-white font-bold">{gameState.round + 1}</span>/6</span>
-          <span>🔄 <span className="text-yellow-400 font-bold">{gameState.reSpinsLeft}</span></span>
+        <div>
+          <h1 className="text-2xl font-black tracking-tight">
+            Starting <span className="text-court-accent">6</span>
+          </h1>
+          <p className="text-xs text-gray-500">VNL 2026 • {filledCount}/6 picked</p>
+        </div>
+        <div className="flex items-center gap-3">
+          {teamResult && (
+            <div className="text-right">
+              <p className="text-2xl font-black text-court-accent">{teamResult.overallRating}</p>
+              <p className="text-[10px] text-gray-500">{teamResult.grade}</p>
+            </div>
+          )}
+          <button onClick={resetTeam} className="px-3 py-1.5 text-xs border border-gray-700 rounded-lg text-gray-400 hover:text-white hover:border-gray-500 transition-colors">
+            Reset
+          </button>
         </div>
       </div>
 
-      {/* Roster slots */}
-      <div className="grid grid-cols-6 gap-2 mb-6">
-        {gameState.team.map((slot, i) => (
-          <div
-            key={i}
-            className={`rounded-xl p-2 text-center transition-all ${
-              i === gameState.round
-                ? 'border-2 border-court-accent bg-court-accent/10'
-                : slot.player
-                  ? 'border border-gray-700 bg-court-mid'
-                  : 'border border-gray-800 bg-court-dark/50'
+      {/* Court Layout */}
+      <div className="relative w-full aspect-[4/3] max-h-[320px] mb-6 rounded-2xl overflow-hidden bg-gradient-to-b from-[#1a5c2a] to-[#0d3d1a] border border-green-900/50">
+        {/* Court lines */}
+        <div className="absolute inset-0">
+          <div className="absolute top-1/2 left-0 right-0 h-[2px] bg-white/30" />
+          <div className="absolute top-[30%] left-0 right-0 h-[1px] bg-white/15" />
+          <div className="absolute top-[70%] left-0 right-0 h-[1px] bg-white/15" />
+          <div className="absolute left-4 right-4 top-4 bottom-4 border border-white/20 rounded-lg" />
+        </div>
+
+        {/* Player positions on court */}
+        {/* Front row: OH1, MB1, OPP */}
+        {/* Back row: OH2, MB2, S */}
+        {[
+          { idx: 0, top: '18%', left: '15%' },  // OH1 front-left
+          { idx: 3, top: '18%', left: '50%' },  // MB1 front-center
+          { idx: 2, top: '18%', left: '85%' },  // OPP front-right
+          { idx: 1, top: '68%', left: '15%' },  // OH2 back-left
+          { idx: 4, top: '68%', left: '50%' },  // MB2 back-center
+          { idx: 5, top: '68%', left: '85%' },  // S back-right
+        ].map(({ idx, top, left }) => {
+          const slot = team[idx];
+          const isActive = activeSlot === idx;
+          const isSwapTarget = swapMode !== null && swapMode !== idx;
+          const isSwapSource = swapMode === idx;
+
+          return (
+            <motion.button
+              key={idx}
+              onClick={() => handleSlotClick(idx)}
+              className={`absolute -translate-x-1/2 -translate-y-1/2 w-[28%] max-w-[120px] rounded-xl p-2 transition-all text-center ${
+                isActive
+                  ? 'bg-court-accent/30 border-2 border-court-accent shadow-lg shadow-court-accent/30 scale-105'
+                  : isSwapSource
+                    ? 'bg-yellow-500/20 border-2 border-yellow-500'
+                    : isSwapTarget
+                      ? 'bg-white/10 border border-dashed border-white/40 hover:border-yellow-400'
+                      : slot.player
+                        ? 'bg-black/40 backdrop-blur-sm border border-white/20 hover:border-white/40'
+                        : 'bg-black/20 border border-dashed border-white/20 hover:border-court-accent/50'
+              }`}
+              style={{ top, left }}
+              whileTap={{ scale: 0.95 }}
+            >
+              <div className={`text-[9px] font-bold px-1.5 py-0.5 rounded mx-auto mb-1 w-fit bg-gradient-to-r ${posColor(slot.position)} text-white`}>
+                {slot.position}
+              </div>
+              {slot.player ? (
+                <>
+                  <p className="text-[11px] font-semibold text-white truncate">{slot.player.name}</p>
+                  <p className="text-[10px] text-gray-300">{slot.player.overall}</p>
+                </>
+              ) : (
+                <p className="text-[10px] text-gray-400">Empty</p>
+              )}
+            </motion.button>
+          );
+        })}
+      </div>
+
+      {/* Swap button */}
+      {filledCount >= 2 && (
+        <div className="flex justify-center mb-4">
+          <button
+            onClick={() => setSwapMode(swapMode !== null ? null : (activeSlot ?? 0))}
+            className={`px-4 py-2 text-sm rounded-lg transition-all ${
+              swapMode !== null
+                ? 'bg-yellow-500 text-black font-bold'
+                : 'border border-gray-700 text-gray-400 hover:text-white'
             }`}
           >
-            <div className={`text-[10px] font-bold mb-1 px-1 py-0.5 rounded bg-gradient-to-r ${posColor(slot.position)} text-white`}>
-              {slot.position}
-            </div>
-            {slot.player ? (
-              <p className="text-[10px] font-medium truncate">{slot.player.name.split(' ').pop()}</p>
-            ) : (
-              <p className="text-[10px] text-gray-600">—</p>
-            )}
-          </div>
-        ))}
-      </div>
-
-      {/* Current pick */}
-      <div className="text-center mb-4">
-        <p className="text-sm text-gray-400">Drafting:</p>
-        <p className="text-lg font-bold">{currentSlot.label}</p>
-      </div>
-
-      {/* Spin */}
-      {!gameState.currentSpin && (
-        <div className="text-center py-12">
-          <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            onClick={doSpin}
-            disabled={isSpinning}
-            className="px-10 py-4 bg-court-accent text-white text-lg font-bold rounded-2xl glow-red disabled:opacity-50"
-          >
-            {isSpinning ? '🎰 SPINNING...' : '🎰 SPIN'}
-          </motion.button>
+            {swapMode !== null ? '↕ Click a slot to swap — Cancel' : '↕ Swap Players'}
+          </button>
         </div>
       )}
 
-      {/* Results */}
-      {gameState.currentSpin && (
-        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
-          <div className="text-center mb-6">
-            <div className="inline-flex items-center gap-3 px-6 py-3 rounded-2xl bg-court-mid border border-gray-700">
-              <span className="text-3xl">{flag(gameState.currentSpin.country.code)}</span>
-              <p className="font-bold text-lg">{gameState.currentSpin.country.name}</p>
-            </div>
-            {gameState.reSpinsLeft > 0 && (
-              <button
-                onClick={doRespin}
-                className="ml-3 px-4 py-2 text-sm border border-yellow-500/50 text-yellow-400 rounded-xl hover:bg-yellow-500/10 transition-colors"
-              >
-                🔄 ({gameState.reSpinsLeft})
-              </button>
-            )}
+      {/* Player Selection Panel */}
+      {activeSlot !== null && (
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="gradient-border rounded-2xl p-4 mb-6"
+        >
+          <div className="flex items-center justify-between mb-3">
+            <h3 className="font-bold text-sm">
+              Pick for: <span className="text-court-accent">{team[activeSlot].label}</span>
+            </h3>
+            <button onClick={() => { setActiveSlot(null); setSearch(''); }} className="text-xs text-gray-500 hover:text-white">
+              ✕ Close
+            </button>
           </div>
 
-          <div className="space-y-2">
-            {gameState.currentSpin.availablePlayers.map((player, i) => (
-              <motion.button
-                key={player.id}
-                initial={{ opacity: 0, x: 50 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ delay: i * 0.05 }}
-                onClick={() => selectPlayer(player)}
-                className={`w-full gradient-border rounded-xl p-4 flex items-center gap-4 text-left transition-all ${
-                  selectedPlayer?.id === player.id
-                    ? 'border-court-accent bg-court-accent/10 glow-red'
-                    : 'hover:border-gray-500'
+          {/* Search */}
+          <input
+            type="text"
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            placeholder="Search player or country..."
+            className="w-full px-4 py-2.5 mb-3 rounded-xl bg-court-dark border border-gray-700 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-court-accent"
+          />
+
+          {/* Position filter */}
+          <div className="flex gap-2 mb-3 overflow-x-auto pb-1">
+            {[{ key: 'ALL' as const, label: 'All' }, ...POSITIONS].map((p) => (
+              <button
+                key={p.key}
+                onClick={() => setPosFilter(p.key)}
+                className={`px-3 py-1.5 rounded-lg text-xs font-medium whitespace-nowrap transition-all ${
+                  posFilter === p.key
+                    ? 'bg-court-accent text-white'
+                    : 'bg-court-dark border border-gray-700 text-gray-400 hover:text-white'
                 }`}
               >
-                <div className={`w-11 h-11 rounded-xl bg-gradient-to-br ${posColor(player.position)} flex items-center justify-center text-white font-bold text-sm`}>
-                  {player.position}
-                </div>
-                <div className="flex-1 min-w-0">
-                  <p className="font-semibold truncate">{player.name}</p>
-                  <p className="text-sm text-gray-400">{player.height}cm · <span className="text-yellow-400">{player.grade}</span></p>
-                </div>
-                <p className="text-xl font-black text-court-accent">{player.overall}</p>
-              </motion.button>
+                {p.label}
+              </button>
             ))}
           </div>
 
-          {selectedPlayer && (
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              className="mt-6 gradient-border rounded-2xl p-6"
-            >
-              <div className="flex items-center justify-between mb-4">
-                <div>
-                  <h3 className="text-lg font-bold">{selectedPlayer.name}</h3>
-                  <p className="text-sm text-gray-400">
-                    {flag(selectedPlayer.countryCode)} {selectedPlayer.country} · {selectedPlayer.position} · {selectedPlayer.height}cm
-                  </p>
-                </div>
-                <div className="text-3xl font-black text-court-accent">{selectedPlayer.overall}</div>
-              </div>
-
-              <div className="space-y-3">
-                {[
-                  { label: 'Attack', value: selectedPlayer.attack, color: 'bg-red-500' },
-                  { label: 'Block', value: selectedPlayer.block, color: 'bg-purple-500' },
-                  { label: 'Serve', value: selectedPlayer.serve, color: 'bg-blue-500' },
-                  { label: 'Defense', value: selectedPlayer.defense, color: 'bg-green-500' },
-                  { label: 'Setting', value: selectedPlayer.setting, color: 'bg-yellow-500' },
-                ].map((stat) => (
-                  <div key={stat.label} className="flex items-center gap-3">
-                    <span className="text-xs text-gray-400 w-16">{stat.label}</span>
-                    <div className="stat-bar flex-1">
-                      <div className={`stat-bar-fill ${stat.color}`} style={{ width: `${stat.value}%` }} />
-                    </div>
-                    <span className="text-sm font-bold w-8 text-right">{stat.value}</span>
-                  </div>
-                ))}
-              </div>
-
-              <motion.button
-                whileHover={{ scale: 1.02 }}
-                whileTap={{ scale: 0.98 }}
-                onClick={confirmSelection}
-                className="w-full mt-6 py-3 bg-court-accent text-white font-bold rounded-xl glow-red"
+          {/* Player list */}
+          <div className="max-h-[300px] overflow-y-auto space-y-1.5 pr-1">
+            {filteredPlayers.slice(0, 50).map((player) => (
+              <button
+                key={player.id}
+                onClick={() => selectPlayer(player)}
+                className="w-full flex items-center gap-3 p-3 rounded-xl bg-court-dark/50 border border-gray-800 hover:border-court-accent/50 hover:bg-court-accent/5 transition-all text-left"
               >
-                DRAFT {selectedPlayer.name.toUpperCase()}
-              </motion.button>
-            </motion.div>
-          )}
+                <div className={`w-9 h-9 rounded-lg bg-gradient-to-br ${posColor(player.position)} flex items-center justify-center text-white text-[10px] font-bold flex-shrink-0`}>
+                  {player.position}
+                </div>
+                <div className="flex-1 min-w-0">
+                  <p className="text-sm font-medium truncate">{flag(player.countryCode)} {player.name}</p>
+                  <p className="text-[11px] text-gray-500">{player.country} · {player.height}cm · <span className="text-yellow-400">{player.grade}</span></p>
+                </div>
+                <p className="text-lg font-black text-court-accent flex-shrink-0">{player.overall}</p>
+              </button>
+            ))}
+            {filteredPlayers.length === 0 && (
+              <p className="text-center text-sm text-gray-500 py-8">No players found</p>
+            )}
+          </div>
+        </motion.div>
+      )}
+
+      {/* Team Rating Card */}
+      {teamResult && filledCount >= 3 && (
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          className="gradient-border rounded-2xl p-5"
+        >
+          <div className="flex items-center justify-between mb-4">
+            <h3 className="font-bold">Team Rating</h3>
+            <div className="flex items-baseline gap-2">
+              <span className="text-3xl font-black text-court-accent">{teamResult.overallRating}</span>
+              <span className="text-sm text-gray-400">{teamResult.grade}</span>
+            </div>
+          </div>
+          <div className="space-y-2.5">
+            {[
+              { label: 'Attack', value: teamResult.attackRating, color: 'bg-red-500' },
+              { label: 'Block', value: teamResult.blockRating, color: 'bg-purple-500' },
+              { label: 'Serve', value: teamResult.serveRating, color: 'bg-blue-500' },
+              { label: 'Defense', value: teamResult.defenseRating, color: 'bg-green-500' },
+              { label: 'Setting', value: teamResult.settingRating, color: 'bg-yellow-500' },
+            ].map((s) => (
+              <div key={s.label} className="flex items-center gap-3">
+                <span className="text-xs text-gray-400 w-14">{s.label}</span>
+                <div className="stat-bar flex-1">
+                  <div className={`stat-bar-fill ${s.color}`} style={{ width: `${s.value}%` }} />
+                </div>
+                <span className="text-xs font-bold w-7 text-right">{s.value}</span>
+              </div>
+            ))}
+          </div>
         </motion.div>
       )}
     </div>
