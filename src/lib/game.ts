@@ -51,23 +51,23 @@ export function newGame(): GameState {
   };
 }
 
-export function spin(pickedIds: number[]): SpinResult {
-  // Pick random country that has available players
+export function spin(pickedIds: number[], position: Position): SpinResult {
+  // Pick random country that has available players FOR THIS POSITION
   const available = COUNTRIES.filter((c) =>
-    PLAYERS.some((p) => p.countryCode === c.code && !pickedIds.includes(p.id)),
+    PLAYERS.some((p) => p.countryCode === c.code && !pickedIds.includes(p.id) && p.position === position),
   );
 
   if (available.length === 0) {
-    // Fallback: show all remaining
+    // Fallback: show all remaining players of this position
     return {
       country: { name: 'Free Agents', code: 'INT', flag: '🌍' },
-      players: PLAYERS.filter((p) => !pickedIds.includes(p.id)).slice(0, 15),
+      players: PLAYERS.filter((p) => !pickedIds.includes(p.id) && p.position === position).slice(0, 15),
     };
   }
 
   const country = available[Math.floor(Math.random() * available.length)];
   const players = PLAYERS
-    .filter((p) => p.countryCode === country.code && !pickedIds.includes(p.id))
+    .filter((p) => p.countryCode === country.code && !pickedIds.includes(p.id) && p.position === position)
     .sort((a, b) => b.overall - a.overall);
 
   return { country, players };

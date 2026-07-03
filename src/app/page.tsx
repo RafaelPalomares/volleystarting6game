@@ -14,19 +14,29 @@ export default function Home() {
   const pickedIds = game?.roster.filter((s) => s.player).map((s) => s.player!.id) || [];
 
   const doSpin = useCallback(() => {
+    if (!game) return;
     setSpinning(true);
     setTimeout(() => {
-      const result = spin(pickedIds);
-      setGame((g) => g ? { ...g, currentSpin: result } : g);
+      const currentPos = game.roster[game.round].position;
+      const result = spin(pickedIds, currentPos);
+
+      // Auto-skip if no players found for this position (re-spin automatically)
+      if (result.players.length === 0) {
+        const retry = spin(pickedIds, currentPos);
+        setGame((g) => g ? { ...g, currentSpin: retry } : g);
+      } else {
+        setGame((g) => g ? { ...g, currentSpin: result } : g);
+      }
       setSpinning(false);
     }, 800);
-  }, [pickedIds]);
+  }, [game, pickedIds]);
 
   const skip = () => {
     if (!game || game.skipsLeft <= 0) return;
     setGame({ ...game, skipsLeft: game.skipsLeft - 1, currentSpin: null });
     setTimeout(() => {
-      const result = spin(pickedIds);
+      const currentPos = game.roster[game.round].position;
+      const result = spin(pickedIds, currentPos);
       setGame((g) => g ? { ...g, currentSpin: result } : g);
     }, 800);
   };
@@ -63,8 +73,8 @@ export default function Home() {
     { idx: 0, top: '20%', left: '20%' },   // OH1 front-left
     { idx: 3, top: '20%', left: '50%' },   // MB1 front-center
     { idx: 2, top: '20%', left: '80%' },   // OPP front-right
-    { idx: 1, top: '70%', left: '20%' },   // OH2 back-left
-    { idx: 4, top: '70%', left: '50%' },   // MB2 back-center
+    { idx: 4, top: '70%', left: '20%' },   // MB2 back-left
+    { idx: 1, top: '70%', left: '50%' },   // OH2 back-center
     { idx: 5, top: '70%', left: '80%' },   // S back-right
   ];
 
