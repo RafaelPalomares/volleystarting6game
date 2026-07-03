@@ -2051,13 +2051,13 @@
     "attackPoints": 17,
     "blockPoints": 9,
     "servePoints": 11,
-    "attack": 75,
-    "block": 78,
-    "serve": 92,
-    "defense": 90,
+    "attack": 94,
+    "block": 91,
+    "serve": 99,
+    "defense": 80,
     "setting": 99,
-    "overall": 84,
-    "grade": "A"
+    "overall": 93,
+    "grade": "S"
   },
   {
     "id": 104,
