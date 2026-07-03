@@ -11,13 +11,13 @@
     "attackPoints": 174,
     "blockPoints": 8,
     "servePoints": 12,
-    "attack": 97,
-    "block": 54,
-    "serve": 84,
-    "defense": 71,
-    "setting": 48,
-    "overall": 89,
-    "grade": "S"
+    "attack": 99,
+    "block": 58,
+    "serve": 88,
+    "defense": 75,
+    "setting": 52,
+    "overall": 94,
+    "grade": "S+"
   },
   {
     "id": 2,
@@ -32,12 +32,12 @@
     "blockPoints": 4,
     "servePoints": 10,
     "attack": 99,
-    "block": 47,
-    "serve": 77,
-    "defense": 66,
-    "setting": 31,
-    "overall": 85,
-    "grade": "S-"
+    "block": 51,
+    "serve": 81,
+    "defense": 70,
+    "setting": 35,
+    "overall": 90,
+    "grade": "S"
   },
   {
     "id": 3,
@@ -51,17 +51,17 @@
     "attackPoints": 134,
     "blockPoints": 12,
     "servePoints": 13,
-    "attack": 84,
-    "block": 61,
-    "serve": 88,
-    "defense": 70,
-    "setting": 35,
-    "overall": 82,
-    "grade": "A+"
+    "attack": 88,
+    "block": 65,
+    "serve": 92,
+    "defense": 74,
+    "setting": 39,
+    "overall": 87,
+    "grade": "S-"
   },
   {
     "id": 4,
-    "name": "Mujanovi\u0107",
+    "name": "Mujanović",
     "country": "Slovenia",
     "countryCode": "SI",
     "position": "OPP",
@@ -71,18 +71,18 @@
     "attackPoints": 123,
     "blockPoints": 9,
     "servePoints": 7,
-    "attack": 81,
-    "block": 56,
-    "serve": 66,
-    "defense": 56,
-    "setting": 33,
-    "overall": 73,
-    "grade": "A-"
+    "attack": 85,
+    "block": 60,
+    "serve": 70,
+    "defense": 60,
+    "setting": 37,
+    "overall": 78,
+    "grade": "A"
   },
   {
     "id": 5,
     "name": "A. Lagumdzija",
-    "country": "T\u00fcrkiye",
+    "country": "Türkiye",
     "countryCode": "TR",
     "position": "OPP",
     "era": "2020s",
@@ -91,13 +91,13 @@
     "attackPoints": 104,
     "blockPoints": 17,
     "servePoints": 13,
-    "attack": 74,
-    "block": 70,
-    "serve": 88,
-    "defense": 52,
-    "setting": 42,
-    "overall": 76,
-    "grade": "A"
+    "attack": 78,
+    "block": 74,
+    "serve": 92,
+    "defense": 56,
+    "setting": 46,
+    "overall": 81,
+    "grade": "A+"
   },
   {
     "id": 6,
@@ -111,13 +111,13 @@
     "attackPoints": 114,
     "blockPoints": 9,
     "servePoints": 8,
-    "attack": 78,
-    "block": 56,
-    "serve": 70,
-    "defense": 70,
-    "setting": 33,
-    "overall": 74,
-    "grade": "A-"
+    "attack": 82,
+    "block": 60,
+    "serve": 74,
+    "defense": 74,
+    "setting": 37,
+    "overall": 79,
+    "grade": "A+"
   },
   {
     "id": 7,
@@ -131,13 +131,13 @@
     "attackPoints": 110,
     "blockPoints": 10,
     "servePoints": 5,
-    "attack": 76,
-    "block": 58,
-    "serve": 58,
-    "defense": 74,
-    "setting": 48,
-    "overall": 73,
-    "grade": "A-"
+    "attack": 80,
+    "block": 62,
+    "serve": 62,
+    "defense": 78,
+    "setting": 52,
+    "overall": 78,
+    "grade": "A"
   },
   {
     "id": 8,
@@ -151,13 +151,13 @@
     "attackPoints": 106,
     "blockPoints": 15,
     "servePoints": 3,
-    "attack": 80,
-    "block": 67,
-    "serve": 51,
-    "defense": 56,
-    "setting": 50,
-    "overall": 72,
-    "grade": "A-"
+    "attack": 84,
+    "block": 71,
+    "serve": 55,
+    "defense": 60,
+    "setting": 54,
+    "overall": 77,
+    "grade": "A"
   },
   {
     "id": 9,
@@ -171,13 +171,13 @@
     "attackPoints": 93,
     "blockPoints": 14,
     "servePoints": 9,
-    "attack": 71,
-    "block": 65,
-    "serve": 73,
-    "defense": 61,
-    "setting": 31,
-    "overall": 71,
-    "grade": "B+"
+    "attack": 75,
+    "block": 69,
+    "serve": 77,
+    "defense": 65,
+    "setting": 35,
+    "overall": 76,
+    "grade": "A"
   },
   {
     "id": 10,
@@ -191,17 +191,17 @@
     "attackPoints": 95,
     "blockPoints": 12,
     "servePoints": 8,
-    "attack": 71,
-    "block": 61,
-    "serve": 70,
-    "defense": 54,
-    "setting": 40,
-    "overall": 69,
-    "grade": "B+"
+    "attack": 75,
+    "block": 65,
+    "serve": 74,
+    "defense": 58,
+    "setting": 44,
+    "overall": 74,
+    "grade": "A-"
   },
   {
     "id": 11,
-    "name": "T. \u0160tern",
+    "name": "T. Štern",
     "country": "Slovenia",
     "countryCode": "SI",
     "position": "OPP",
@@ -211,13 +211,13 @@
     "attackPoints": 96,
     "blockPoints": 8,
     "servePoints": 9,
-    "attack": 72,
-    "block": 54,
-    "serve": 73,
-    "defense": 58,
-    "setting": 33,
-    "overall": 69,
-    "grade": "B+"
+    "attack": 76,
+    "block": 58,
+    "serve": 77,
+    "defense": 62,
+    "setting": 37,
+    "overall": 74,
+    "grade": "A-"
   },
   {
     "id": 12,
@@ -231,13 +231,13 @@
     "attackPoints": 95,
     "blockPoints": 8,
     "servePoints": 9,
-    "attack": 71,
-    "block": 54,
-    "serve": 73,
-    "defense": 64,
-    "setting": 43,
-    "overall": 71,
-    "grade": "B+"
+    "attack": 75,
+    "block": 58,
+    "serve": 77,
+    "defense": 68,
+    "setting": 47,
+    "overall": 76,
+    "grade": "A"
   },
   {
     "id": 13,
@@ -251,13 +251,13 @@
     "attackPoints": 93,
     "blockPoints": 12,
     "servePoints": 5,
-    "attack": 71,
-    "block": 61,
-    "serve": 58,
-    "defense": 78,
-    "setting": 46,
-    "overall": 71,
-    "grade": "B+"
+    "attack": 75,
+    "block": 65,
+    "serve": 62,
+    "defense": 82,
+    "setting": 50,
+    "overall": 76,
+    "grade": "A"
   },
   {
     "id": 14,
@@ -271,13 +271,13 @@
     "attackPoints": 100,
     "blockPoints": 3,
     "servePoints": 6,
-    "attack": 73,
-    "block": 45,
-    "serve": 62,
-    "defense": 72,
-    "setting": 35,
-    "overall": 68,
-    "grade": "B+"
+    "attack": 77,
+    "block": 49,
+    "serve": 66,
+    "defense": 76,
+    "setting": 39,
+    "overall": 73,
+    "grade": "A-"
   },
   {
     "id": 15,
@@ -291,17 +291,17 @@
     "attackPoints": 93,
     "blockPoints": 8,
     "servePoints": 8,
-    "attack": 71,
-    "block": 54,
-    "serve": 70,
-    "defense": 71,
-    "setting": 31,
-    "overall": 69,
-    "grade": "B+"
+    "attack": 75,
+    "block": 58,
+    "serve": 74,
+    "defense": 75,
+    "setting": 35,
+    "overall": 74,
+    "grade": "A-"
   },
   {
     "id": 16,
-    "name": "Mo\u017ei\u010d",
+    "name": "Možič",
     "country": "Slovenia",
     "countryCode": "SI",
     "position": "OH",
@@ -311,13 +311,13 @@
     "attackPoints": 82,
     "blockPoints": 19,
     "servePoints": 6,
-    "attack": 67,
-    "block": 74,
-    "serve": 62,
-    "defense": 76,
-    "setting": 46,
-    "overall": 72,
-    "grade": "A-"
+    "attack": 71,
+    "block": 78,
+    "serve": 66,
+    "defense": 80,
+    "setting": 50,
+    "overall": 77,
+    "grade": "A"
   },
   {
     "id": 17,
@@ -331,13 +331,13 @@
     "attackPoints": 92,
     "blockPoints": 6,
     "servePoints": 6,
-    "attack": 70,
-    "block": 51,
-    "serve": 62,
-    "defense": 71,
-    "setting": 37,
-    "overall": 67,
-    "grade": "B"
+    "attack": 74,
+    "block": 55,
+    "serve": 66,
+    "defense": 75,
+    "setting": 41,
+    "overall": 72,
+    "grade": "A-"
   },
   {
     "id": 18,
@@ -351,13 +351,13 @@
     "attackPoints": 92,
     "blockPoints": 3,
     "servePoints": 3,
-    "attack": 70,
-    "block": 45,
-    "serve": 51,
-    "defense": 68,
-    "setting": 40,
-    "overall": 64,
-    "grade": "B"
+    "attack": 74,
+    "block": 49,
+    "serve": 55,
+    "defense": 72,
+    "setting": 44,
+    "overall": 69,
+    "grade": "B+"
   },
   {
     "id": 19,
@@ -371,13 +371,13 @@
     "attackPoints": 71,
     "blockPoints": 11,
     "servePoints": 16,
-    "attack": 63,
-    "block": 60,
+    "attack": 67,
+    "block": 64,
     "serve": 99,
-    "defense": 53,
-    "setting": 46,
-    "overall": 70,
-    "grade": "B+"
+    "defense": 57,
+    "setting": 50,
+    "overall": 75,
+    "grade": "A"
   },
   {
     "id": 20,
@@ -391,17 +391,17 @@
     "attackPoints": 87,
     "blockPoints": 2,
     "servePoints": 8,
-    "attack": 69,
-    "block": 44,
-    "serve": 70,
-    "defense": 77,
-    "setting": 39,
-    "overall": 68,
-    "grade": "B+"
+    "attack": 73,
+    "block": 48,
+    "serve": 74,
+    "defense": 81,
+    "setting": 43,
+    "overall": 73,
+    "grade": "A-"
   },
   {
     "id": 21,
-    "name": "R\u00f6hrs",
+    "name": "Röhrs",
     "country": "Germany",
     "countryCode": "DE",
     "position": "OH",
@@ -411,13 +411,13 @@
     "attackPoints": 88,
     "blockPoints": 4,
     "servePoints": 4,
-    "attack": 69,
-    "block": 47,
-    "serve": 55,
-    "defense": 66,
-    "setting": 43,
-    "overall": 64,
-    "grade": "B"
+    "attack": 73,
+    "block": 51,
+    "serve": 59,
+    "defense": 70,
+    "setting": 47,
+    "overall": 69,
+    "grade": "B+"
   },
   {
     "id": 22,
@@ -431,13 +431,13 @@
     "attackPoints": 81,
     "blockPoints": 9,
     "servePoints": 5,
-    "attack": 67,
-    "block": 56,
-    "serve": 58,
-    "defense": 60,
-    "setting": 45,
-    "overall": 65,
-    "grade": "B"
+    "attack": 71,
+    "block": 60,
+    "serve": 62,
+    "defense": 64,
+    "setting": 49,
+    "overall": 70,
+    "grade": "B+"
   },
   {
     "id": 23,
@@ -451,17 +451,17 @@
     "attackPoints": 76,
     "blockPoints": 6,
     "servePoints": 12,
-    "attack": 65,
-    "block": 51,
-    "serve": 84,
-    "defense": 60,
-    "setting": 35,
-    "overall": 67,
-    "grade": "B"
+    "attack": 69,
+    "block": 55,
+    "serve": 88,
+    "defense": 64,
+    "setting": 39,
+    "overall": 72,
+    "grade": "A-"
   },
   {
     "id": 24,
-    "name": "Marinovi\u0107",
+    "name": "Marinović",
     "country": "Serbia",
     "countryCode": "RS",
     "position": "OH",
@@ -471,13 +471,13 @@
     "attackPoints": 75,
     "blockPoints": 11,
     "servePoints": 7,
-    "attack": 65,
-    "block": 60,
-    "serve": 66,
-    "defense": 66,
-    "setting": 41,
-    "overall": 66,
-    "grade": "B"
+    "attack": 69,
+    "block": 64,
+    "serve": 70,
+    "defense": 70,
+    "setting": 45,
+    "overall": 71,
+    "grade": "A-"
   },
   {
     "id": 25,
@@ -491,13 +491,13 @@
     "attackPoints": 82,
     "blockPoints": 9,
     "servePoints": 2,
-    "attack": 67,
-    "block": 56,
-    "serve": 47,
-    "defense": 66,
-    "setting": 34,
-    "overall": 62,
-    "grade": "B-"
+    "attack": 71,
+    "block": 60,
+    "serve": 51,
+    "defense": 70,
+    "setting": 38,
+    "overall": 67,
+    "grade": "B+"
   },
   {
     "id": 26,
@@ -511,13 +511,13 @@
     "attackPoints": 72,
     "blockPoints": 8,
     "servePoints": 11,
-    "attack": 64,
-    "block": 54,
-    "serve": 81,
-    "defense": 73,
-    "setting": 35,
-    "overall": 68,
-    "grade": "B+"
+    "attack": 68,
+    "block": 58,
+    "serve": 85,
+    "defense": 77,
+    "setting": 39,
+    "overall": 73,
+    "grade": "A-"
   },
   {
     "id": 27,
@@ -531,13 +531,13 @@
     "attackPoints": 52,
     "blockPoints": 33,
     "servePoints": 6,
-    "attack": 62,
+    "attack": 66,
     "block": 99,
-    "serve": 62,
-    "defense": 51,
-    "setting": 35,
-    "overall": 68,
-    "grade": "B+"
+    "serve": 66,
+    "defense": 55,
+    "setting": 39,
+    "overall": 73,
+    "grade": "A-"
   },
   {
     "id": 28,
@@ -551,13 +551,13 @@
     "attackPoints": 78,
     "blockPoints": 7,
     "servePoints": 3,
-    "attack": 66,
-    "block": 53,
-    "serve": 51,
-    "defense": 75,
-    "setting": 36,
-    "overall": 64,
-    "grade": "B"
+    "attack": 70,
+    "block": 57,
+    "serve": 55,
+    "defense": 79,
+    "setting": 40,
+    "overall": 69,
+    "grade": "B+"
   },
   {
     "id": 29,
@@ -571,13 +571,13 @@
     "attackPoints": 81,
     "blockPoints": 3,
     "servePoints": 1,
-    "attack": 67,
-    "block": 45,
-    "serve": 44,
-    "defense": 78,
-    "setting": 40,
-    "overall": 63,
-    "grade": "B-"
+    "attack": 71,
+    "block": 49,
+    "serve": 48,
+    "defense": 82,
+    "setting": 44,
+    "overall": 68,
+    "grade": "B+"
   },
   {
     "id": 30,
@@ -591,17 +591,17 @@
     "attackPoints": 73,
     "blockPoints": 3,
     "servePoints": 9,
-    "attack": 64,
-    "block": 45,
-    "serve": 73,
-    "defense": 57,
-    "setting": 39,
-    "overall": 63,
-    "grade": "B-"
+    "attack": 68,
+    "block": 49,
+    "serve": 77,
+    "defense": 61,
+    "setting": 43,
+    "overall": 68,
+    "grade": "B+"
   },
   {
     "id": 31,
-    "name": "B\u00f6hme",
+    "name": "Böhme",
     "country": "Germany",
     "countryCode": "DE",
     "position": "OPP",
@@ -611,18 +611,18 @@
     "attackPoints": 68,
     "blockPoints": 5,
     "servePoints": 10,
-    "attack": 62,
-    "block": 49,
-    "serve": 77,
-    "defense": 60,
-    "setting": 31,
-    "overall": 63,
-    "grade": "B-"
+    "attack": 66,
+    "block": 53,
+    "serve": 81,
+    "defense": 64,
+    "setting": 35,
+    "overall": 68,
+    "grade": "B+"
   },
   {
     "id": 32,
     "name": "Bedirhan",
-    "country": "T\u00fcrkiye",
+    "country": "Türkiye",
     "countryCode": "TR",
     "position": "MB",
     "era": "2020s",
@@ -631,13 +631,13 @@
     "attackPoints": 58,
     "blockPoints": 23,
     "servePoints": 1,
-    "attack": 64,
-    "block": 81,
-    "serve": 44,
-    "defense": 55,
-    "setting": 35,
-    "overall": 63,
-    "grade": "B-"
+    "attack": 68,
+    "block": 85,
+    "serve": 48,
+    "defense": 59,
+    "setting": 39,
+    "overall": 68,
+    "grade": "B+"
   },
   {
     "id": 33,
@@ -651,13 +651,13 @@
     "attackPoints": 69,
     "blockPoints": 5,
     "servePoints": 6,
-    "attack": 63,
-    "block": 49,
-    "serve": 62,
-    "defense": 67,
-    "setting": 33,
-    "overall": 61,
-    "grade": "B-"
+    "attack": 67,
+    "block": 53,
+    "serve": 66,
+    "defense": 71,
+    "setting": 37,
+    "overall": 66,
+    "grade": "B"
   },
   {
     "id": 34,
@@ -671,13 +671,13 @@
     "attackPoints": 66,
     "blockPoints": 5,
     "servePoints": 8,
-    "attack": 62,
-    "block": 49,
-    "serve": 70,
-    "defense": 77,
-    "setting": 40,
-    "overall": 65,
-    "grade": "B"
+    "attack": 66,
+    "block": 53,
+    "serve": 74,
+    "defense": 81,
+    "setting": 44,
+    "overall": 70,
+    "grade": "B+"
   },
   {
     "id": 35,
@@ -691,13 +691,13 @@
     "attackPoints": 65,
     "blockPoints": 6,
     "servePoints": 6,
-    "attack": 61,
-    "block": 51,
-    "serve": 62,
-    "defense": 54,
-    "setting": 32,
-    "overall": 59,
-    "grade": "C+"
+    "attack": 65,
+    "block": 55,
+    "serve": 66,
+    "defense": 58,
+    "setting": 36,
+    "overall": 64,
+    "grade": "B"
   },
   {
     "id": 36,
@@ -711,17 +711,17 @@
     "attackPoints": 66,
     "blockPoints": 5,
     "servePoints": 5,
-    "attack": 62,
-    "block": 49,
-    "serve": 58,
-    "defense": 66,
-    "setting": 40,
-    "overall": 60,
-    "grade": "B-"
+    "attack": 66,
+    "block": 53,
+    "serve": 62,
+    "defense": 70,
+    "setting": 44,
+    "overall": 65,
+    "grade": "B"
   },
   {
     "id": 37,
-    "name": "Bo\u0142\u0105d\u017a",
+    "name": "Bołądź",
     "country": "Poland",
     "countryCode": "PL",
     "position": "OPP",
@@ -731,17 +731,17 @@
     "attackPoints": 66,
     "blockPoints": 4,
     "servePoints": 6,
-    "attack": 62,
-    "block": 47,
-    "serve": 62,
-    "defense": 58,
-    "setting": 48,
-    "overall": 61,
-    "grade": "B-"
+    "attack": 66,
+    "block": 51,
+    "serve": 66,
+    "defense": 62,
+    "setting": 52,
+    "overall": 66,
+    "grade": "B"
   },
   {
     "id": 38,
-    "name": "Ma\u0161ulovi\u0107 V.",
+    "name": "Mašulović V.",
     "country": "Serbia",
     "countryCode": "RS",
     "position": "OH",
@@ -751,13 +751,13 @@
     "attackPoints": 60,
     "blockPoints": 6,
     "servePoints": 6,
-    "attack": 60,
-    "block": 51,
-    "serve": 62,
-    "defense": 69,
-    "setting": 40,
-    "overall": 61,
-    "grade": "B-"
+    "attack": 64,
+    "block": 55,
+    "serve": 66,
+    "defense": 73,
+    "setting": 44,
+    "overall": 66,
+    "grade": "B"
   },
   {
     "id": 39,
@@ -771,13 +771,13 @@
     "attackPoints": 59,
     "blockPoints": 7,
     "servePoints": 6,
-    "attack": 59,
-    "block": 53,
-    "serve": 62,
-    "defense": 63,
-    "setting": 41,
-    "overall": 61,
-    "grade": "B-"
+    "attack": 63,
+    "block": 57,
+    "serve": 66,
+    "defense": 67,
+    "setting": 45,
+    "overall": 66,
+    "grade": "B"
   },
   {
     "id": 40,
@@ -791,13 +791,13 @@
     "attackPoints": 54,
     "blockPoints": 14,
     "servePoints": 4,
-    "attack": 63,
-    "block": 65,
-    "serve": 55,
-    "defense": 56,
-    "setting": 47,
-    "overall": 62,
-    "grade": "B-"
+    "attack": 67,
+    "block": 69,
+    "serve": 59,
+    "defense": 60,
+    "setting": 51,
+    "overall": 67,
+    "grade": "B+"
   },
   {
     "id": 41,
@@ -811,18 +811,18 @@
     "attackPoints": 44,
     "blockPoints": 22,
     "servePoints": 5,
-    "attack": 60,
-    "block": 79,
-    "serve": 58,
-    "defense": 59,
-    "setting": 32,
-    "overall": 63,
-    "grade": "B-"
+    "attack": 64,
+    "block": 83,
+    "serve": 62,
+    "defense": 63,
+    "setting": 36,
+    "overall": 68,
+    "grade": "B+"
   },
   {
     "id": 42,
-    "name": "Y\u00fcksel",
-    "country": "T\u00fcrkiye",
+    "name": "Yüksel",
+    "country": "Türkiye",
     "countryCode": "TR",
     "position": "OH",
     "era": "2020s",
@@ -831,13 +831,13 @@
     "attackPoints": 62,
     "blockPoints": 6,
     "servePoints": 3,
-    "attack": 60,
-    "block": 51,
-    "serve": 51,
-    "defense": 80,
-    "setting": 38,
-    "overall": 61,
-    "grade": "B-"
+    "attack": 64,
+    "block": 55,
+    "serve": 55,
+    "defense": 84,
+    "setting": 42,
+    "overall": 66,
+    "grade": "B"
   },
   {
     "id": 43,
@@ -851,17 +851,17 @@
     "attackPoints": 62,
     "blockPoints": 1,
     "servePoints": 8,
-    "attack": 60,
-    "block": 42,
-    "serve": 70,
-    "defense": 64,
-    "setting": 31,
-    "overall": 60,
-    "grade": "B-"
+    "attack": 64,
+    "block": 46,
+    "serve": 74,
+    "defense": 68,
+    "setting": 35,
+    "overall": 65,
+    "grade": "B"
   },
   {
     "id": 44,
-    "name": "\u015aliwka",
+    "name": "Śliwka",
     "country": "Poland",
     "countryCode": "PL",
     "position": "OH",
@@ -871,13 +871,13 @@
     "attackPoints": 62,
     "blockPoints": 6,
     "servePoints": 2,
-    "attack": 60,
-    "block": 51,
-    "serve": 47,
-    "defense": 78,
-    "setting": 49,
-    "overall": 61,
-    "grade": "B-"
+    "attack": 64,
+    "block": 55,
+    "serve": 51,
+    "defense": 82,
+    "setting": 53,
+    "overall": 66,
+    "grade": "B"
   },
   {
     "id": 45,
@@ -891,17 +891,17 @@
     "attackPoints": 65,
     "blockPoints": 2,
     "servePoints": 3,
-    "attack": 61,
-    "block": 44,
-    "serve": 51,
-    "defense": 76,
-    "setting": 48,
-    "overall": 61,
-    "grade": "B-"
+    "attack": 65,
+    "block": 48,
+    "serve": 55,
+    "defense": 80,
+    "setting": 52,
+    "overall": 66,
+    "grade": "B"
   },
   {
     "id": 46,
-    "name": "Lema\u0144ski",
+    "name": "Lemański",
     "country": "Poland",
     "countryCode": "PL",
     "position": "MB",
@@ -911,13 +911,13 @@
     "attackPoints": 43,
     "blockPoints": 20,
     "servePoints": 6,
-    "attack": 59,
-    "block": 76,
-    "serve": 62,
-    "defense": 45,
-    "setting": 48,
-    "overall": 61,
-    "grade": "B-"
+    "attack": 63,
+    "block": 80,
+    "serve": 66,
+    "defense": 49,
+    "setting": 52,
+    "overall": 66,
+    "grade": "B"
   },
   {
     "id": 47,
@@ -931,13 +931,13 @@
     "attackPoints": 58,
     "blockPoints": 6,
     "servePoints": 5,
-    "attack": 59,
-    "block": 51,
-    "serve": 58,
-    "defense": 66,
-    "setting": 37,
-    "overall": 59,
-    "grade": "C+"
+    "attack": 63,
+    "block": 55,
+    "serve": 62,
+    "defense": 70,
+    "setting": 41,
+    "overall": 64,
+    "grade": "B"
   },
   {
     "id": 48,
@@ -951,18 +951,18 @@
     "attackPoints": 58,
     "blockPoints": 5,
     "servePoints": 6,
-    "attack": 59,
-    "block": 49,
-    "serve": 62,
-    "defense": 59,
-    "setting": 36,
-    "overall": 59,
-    "grade": "C+"
+    "attack": 63,
+    "block": 53,
+    "serve": 66,
+    "defense": 63,
+    "setting": 40,
+    "overall": 64,
+    "grade": "B"
   },
   {
     "id": 49,
     "name": "Bayram",
-    "country": "T\u00fcrkiye",
+    "country": "Türkiye",
     "countryCode": "TR",
     "position": "OH",
     "era": "2020s",
@@ -971,13 +971,13 @@
     "attackPoints": 57,
     "blockPoints": 8,
     "servePoints": 3,
-    "attack": 59,
-    "block": 54,
-    "serve": 51,
-    "defense": 77,
-    "setting": 34,
-    "overall": 60,
-    "grade": "B-"
+    "attack": 63,
+    "block": 58,
+    "serve": 55,
+    "defense": 81,
+    "setting": 38,
+    "overall": 65,
+    "grade": "B"
   },
   {
     "id": 50,
@@ -991,13 +991,13 @@
     "attackPoints": 54,
     "blockPoints": 9,
     "servePoints": 4,
-    "attack": 58,
-    "block": 56,
-    "serve": 55,
-    "defense": 52,
-    "setting": 32,
-    "overall": 56,
-    "grade": "C+"
+    "attack": 62,
+    "block": 60,
+    "serve": 59,
+    "defense": 56,
+    "setting": 36,
+    "overall": 61,
+    "grade": "B-"
   },
   {
     "id": 51,
@@ -1011,13 +1011,13 @@
     "attackPoints": 61,
     "blockPoints": 3,
     "servePoints": 3,
-    "attack": 60,
-    "block": 45,
-    "serve": 51,
-    "defense": 79,
-    "setting": 39,
-    "overall": 60,
-    "grade": "B-"
+    "attack": 64,
+    "block": 49,
+    "serve": 55,
+    "defense": 83,
+    "setting": 43,
+    "overall": 65,
+    "grade": "B"
   },
   {
     "id": 52,
@@ -1031,13 +1031,13 @@
     "attackPoints": 58,
     "blockPoints": 4,
     "servePoints": 5,
-    "attack": 59,
-    "block": 47,
-    "serve": 58,
-    "defense": 73,
-    "setting": 32,
-    "overall": 59,
-    "grade": "C+"
+    "attack": 63,
+    "block": 51,
+    "serve": 62,
+    "defense": 77,
+    "setting": 36,
+    "overall": 64,
+    "grade": "B"
   },
   {
     "id": 53,
@@ -1051,13 +1051,13 @@
     "attackPoints": 57,
     "blockPoints": 2,
     "servePoints": 8,
-    "attack": 59,
-    "block": 44,
-    "serve": 70,
-    "defense": 62,
-    "setting": 32,
-    "overall": 59,
-    "grade": "C+"
+    "attack": 63,
+    "block": 48,
+    "serve": 74,
+    "defense": 66,
+    "setting": 36,
+    "overall": 64,
+    "grade": "B"
   },
   {
     "id": 54,
@@ -1071,13 +1071,13 @@
     "attackPoints": 56,
     "blockPoints": 4,
     "servePoints": 6,
-    "attack": 58,
-    "block": 47,
-    "serve": 62,
-    "defense": 55,
-    "setting": 48,
-    "overall": 58,
-    "grade": "C+"
+    "attack": 62,
+    "block": 51,
+    "serve": 66,
+    "defense": 59,
+    "setting": 52,
+    "overall": 63,
+    "grade": "B"
   },
   {
     "id": 55,
@@ -1091,13 +1091,13 @@
     "attackPoints": 44,
     "blockPoints": 20,
     "servePoints": 2,
-    "attack": 60,
-    "block": 76,
-    "serve": 47,
-    "defense": 53,
-    "setting": 36,
-    "overall": 59,
-    "grade": "C+"
+    "attack": 64,
+    "block": 80,
+    "serve": 51,
+    "defense": 57,
+    "setting": 40,
+    "overall": 64,
+    "grade": "B"
   },
   {
     "id": 56,
@@ -1111,13 +1111,13 @@
     "attackPoints": 45,
     "blockPoints": 10,
     "servePoints": 9,
-    "attack": 55,
-    "block": 58,
-    "serve": 73,
-    "defense": 70,
-    "setting": 36,
-    "overall": 61,
-    "grade": "B-"
+    "attack": 59,
+    "block": 62,
+    "serve": 77,
+    "defense": 74,
+    "setting": 40,
+    "overall": 66,
+    "grade": "B"
   },
   {
     "id": 57,
@@ -1131,17 +1131,17 @@
     "attackPoints": 55,
     "blockPoints": 5,
     "servePoints": 4,
-    "attack": 58,
-    "block": 49,
-    "serve": 55,
-    "defense": 78,
-    "setting": 39,
-    "overall": 60,
-    "grade": "B-"
+    "attack": 62,
+    "block": 53,
+    "serve": 59,
+    "defense": 82,
+    "setting": 43,
+    "overall": 65,
+    "grade": "B"
   },
   {
     "id": 58,
-    "name": "Nedeljkovi\u0107",
+    "name": "Nedeljković",
     "country": "Serbia",
     "countryCode": "RS",
     "position": "MB",
@@ -1151,13 +1151,13 @@
     "attackPoints": 42,
     "blockPoints": 15,
     "servePoints": 5,
-    "attack": 59,
-    "block": 67,
-    "serve": 58,
-    "defense": 51,
-    "setting": 44,
-    "overall": 59,
-    "grade": "C+"
+    "attack": 63,
+    "block": 71,
+    "serve": 62,
+    "defense": 55,
+    "setting": 48,
+    "overall": 64,
+    "grade": "B"
   },
   {
     "id": 59,
@@ -1171,18 +1171,18 @@
     "attackPoints": 43,
     "blockPoints": 10,
     "servePoints": 8,
-    "attack": 54,
-    "block": 58,
-    "serve": 70,
-    "defense": 66,
-    "setting": 44,
-    "overall": 60,
-    "grade": "B-"
+    "attack": 58,
+    "block": 62,
+    "serve": 74,
+    "defense": 70,
+    "setting": 48,
+    "overall": 65,
+    "grade": "B"
   },
   {
     "id": 60,
-    "name": "T\u00fcmer",
-    "country": "T\u00fcrkiye",
+    "name": "Tümer",
+    "country": "Türkiye",
     "countryCode": "TR",
     "position": "OH",
     "era": "2020s",
@@ -1191,13 +1191,13 @@
     "attackPoints": 47,
     "blockPoints": 8,
     "servePoints": 5,
-    "attack": 55,
-    "block": 54,
-    "serve": 58,
-    "defense": 70,
-    "setting": 45,
-    "overall": 59,
-    "grade": "C+"
+    "attack": 59,
+    "block": 58,
+    "serve": 62,
+    "defense": 74,
+    "setting": 49,
+    "overall": 64,
+    "grade": "B"
   },
   {
     "id": 61,
@@ -1211,13 +1211,13 @@
     "attackPoints": 48,
     "blockPoints": 6,
     "servePoints": 6,
-    "attack": 56,
-    "block": 51,
-    "serve": 62,
-    "defense": 68,
-    "setting": 32,
-    "overall": 58,
-    "grade": "C+"
+    "attack": 60,
+    "block": 55,
+    "serve": 66,
+    "defense": 72,
+    "setting": 36,
+    "overall": 63,
+    "grade": "B"
   },
   {
     "id": 62,
@@ -1231,13 +1231,13 @@
     "attackPoints": 43,
     "blockPoints": 12,
     "servePoints": 5,
-    "attack": 54,
-    "block": 61,
-    "serve": 58,
-    "defense": 70,
-    "setting": 48,
-    "overall": 60,
-    "grade": "B-"
+    "attack": 58,
+    "block": 65,
+    "serve": 62,
+    "defense": 74,
+    "setting": 52,
+    "overall": 65,
+    "grade": "B"
   },
   {
     "id": 63,
@@ -1251,13 +1251,13 @@
     "attackPoints": 43,
     "blockPoints": 13,
     "servePoints": 3,
-    "attack": 59,
-    "block": 63,
-    "serve": 51,
-    "defense": 57,
-    "setting": 37,
-    "overall": 58,
-    "grade": "C+"
+    "attack": 63,
+    "block": 67,
+    "serve": 55,
+    "defense": 61,
+    "setting": 41,
+    "overall": 63,
+    "grade": "B"
   },
   {
     "id": 64,
@@ -1271,13 +1271,13 @@
     "attackPoints": 52,
     "blockPoints": 5,
     "servePoints": 2,
-    "attack": 57,
-    "block": 49,
-    "serve": 47,
-    "defense": 75,
-    "setting": 30,
-    "overall": 56,
-    "grade": "C+"
+    "attack": 61,
+    "block": 53,
+    "serve": 51,
+    "defense": 79,
+    "setting": 34,
+    "overall": 61,
+    "grade": "B-"
   },
   {
     "id": 65,
@@ -1291,13 +1291,13 @@
     "attackPoints": 47,
     "blockPoints": 7,
     "servePoints": 4,
-    "attack": 55,
-    "block": 53,
-    "serve": 55,
-    "defense": 65,
-    "setting": 50,
-    "overall": 58,
-    "grade": "C+"
+    "attack": 59,
+    "block": 57,
+    "serve": 59,
+    "defense": 69,
+    "setting": 54,
+    "overall": 63,
+    "grade": "B"
   },
   {
     "id": 66,
@@ -1311,13 +1311,13 @@
     "attackPoints": 45,
     "blockPoints": 11,
     "servePoints": 0,
-    "attack": 55,
-    "block": 60,
-    "serve": 40,
-    "defense": 70,
-    "setting": 49,
-    "overall": 57,
-    "grade": "C+"
+    "attack": 59,
+    "block": 64,
+    "serve": 44,
+    "defense": 74,
+    "setting": 53,
+    "overall": 62,
+    "grade": "B-"
   },
   {
     "id": 67,
@@ -1331,13 +1331,13 @@
     "attackPoints": 46,
     "blockPoints": 5,
     "servePoints": 3,
-    "attack": 55,
-    "block": 49,
-    "serve": 51,
-    "defense": 74,
-    "setting": 35,
-    "overall": 56,
-    "grade": "C+"
+    "attack": 59,
+    "block": 53,
+    "serve": 55,
+    "defense": 78,
+    "setting": 39,
+    "overall": 61,
+    "grade": "B-"
   },
   {
     "id": 68,
@@ -1351,13 +1351,13 @@
     "attackPoints": 44,
     "blockPoints": 8,
     "servePoints": 1,
-    "attack": 55,
-    "block": 54,
-    "serve": 44,
-    "defense": 68,
-    "setting": 44,
-    "overall": 56,
-    "grade": "C+"
+    "attack": 59,
+    "block": 58,
+    "serve": 48,
+    "defense": 72,
+    "setting": 48,
+    "overall": 61,
+    "grade": "B-"
   },
   {
     "id": 69,
@@ -1371,13 +1371,13 @@
     "attackPoints": 30,
     "blockPoints": 13,
     "servePoints": 9,
-    "attack": 55,
-    "block": 63,
-    "serve": 73,
-    "defense": 55,
-    "setting": 46,
-    "overall": 60,
-    "grade": "B-"
+    "attack": 59,
+    "block": 67,
+    "serve": 77,
+    "defense": 59,
+    "setting": 50,
+    "overall": 65,
+    "grade": "B"
   },
   {
     "id": 70,
@@ -1391,13 +1391,13 @@
     "attackPoints": 47,
     "blockPoints": 3,
     "servePoints": 2,
-    "attack": 55,
-    "block": 45,
-    "serve": 47,
-    "defense": 72,
-    "setting": 40,
-    "overall": 55,
-    "grade": "C+"
+    "attack": 59,
+    "block": 49,
+    "serve": 51,
+    "defense": 76,
+    "setting": 44,
+    "overall": 60,
+    "grade": "B-"
   },
   {
     "id": 71,
@@ -1411,13 +1411,13 @@
     "attackPoints": 42,
     "blockPoints": 8,
     "servePoints": 1,
-    "attack": 54,
-    "block": 54,
-    "serve": 44,
-    "defense": 70,
-    "setting": 39,
-    "overall": 55,
-    "grade": "C+"
+    "attack": 58,
+    "block": 58,
+    "serve": 48,
+    "defense": 74,
+    "setting": 43,
+    "overall": 60,
+    "grade": "B-"
   },
   {
     "id": 72,
@@ -1431,13 +1431,13 @@
     "attackPoints": 29,
     "blockPoints": 20,
     "servePoints": 2,
-    "attack": 55,
-    "block": 76,
-    "serve": 47,
-    "defense": 51,
-    "setting": 36,
-    "overall": 56,
-    "grade": "C+"
+    "attack": 59,
+    "block": 80,
+    "serve": 51,
+    "defense": 55,
+    "setting": 40,
+    "overall": 61,
+    "grade": "B-"
   },
   {
     "id": 73,
@@ -1451,13 +1451,13 @@
     "attackPoints": 36,
     "blockPoints": 14,
     "servePoints": 1,
-    "attack": 57,
-    "block": 65,
-    "serve": 44,
-    "defense": 47,
-    "setting": 42,
-    "overall": 54,
-    "grade": "C"
+    "attack": 61,
+    "block": 69,
+    "serve": 48,
+    "defense": 51,
+    "setting": 46,
+    "overall": 59,
+    "grade": "B-"
   },
   {
     "id": 74,
@@ -1471,13 +1471,13 @@
     "attackPoints": 42,
     "blockPoints": 8,
     "servePoints": 0,
-    "attack": 54,
-    "block": 54,
-    "serve": 40,
-    "defense": 76,
-    "setting": 30,
-    "overall": 54,
-    "grade": "C"
+    "attack": 58,
+    "block": 58,
+    "serve": 44,
+    "defense": 80,
+    "setting": 34,
+    "overall": 59,
+    "grade": "B-"
   },
   {
     "id": 75,
@@ -1491,17 +1491,17 @@
     "attackPoints": 41,
     "blockPoints": 5,
     "servePoints": 4,
-    "attack": 54,
-    "block": 49,
-    "serve": 55,
-    "defense": 67,
-    "setting": 44,
-    "overall": 56,
-    "grade": "C+"
+    "attack": 58,
+    "block": 53,
+    "serve": 59,
+    "defense": 71,
+    "setting": 48,
+    "overall": 61,
+    "grade": "B-"
   },
   {
     "id": 76,
-    "name": "Gier\u017cot",
+    "name": "Gierżot",
     "country": "Poland",
     "countryCode": "PL",
     "position": "OH",
@@ -1511,13 +1511,13 @@
     "attackPoints": 39,
     "blockPoints": 7,
     "servePoints": 3,
-    "attack": 53,
-    "block": 53,
-    "serve": 51,
-    "defense": 72,
-    "setting": 41,
-    "overall": 56,
-    "grade": "C+"
+    "attack": 57,
+    "block": 57,
+    "serve": 55,
+    "defense": 76,
+    "setting": 45,
+    "overall": 61,
+    "grade": "B-"
   },
   {
     "id": 77,
@@ -1531,13 +1531,13 @@
     "attackPoints": 34,
     "blockPoints": 8,
     "servePoints": 7,
-    "attack": 51,
-    "block": 54,
-    "serve": 66,
-    "defense": 74,
-    "setting": 43,
-    "overall": 58,
-    "grade": "C+"
+    "attack": 55,
+    "block": 58,
+    "serve": 70,
+    "defense": 78,
+    "setting": 47,
+    "overall": 63,
+    "grade": "B"
   },
   {
     "id": 78,
@@ -1551,13 +1551,13 @@
     "attackPoints": 35,
     "blockPoints": 13,
     "servePoints": 1,
-    "attack": 57,
-    "block": 63,
-    "serve": 44,
-    "defense": 49,
-    "setting": 47,
-    "overall": 55,
-    "grade": "C+"
+    "attack": 61,
+    "block": 67,
+    "serve": 48,
+    "defense": 53,
+    "setting": 51,
+    "overall": 60,
+    "grade": "B-"
   },
   {
     "id": 79,
@@ -1571,13 +1571,13 @@
     "attackPoints": 40,
     "blockPoints": 5,
     "servePoints": 3,
-    "attack": 53,
-    "block": 49,
-    "serve": 51,
-    "defense": 68,
-    "setting": 40,
-    "overall": 54,
-    "grade": "C"
+    "attack": 57,
+    "block": 53,
+    "serve": 55,
+    "defense": 72,
+    "setting": 44,
+    "overall": 59,
+    "grade": "B-"
   },
   {
     "id": 80,
@@ -1591,13 +1591,13 @@
     "attackPoints": 38,
     "blockPoints": 7,
     "servePoints": 3,
-    "attack": 53,
-    "block": 53,
-    "serve": 51,
-    "defense": 74,
-    "setting": 34,
-    "overall": 56,
-    "grade": "C+"
+    "attack": 57,
+    "block": 57,
+    "serve": 55,
+    "defense": 78,
+    "setting": 38,
+    "overall": 61,
+    "grade": "B-"
   },
   {
     "id": 81,
@@ -1611,13 +1611,13 @@
     "attackPoints": 34,
     "blockPoints": 11,
     "servePoints": 3,
-    "attack": 56,
-    "block": 60,
-    "serve": 51,
-    "defense": 53,
-    "setting": 46,
-    "overall": 55,
-    "grade": "C+"
+    "attack": 60,
+    "block": 64,
+    "serve": 55,
+    "defense": 57,
+    "setting": 50,
+    "overall": 60,
+    "grade": "B-"
   },
   {
     "id": 82,
@@ -1631,13 +1631,13 @@
     "attackPoints": 37,
     "blockPoints": 5,
     "servePoints": 5,
-    "attack": 52,
-    "block": 49,
-    "serve": 58,
-    "defense": 71,
-    "setting": 45,
-    "overall": 56,
-    "grade": "C+"
+    "attack": 56,
+    "block": 53,
+    "serve": 62,
+    "defense": 75,
+    "setting": 49,
+    "overall": 61,
+    "grade": "B-"
   },
   {
     "id": 83,
@@ -1651,17 +1651,17 @@
     "attackPoints": 31,
     "blockPoints": 14,
     "servePoints": 0,
-    "attack": 55,
-    "block": 65,
-    "serve": 40,
-    "defense": 58,
-    "setting": 33,
-    "overall": 54,
-    "grade": "C"
+    "attack": 59,
+    "block": 69,
+    "serve": 44,
+    "defense": 62,
+    "setting": 37,
+    "overall": 59,
+    "grade": "B-"
   },
   {
     "id": 84,
-    "name": "Peri\u0107",
+    "name": "Perić",
     "country": "Serbia",
     "countryCode": "RS",
     "position": "OH",
@@ -1671,13 +1671,13 @@
     "attackPoints": 38,
     "blockPoints": 5,
     "servePoints": 2,
-    "attack": 53,
-    "block": 49,
-    "serve": 47,
-    "defense": 74,
-    "setting": 46,
-    "overall": 55,
-    "grade": "C+"
+    "attack": 57,
+    "block": 53,
+    "serve": 51,
+    "defense": 78,
+    "setting": 50,
+    "overall": 60,
+    "grade": "B-"
   },
   {
     "id": 85,
@@ -1691,13 +1691,13 @@
     "attackPoints": 30,
     "blockPoints": 8,
     "servePoints": 7,
-    "attack": 50,
-    "block": 54,
-    "serve": 66,
-    "defense": 73,
-    "setting": 31,
-    "overall": 56,
-    "grade": "C+"
+    "attack": 54,
+    "block": 58,
+    "serve": 70,
+    "defense": 77,
+    "setting": 35,
+    "overall": 61,
+    "grade": "B-"
   },
   {
     "id": 86,
@@ -1711,13 +1711,13 @@
     "attackPoints": 29,
     "blockPoints": 15,
     "servePoints": 1,
-    "attack": 55,
-    "block": 67,
-    "serve": 44,
-    "defense": 54,
-    "setting": 32,
-    "overall": 54,
-    "grade": "C"
+    "attack": 59,
+    "block": 71,
+    "serve": 48,
+    "defense": 58,
+    "setting": 36,
+    "overall": 59,
+    "grade": "B-"
   },
   {
     "id": 87,
@@ -1731,13 +1731,13 @@
     "attackPoints": 37,
     "blockPoints": 4,
     "servePoints": 4,
-    "attack": 52,
-    "block": 47,
-    "serve": 55,
-    "defense": 66,
-    "setting": 36,
-    "overall": 53,
-    "grade": "C"
+    "attack": 56,
+    "block": 51,
+    "serve": 59,
+    "defense": 70,
+    "setting": 40,
+    "overall": 58,
+    "grade": "C+"
   },
   {
     "id": 88,
@@ -1751,13 +1751,13 @@
     "attackPoints": 40,
     "blockPoints": 2,
     "servePoints": 2,
-    "attack": 53,
-    "block": 44,
-    "serve": 47,
-    "defense": 78,
-    "setting": 38,
-    "overall": 54,
-    "grade": "C"
+    "attack": 57,
+    "block": 48,
+    "serve": 51,
+    "defense": 82,
+    "setting": 42,
+    "overall": 59,
+    "grade": "B-"
   },
   {
     "id": 89,
@@ -1771,13 +1771,13 @@
     "attackPoints": 31,
     "blockPoints": 13,
     "servePoints": 0,
-    "attack": 55,
-    "block": 63,
-    "serve": 40,
-    "defense": 48,
-    "setting": 50,
-    "overall": 53,
-    "grade": "C"
+    "attack": 59,
+    "block": 67,
+    "serve": 44,
+    "defense": 52,
+    "setting": 54,
+    "overall": 58,
+    "grade": "C+"
   },
   {
     "id": 90,
@@ -1791,13 +1791,13 @@
     "attackPoints": 33,
     "blockPoints": 8,
     "servePoints": 2,
-    "attack": 51,
-    "block": 54,
-    "serve": 47,
-    "defense": 77,
-    "setting": 43,
-    "overall": 55,
-    "grade": "C+"
+    "attack": 55,
+    "block": 58,
+    "serve": 51,
+    "defense": 81,
+    "setting": 47,
+    "overall": 60,
+    "grade": "B-"
   },
   {
     "id": 91,
@@ -1811,17 +1811,17 @@
     "attackPoints": 34,
     "blockPoints": 5,
     "servePoints": 4,
-    "attack": 51,
-    "block": 49,
-    "serve": 55,
-    "defense": 66,
-    "setting": 45,
-    "overall": 54,
-    "grade": "C"
+    "attack": 55,
+    "block": 53,
+    "serve": 59,
+    "defense": 70,
+    "setting": 49,
+    "overall": 59,
+    "grade": "B-"
   },
   {
     "id": 92,
-    "name": "Gomu\u0142ka",
+    "name": "Gomułka",
     "country": "Poland",
     "countryCode": "PL",
     "position": "OH",
@@ -1831,13 +1831,13 @@
     "attackPoints": 34,
     "blockPoints": 2,
     "servePoints": 6,
-    "attack": 51,
-    "block": 44,
-    "serve": 62,
-    "defense": 75,
-    "setting": 33,
-    "overall": 55,
-    "grade": "C+"
+    "attack": 55,
+    "block": 48,
+    "serve": 66,
+    "defense": 79,
+    "setting": 37,
+    "overall": 60,
+    "grade": "B-"
   },
   {
     "id": 93,
@@ -1851,13 +1851,13 @@
     "attackPoints": 32,
     "blockPoints": 7,
     "servePoints": 3,
-    "attack": 51,
-    "block": 53,
-    "serve": 51,
-    "defense": 75,
-    "setting": 42,
-    "overall": 55,
-    "grade": "C+"
+    "attack": 55,
+    "block": 57,
+    "serve": 55,
+    "defense": 79,
+    "setting": 46,
+    "overall": 60,
+    "grade": "B-"
   },
   {
     "id": 94,
@@ -1871,13 +1871,13 @@
     "attackPoints": 29,
     "blockPoints": 11,
     "servePoints": 2,
-    "attack": 55,
-    "block": 60,
-    "serve": 47,
-    "defense": 51,
-    "setting": 35,
-    "overall": 52,
-    "grade": "C"
+    "attack": 59,
+    "block": 64,
+    "serve": 51,
+    "defense": 55,
+    "setting": 39,
+    "overall": 57,
+    "grade": "C+"
   },
   {
     "id": 95,
@@ -1891,13 +1891,13 @@
     "attackPoints": 36,
     "blockPoints": 4,
     "servePoints": 2,
-    "attack": 52,
-    "block": 47,
-    "serve": 47,
-    "defense": 67,
-    "setting": 48,
-    "overall": 53,
-    "grade": "C"
+    "attack": 56,
+    "block": 51,
+    "serve": 51,
+    "defense": 71,
+    "setting": 52,
+    "overall": 58,
+    "grade": "C+"
   },
   {
     "id": 96,
@@ -1911,13 +1911,13 @@
     "attackPoints": 39,
     "blockPoints": 1,
     "servePoints": 1,
-    "attack": 53,
-    "block": 42,
-    "serve": 44,
-    "defense": 76,
-    "setting": 37,
-    "overall": 53,
-    "grade": "C"
+    "attack": 57,
+    "block": 46,
+    "serve": 48,
+    "defense": 80,
+    "setting": 41,
+    "overall": 58,
+    "grade": "C+"
   },
   {
     "id": 97,
@@ -1931,13 +1931,13 @@
     "attackPoints": 34,
     "blockPoints": 0,
     "servePoints": 6,
-    "attack": 51,
-    "block": 40,
-    "serve": 62,
-    "defense": 65,
-    "setting": 48,
-    "overall": 53,
-    "grade": "C"
+    "attack": 55,
+    "block": 44,
+    "serve": 66,
+    "defense": 69,
+    "setting": 52,
+    "overall": 58,
+    "grade": "C+"
   },
   {
     "id": 98,
@@ -1951,17 +1951,17 @@
     "attackPoints": 27,
     "blockPoints": 11,
     "servePoints": 2,
-    "attack": 54,
-    "block": 60,
-    "serve": 47,
-    "defense": 49,
-    "setting": 30,
-    "overall": 51,
-    "grade": "C"
+    "attack": 58,
+    "block": 64,
+    "serve": 51,
+    "defense": 53,
+    "setting": 34,
+    "overall": 56,
+    "grade": "C+"
   },
   {
     "id": 99,
-    "name": "Sim\u00f3n",
+    "name": "Simón",
     "country": "Cuba",
     "countryCode": "CU",
     "position": "MB",
@@ -1971,13 +1971,13 @@
     "attackPoints": 29,
     "blockPoints": 10,
     "servePoints": 1,
-    "attack": 55,
-    "block": 58,
-    "serve": 44,
-    "defense": 53,
-    "setting": 46,
-    "overall": 53,
-    "grade": "C"
+    "attack": 59,
+    "block": 62,
+    "serve": 48,
+    "defense": 57,
+    "setting": 50,
+    "overall": 58,
+    "grade": "C+"
   },
   {
     "id": 100,
@@ -1991,17 +1991,17 @@
     "attackPoints": 27,
     "blockPoints": 10,
     "servePoints": 2,
-    "attack": 54,
-    "block": 58,
-    "serve": 47,
-    "defense": 55,
-    "setting": 43,
-    "overall": 53,
-    "grade": "C"
+    "attack": 58,
+    "block": 62,
+    "serve": 51,
+    "defense": 59,
+    "setting": 47,
+    "overall": 58,
+    "grade": "C+"
   },
   {
     "id": 101,
-    "name": "Stefanovi\u0107",
+    "name": "Stefanović",
     "country": "Serbia",
     "countryCode": "RS",
     "position": "OH",
@@ -2011,13 +2011,13 @@
     "attackPoints": 28,
     "blockPoints": 8,
     "servePoints": 3,
-    "attack": 49,
-    "block": 54,
-    "serve": 51,
-    "defense": 67,
-    "setting": 34,
-    "overall": 52,
-    "grade": "C"
+    "attack": 53,
+    "block": 58,
+    "serve": 55,
+    "defense": 71,
+    "setting": 38,
+    "overall": 57,
+    "grade": "C+"
   },
   {
     "id": 102,
@@ -2031,13 +2031,13 @@
     "attackPoints": 25,
     "blockPoints": 13,
     "servePoints": 1,
-    "attack": 53,
-    "block": 63,
-    "serve": 44,
-    "defense": 55,
-    "setting": 33,
-    "overall": 52,
-    "grade": "C"
+    "attack": 57,
+    "block": 67,
+    "serve": 48,
+    "defense": 59,
+    "setting": 37,
+    "overall": 57,
+    "grade": "C+"
   },
   {
     "id": 103,
@@ -2051,13 +2051,13 @@
     "attackPoints": 17,
     "blockPoints": 9,
     "servePoints": 11,
-    "attack": 46,
-    "block": 56,
-    "serve": 81,
-    "defense": 78,
-    "setting": 97,
-    "overall": 66,
-    "grade": "B"
+    "attack": 50,
+    "block": 60,
+    "serve": 85,
+    "defense": 82,
+    "setting": 99,
+    "overall": 71,
+    "grade": "A-"
   },
   {
     "id": 104,
@@ -2071,13 +2071,13 @@
     "attackPoints": 31,
     "blockPoints": 4,
     "servePoints": 2,
-    "attack": 50,
-    "block": 47,
-    "serve": 47,
-    "defense": 77,
-    "setting": 40,
-    "overall": 53,
-    "grade": "C"
+    "attack": 54,
+    "block": 51,
+    "serve": 51,
+    "defense": 81,
+    "setting": 44,
+    "overall": 58,
+    "grade": "C+"
   },
   {
     "id": 105,
@@ -2091,13 +2091,13 @@
     "attackPoints": 27,
     "blockPoints": 6,
     "servePoints": 3,
-    "attack": 49,
-    "block": 51,
-    "serve": 51,
-    "defense": 67,
-    "setting": 42,
-    "overall": 52,
-    "grade": "C"
+    "attack": 53,
+    "block": 55,
+    "serve": 55,
+    "defense": 71,
+    "setting": 46,
+    "overall": 57,
+    "grade": "C+"
   },
   {
     "id": 106,
@@ -2111,13 +2111,13 @@
     "attackPoints": 27,
     "blockPoints": 4,
     "servePoints": 5,
-    "attack": 49,
-    "block": 47,
-    "serve": 58,
-    "defense": 67,
-    "setting": 34,
-    "overall": 52,
-    "grade": "C"
+    "attack": 53,
+    "block": 51,
+    "serve": 62,
+    "defense": 71,
+    "setting": 38,
+    "overall": 57,
+    "grade": "C+"
   },
   {
     "id": 107,
@@ -2131,18 +2131,18 @@
     "attackPoints": 29,
     "blockPoints": 4,
     "servePoints": 2,
-    "attack": 50,
-    "block": 47,
-    "serve": 47,
-    "defense": 80,
-    "setting": 44,
-    "overall": 54,
-    "grade": "C"
+    "attack": 54,
+    "block": 51,
+    "serve": 51,
+    "defense": 84,
+    "setting": 48,
+    "overall": 59,
+    "grade": "B-"
   },
   {
     "id": 108,
-    "name": "G\u00fcrb\u00fcz",
-    "country": "T\u00fcrkiye",
+    "name": "Gürbüz",
+    "country": "Türkiye",
     "countryCode": "TR",
     "position": "OH",
     "era": "2020s",
@@ -2151,13 +2151,13 @@
     "attackPoints": 25,
     "blockPoints": 3,
     "servePoints": 6,
-    "attack": 48,
-    "block": 45,
-    "serve": 62,
-    "defense": 73,
-    "setting": 45,
-    "overall": 54,
-    "grade": "C"
+    "attack": 52,
+    "block": 49,
+    "serve": 66,
+    "defense": 77,
+    "setting": 49,
+    "overall": 59,
+    "grade": "B-"
   },
   {
     "id": 109,
@@ -2171,13 +2171,13 @@
     "attackPoints": 30,
     "blockPoints": 4,
     "servePoints": 0,
-    "attack": 50,
-    "block": 47,
-    "serve": 40,
-    "defense": 65,
-    "setting": 39,
-    "overall": 49,
-    "grade": "C-"
+    "attack": 54,
+    "block": 51,
+    "serve": 44,
+    "defense": 69,
+    "setting": 43,
+    "overall": 54,
+    "grade": "C"
   },
   {
     "id": 110,
@@ -2191,17 +2191,17 @@
     "attackPoints": 25,
     "blockPoints": 5,
     "servePoints": 4,
-    "attack": 48,
-    "block": 49,
-    "serve": 55,
-    "defense": 69,
-    "setting": 44,
-    "overall": 53,
-    "grade": "C"
+    "attack": 52,
+    "block": 53,
+    "serve": 59,
+    "defense": 73,
+    "setting": 48,
+    "overall": 58,
+    "grade": "C+"
   },
   {
     "id": 111,
-    "name": "\u0160en",
+    "name": "Šen",
     "country": "Slovenia",
     "countryCode": "SI",
     "position": "OH",
@@ -2211,13 +2211,13 @@
     "attackPoints": 26,
     "blockPoints": 4,
     "servePoints": 3,
-    "attack": 49,
-    "block": 47,
-    "serve": 51,
-    "defense": 77,
-    "setting": 47,
-    "overall": 54,
-    "grade": "C"
+    "attack": 53,
+    "block": 51,
+    "serve": 55,
+    "defense": 81,
+    "setting": 51,
+    "overall": 59,
+    "grade": "B-"
   },
   {
     "id": 112,
@@ -2231,13 +2231,13 @@
     "attackPoints": 22,
     "blockPoints": 9,
     "servePoints": 2,
-    "attack": 52,
-    "block": 56,
-    "serve": 47,
-    "defense": 50,
-    "setting": 35,
-    "overall": 50,
-    "grade": "C"
+    "attack": 56,
+    "block": 60,
+    "serve": 51,
+    "defense": 54,
+    "setting": 39,
+    "overall": 55,
+    "grade": "C+"
   },
   {
     "id": 113,
@@ -2251,13 +2251,13 @@
     "attackPoints": 23,
     "blockPoints": 9,
     "servePoints": 1,
-    "attack": 53,
-    "block": 56,
-    "serve": 44,
-    "defense": 57,
-    "setting": 31,
-    "overall": 51,
-    "grade": "C"
+    "attack": 57,
+    "block": 60,
+    "serve": 48,
+    "defense": 61,
+    "setting": 35,
+    "overall": 56,
+    "grade": "C+"
   },
   {
     "id": 114,
@@ -2271,13 +2271,13 @@
     "attackPoints": 24,
     "blockPoints": 6,
     "servePoints": 2,
-    "attack": 48,
-    "block": 51,
-    "serve": 47,
-    "defense": 65,
-    "setting": 43,
-    "overall": 51,
-    "grade": "C"
+    "attack": 52,
+    "block": 55,
+    "serve": 51,
+    "defense": 69,
+    "setting": 47,
+    "overall": 56,
+    "grade": "C+"
   },
   {
     "id": 115,
@@ -2291,13 +2291,13 @@
     "attackPoints": 29,
     "blockPoints": 2,
     "servePoints": 0,
-    "attack": 50,
-    "block": 44,
-    "serve": 40,
-    "defense": 66,
-    "setting": 48,
-    "overall": 50,
-    "grade": "C"
+    "attack": 54,
+    "block": 48,
+    "serve": 44,
+    "defense": 70,
+    "setting": 52,
+    "overall": 55,
+    "grade": "C+"
   },
   {
     "id": 116,
@@ -2311,18 +2311,18 @@
     "attackPoints": 21,
     "blockPoints": 10,
     "servePoints": 0,
-    "attack": 52,
-    "block": 58,
-    "serve": 40,
-    "defense": 49,
-    "setting": 50,
-    "overall": 50,
-    "grade": "C"
+    "attack": 56,
+    "block": 62,
+    "serve": 44,
+    "defense": 53,
+    "setting": 54,
+    "overall": 55,
+    "grade": "C+"
   },
   {
     "id": 117,
     "name": "M. Lagumdzija",
-    "country": "T\u00fcrkiye",
+    "country": "Türkiye",
     "countryCode": "TR",
     "position": "OH",
     "era": "2020s",
@@ -2331,13 +2331,13 @@
     "attackPoints": 24,
     "blockPoints": 7,
     "servePoints": 0,
-    "attack": 48,
-    "block": 53,
-    "serve": 40,
-    "defense": 80,
-    "setting": 32,
-    "overall": 52,
-    "grade": "C"
+    "attack": 52,
+    "block": 57,
+    "serve": 44,
+    "defense": 84,
+    "setting": 36,
+    "overall": 57,
+    "grade": "C+"
   },
   {
     "id": 118,
@@ -2351,13 +2351,13 @@
     "attackPoints": 21,
     "blockPoints": 10,
     "servePoints": 0,
-    "attack": 52,
-    "block": 58,
-    "serve": 40,
-    "defense": 59,
-    "setting": 43,
-    "overall": 51,
-    "grade": "C"
+    "attack": 56,
+    "block": 62,
+    "serve": 44,
+    "defense": 63,
+    "setting": 47,
+    "overall": 56,
+    "grade": "C+"
   },
   {
     "id": 119,
@@ -2371,13 +2371,13 @@
     "attackPoints": 18,
     "blockPoints": 7,
     "servePoints": 6,
-    "attack": 51,
-    "block": 53,
-    "serve": 62,
-    "defense": 59,
-    "setting": 31,
-    "overall": 53,
-    "grade": "C"
+    "attack": 55,
+    "block": 57,
+    "serve": 66,
+    "defense": 63,
+    "setting": 35,
+    "overall": 58,
+    "grade": "C+"
   },
   {
     "id": 120,
@@ -2391,13 +2391,13 @@
     "attackPoints": 21,
     "blockPoints": 3,
     "servePoints": 6,
-    "attack": 47,
-    "block": 45,
-    "serve": 62,
-    "defense": 80,
-    "setting": 42,
-    "overall": 54,
-    "grade": "C"
+    "attack": 51,
+    "block": 49,
+    "serve": 66,
+    "defense": 84,
+    "setting": 46,
+    "overall": 59,
+    "grade": "B-"
   },
   {
     "id": 121,
@@ -2411,13 +2411,13 @@
     "attackPoints": 22,
     "blockPoints": 6,
     "servePoints": 2,
-    "attack": 47,
-    "block": 51,
-    "serve": 47,
-    "defense": 71,
-    "setting": 36,
-    "overall": 51,
-    "grade": "C"
+    "attack": 51,
+    "block": 55,
+    "serve": 51,
+    "defense": 75,
+    "setting": 40,
+    "overall": 56,
+    "grade": "C+"
   },
   {
     "id": 122,
@@ -2431,13 +2431,13 @@
     "attackPoints": 24,
     "blockPoints": 4,
     "servePoints": 2,
-    "attack": 48,
-    "block": 47,
-    "serve": 47,
-    "defense": 76,
-    "setting": 44,
-    "overall": 52,
-    "grade": "C"
+    "attack": 52,
+    "block": 51,
+    "serve": 51,
+    "defense": 80,
+    "setting": 48,
+    "overall": 57,
+    "grade": "C+"
   },
   {
     "id": 123,
@@ -2451,13 +2451,13 @@
     "attackPoints": 21,
     "blockPoints": 5,
     "servePoints": 4,
-    "attack": 47,
-    "block": 49,
-    "serve": 55,
-    "defense": 71,
-    "setting": 45,
-    "overall": 52,
-    "grade": "C"
+    "attack": 51,
+    "block": 53,
+    "serve": 59,
+    "defense": 75,
+    "setting": 49,
+    "overall": 57,
+    "grade": "C+"
   },
   {
     "id": 124,
@@ -2471,13 +2471,13 @@
     "attackPoints": 10,
     "blockPoints": 7,
     "servePoints": 6,
-    "attack": 43,
-    "block": 53,
-    "serve": 62,
-    "defense": 75,
-    "setting": 93,
-    "overall": 60,
-    "grade": "B-"
+    "attack": 47,
+    "block": 57,
+    "serve": 66,
+    "defense": 79,
+    "setting": 97,
+    "overall": 65,
+    "grade": "B"
   },
   {
     "id": 125,
@@ -2491,13 +2491,13 @@
     "attackPoints": 4,
     "blockPoints": 4,
     "servePoints": 3,
-    "attack": 41,
-    "block": 47,
-    "serve": 51,
-    "defense": 75,
-    "setting": 95,
-    "overall": 56,
-    "grade": "C+"
+    "attack": 45,
+    "block": 51,
+    "serve": 55,
+    "defense": 79,
+    "setting": 99,
+    "overall": 61,
+    "grade": "B-"
   },
   {
     "id": 126,
@@ -2511,13 +2511,13 @@
     "attackPoints": 4,
     "blockPoints": 5,
     "servePoints": 2,
-    "attack": 41,
-    "block": 49,
-    "serve": 47,
-    "defense": 75,
-    "setting": 94,
-    "overall": 55,
-    "grade": "C+"
+    "attack": 45,
+    "block": 53,
+    "serve": 51,
+    "defense": 79,
+    "setting": 98,
+    "overall": 60,
+    "grade": "B-"
   },
   {
     "id": 127,
@@ -2531,17 +2531,17 @@
     "attackPoints": 3,
     "blockPoints": 3,
     "servePoints": 1,
-    "attack": 41,
-    "block": 45,
-    "serve": 44,
-    "defense": 72,
-    "setting": 94,
-    "overall": 53,
-    "grade": "C"
+    "attack": 45,
+    "block": 49,
+    "serve": 48,
+    "defense": 76,
+    "setting": 98,
+    "overall": 58,
+    "grade": "C+"
   },
   {
     "id": 128,
-    "name": "Planin\u0161i\u010d",
+    "name": "Planinšič",
     "country": "Slovenia",
     "countryCode": "SI",
     "position": "S",
@@ -2551,13 +2551,13 @@
     "attackPoints": 0,
     "blockPoints": 8,
     "servePoints": 6,
-    "attack": 40,
-    "block": 54,
-    "serve": 62,
-    "defense": 76,
-    "setting": 87,
-    "overall": 58,
-    "grade": "C+"
+    "attack": 44,
+    "block": 58,
+    "serve": 66,
+    "defense": 80,
+    "setting": 91,
+    "overall": 63,
+    "grade": "B"
   },
   {
     "id": 129,
@@ -2571,267 +2571,267 @@
     "attackPoints": 23,
     "blockPoints": 2,
     "servePoints": 2,
-    "attack": 48,
-    "block": 44,
-    "serve": 47,
-    "defense": 71,
-    "setting": 43,
-    "overall": 50,
-    "grade": "C"
+    "attack": 52,
+    "block": 48,
+    "serve": 51,
+    "defense": 75,
+    "setting": 47,
+    "overall": 55,
+    "grade": "C+"
   },
   {
     "id": 130,
     "name": "Alex Santos",
     "position": "OH",
     "stats": {
-      "attack": 70,
-      "defense": 65,
-      "serve": 62,
-      "block": 61,
-      "setting": 60,
-      "points": 85
+      "attack": 74,
+      "defense": 69,
+      "serve": 66,
+      "block": 65,
+      "setting": 64,
+      "points": 89
     },
-    "overall": 68,
-    "grade": "B+"
+    "overall": 73,
+    "grade": "A-"
   },
   {
     "id": 131,
     "name": "Marco Kovac",
     "position": "S",
     "stats": {
-      "attack": 58,
-      "defense": 59,
-      "serve": 52,
-      "block": 58,
-      "setting": 75,
-      "points": 38
+      "attack": 62,
+      "defense": 63,
+      "serve": 56,
+      "block": 62,
+      "setting": 79,
+      "points": 42
     },
-    "overall": 60,
-    "grade": "B-"
+    "overall": 65,
+    "grade": "B"
   },
   {
     "id": 132,
     "name": "Timo Muller",
     "position": "S",
     "stats": {
-      "attack": 77,
-      "defense": 82,
-      "serve": 90,
-      "block": 87,
-      "setting": 95,
-      "points": 29
+      "attack": 81,
+      "defense": 86,
+      "serve": 94,
+      "block": 91,
+      "setting": 99,
+      "points": 33
     },
-    "overall": 81,
-    "grade": "A+"
+    "overall": 86,
+    "grade": "S-"
   },
   {
     "id": 133,
     "name": "Jonas Silva",
     "position": "OPP",
     "stats": {
-      "attack": 72,
-      "defense": 55,
-      "serve": 63,
-      "block": 63,
-      "setting": 60,
-      "points": 113
+      "attack": 76,
+      "defense": 59,
+      "serve": 67,
+      "block": 67,
+      "setting": 64,
+      "points": 99
     },
-    "overall": 71,
-    "grade": "B+"
+    "overall": 76,
+    "grade": "A"
   },
   {
     "id": 134,
     "name": "Nico Hansen",
     "position": "OH",
     "stats": {
-      "attack": 70,
-      "defense": 55,
-      "serve": 62,
-      "block": 64,
-      "setting": 59,
-      "points": 100
+      "attack": 74,
+      "defense": 59,
+      "serve": 66,
+      "block": 68,
+      "setting": 63,
+      "points": 99
     },
-    "overall": 68,
-    "grade": "B+"
+    "overall": 73,
+    "grade": "A-"
   },
   {
     "id": 135,
     "name": "Marco Popovic",
     "position": "OH",
     "stats": {
-      "attack": 71,
-      "defense": 59,
-      "serve": 64,
-      "block": 60,
-      "setting": 69,
-      "points": 45
+      "attack": 75,
+      "defense": 63,
+      "serve": 68,
+      "block": 64,
+      "setting": 73,
+      "points": 49
     },
-    "overall": 64,
-    "grade": "B"
+    "overall": 69,
+    "grade": "B+"
   },
   {
     "id": 136,
     "name": "Arda Ishikawa",
     "position": "S",
     "stats": {
-      "attack": 72,
-      "defense": 67,
-      "serve": 69,
-      "block": 63,
-      "setting": 76,
-      "points": 78
+      "attack": 76,
+      "defense": 71,
+      "serve": 73,
+      "block": 67,
+      "setting": 80,
+      "points": 82
     },
-    "overall": 73,
-    "grade": "A-"
+    "overall": 78,
+    "grade": "A"
   },
   {
     "id": 137,
     "name": "Leo Garcia",
     "position": "OPP",
     "stats": {
-      "attack": 78,
-      "defense": 69,
-      "serve": 72,
-      "block": 63,
-      "setting": 69,
-      "points": 115
+      "attack": 82,
+      "defense": 73,
+      "serve": 76,
+      "block": 67,
+      "setting": 73,
+      "points": 99
     },
-    "overall": 78,
-    "grade": "A"
+    "overall": 83,
+    "grade": "S-"
   },
   {
     "id": 138,
     "name": "Jonas Nakamura",
     "position": "OH",
     "stats": {
-      "attack": 65,
-      "defense": 64,
-      "serve": 68,
-      "block": 64,
-      "setting": 73,
-      "points": 60
+      "attack": 69,
+      "defense": 68,
+      "serve": 72,
+      "block": 68,
+      "setting": 77,
+      "points": 64
     },
-    "overall": 66,
-    "grade": "B"
+    "overall": 71,
+    "grade": "A-"
   },
   {
     "id": 139,
     "name": "Noah Petrov",
     "position": "S",
     "stats": {
-      "attack": 61,
-      "defense": 62,
-      "serve": 67,
-      "block": 66,
-      "setting": 75,
-      "points": 38
+      "attack": 65,
+      "defense": 66,
+      "serve": 71,
+      "block": 70,
+      "setting": 79,
+      "points": 42
     },
-    "overall": 65,
-    "grade": "B"
+    "overall": 70,
+    "grade": "B+"
   },
   {
     "id": 140,
     "name": "David Silva",
     "position": "OPP",
     "stats": {
-      "attack": 83,
-      "defense": 77,
-      "serve": 78,
-      "block": 79,
-      "setting": 87,
-      "points": 86
+      "attack": 87,
+      "defense": 81,
+      "serve": 82,
+      "block": 83,
+      "setting": 91,
+      "points": 90
     },
-    "overall": 83,
-    "grade": "A+"
+    "overall": 88,
+    "grade": "S"
   },
   {
     "id": 141,
     "name": "Kenji Nakamura",
     "position": "OH",
     "stats": {
-      "attack": 88,
-      "defense": 77,
-      "serve": 69,
-      "block": 72,
-      "setting": 77,
-      "points": 108
+      "attack": 92,
+      "defense": 81,
+      "serve": 73,
+      "block": 76,
+      "setting": 81,
+      "points": 99
     },
-    "overall": 82,
-    "grade": "A+"
+    "overall": 87,
+    "grade": "S-"
   },
   {
     "id": 142,
     "name": "Ivan Petrov",
     "position": "MB",
     "stats": {
-      "attack": 68,
-      "defense": 77,
-      "serve": 63,
-      "block": 79,
-      "setting": 68,
-      "points": 74
+      "attack": 72,
+      "defense": 81,
+      "serve": 67,
+      "block": 83,
+      "setting": 72,
+      "points": 78
     },
-    "overall": 73,
-    "grade": "A-"
+    "overall": 78,
+    "grade": "A"
   },
   {
     "id": 143,
     "name": "Sami Yilmaz",
     "position": "OH",
     "stats": {
-      "attack": 81,
-      "defense": 74,
-      "serve": 81,
-      "block": 75,
-      "setting": 70,
-      "points": 86
+      "attack": 85,
+      "defense": 78,
+      "serve": 85,
+      "block": 79,
+      "setting": 74,
+      "points": 90
     },
-    "overall": 79,
-    "grade": "A"
+    "overall": 84,
+    "grade": "S-"
   },
   {
     "id": 144,
     "name": "David Kovac",
     "position": "MB",
     "stats": {
-      "attack": 64,
-      "defense": 62,
-      "serve": 60,
-      "block": 62,
-      "setting": 60,
-      "points": 82
+      "attack": 68,
+      "defense": 66,
+      "serve": 64,
+      "block": 66,
+      "setting": 64,
+      "points": 86
     },
-    "overall": 66,
-    "grade": "B"
+    "overall": 71,
+    "grade": "A-"
   },
   {
     "id": 145,
     "name": "Luca Santos",
     "position": "OH",
     "stats": {
-      "attack": 72,
-      "defense": 69,
-      "serve": 69,
-      "block": 80,
-      "setting": 70,
-      "points": 43
+      "attack": 76,
+      "defense": 73,
+      "serve": 73,
+      "block": 84,
+      "setting": 74,
+      "points": 47
     },
-    "overall": 70,
-    "grade": "B+"
+    "overall": 75,
+    "grade": "A"
   },
   {
     "id": 146,
     "name": "Mateo Novak",
     "position": "LIB",
     "stats": {
-      "attack": 85,
-      "defense": 98,
-      "serve": 91,
-      "block": 90,
-      "setting": 93,
-      "points": 76
+      "attack": 89,
+      "defense": 99,
+      "serve": 95,
+      "block": 94,
+      "setting": 97,
+      "points": 80
     },
-    "overall": 92,
+    "overall": 97,
     "grade": "S+"
   },
   {
@@ -2839,1064 +2839,1064 @@
     "name": "Ivan Novak",
     "position": "S",
     "stats": {
-      "attack": 59,
-      "defense": 67,
-      "serve": 57,
-      "block": 64,
-      "setting": 74,
-      "points": 10
+      "attack": 63,
+      "defense": 71,
+      "serve": 61,
+      "block": 68,
+      "setting": 78,
+      "points": 14
     },
-    "overall": 61,
-    "grade": "B-"
+    "overall": 66,
+    "grade": "B"
   },
   {
     "id": 148,
     "name": "Marco Novak",
     "position": "OH",
     "stats": {
-      "attack": 58,
-      "defense": 62,
-      "serve": 54,
-      "block": 59,
-      "setting": 60,
-      "points": 95
+      "attack": 62,
+      "defense": 66,
+      "serve": 58,
+      "block": 63,
+      "setting": 64,
+      "points": 99
     },
-    "overall": 63,
-    "grade": "B-"
+    "overall": 68,
+    "grade": "B+"
   },
   {
     "id": 149,
     "name": "Milan Hansen",
     "position": "S",
     "stats": {
-      "attack": 69,
-      "defense": 61,
-      "serve": 69,
-      "block": 67,
-      "setting": 70,
-      "points": 22
+      "attack": 73,
+      "defense": 65,
+      "serve": 73,
+      "block": 71,
+      "setting": 74,
+      "points": 26
     },
-    "overall": 66,
-    "grade": "B"
+    "overall": 71,
+    "grade": "A-"
   },
   {
     "id": 150,
     "name": "Mateo Rossi",
     "position": "OH",
     "stats": {
-      "attack": 81,
-      "defense": 77,
-      "serve": 64,
-      "block": 66,
-      "setting": 64,
-      "points": 61
+      "attack": 85,
+      "defense": 81,
+      "serve": 68,
+      "block": 70,
+      "setting": 68,
+      "points": 65
     },
-    "overall": 73,
-    "grade": "A-"
+    "overall": 78,
+    "grade": "A"
   },
   {
     "id": 151,
     "name": "Ivan Novak",
     "position": "MB",
     "stats": {
-      "attack": 62,
-      "defense": 70,
-      "serve": 60,
-      "block": 77,
-      "setting": 61,
-      "points": 45
+      "attack": 66,
+      "defense": 74,
+      "serve": 64,
+      "block": 81,
+      "setting": 65,
+      "points": 49
     },
-    "overall": 66,
-    "grade": "B"
+    "overall": 71,
+    "grade": "A-"
   },
   {
     "id": 152,
     "name": "Eren Yilmaz",
     "position": "S",
     "stats": {
-      "attack": 81,
-      "defense": 93,
-      "serve": 82,
-      "block": 80,
-      "setting": 89,
-      "points": 21
+      "attack": 85,
+      "defense": 97,
+      "serve": 86,
+      "block": 84,
+      "setting": 93,
+      "points": 25
     },
-    "overall": 81,
-    "grade": "A+"
+    "overall": 86,
+    "grade": "S-"
   },
   {
     "id": 153,
     "name": "Leo Nakamura",
     "position": "OPP",
     "stats": {
-      "attack": 88,
-      "defense": 71,
-      "serve": 77,
-      "block": 66,
-      "setting": 70,
-      "points": 58
+      "attack": 92,
+      "defense": 75,
+      "serve": 81,
+      "block": 70,
+      "setting": 74,
+      "points": 62
     },
-    "overall": 77,
-    "grade": "A"
+    "overall": 82,
+    "grade": "A+"
   },
   {
     "id": 154,
     "name": "Kenji Petrov",
     "position": "OH",
     "stats": {
-      "attack": 98,
-      "defense": 88,
-      "serve": 92,
-      "block": 94,
-      "setting": 83,
-      "points": 34
+      "attack": 99,
+      "defense": 92,
+      "serve": 96,
+      "block": 98,
+      "setting": 87,
+      "points": 38
     },
-    "overall": 88,
-    "grade": "S"
+    "overall": 93,
+    "grade": "S+"
   },
   {
     "id": 155,
     "name": "Milan Kovac",
     "position": "MB",
     "stats": {
-      "attack": 69,
-      "defense": 78,
-      "serve": 69,
-      "block": 77,
-      "setting": 83,
-      "points": 74
+      "attack": 73,
+      "defense": 82,
+      "serve": 73,
+      "block": 81,
+      "setting": 87,
+      "points": 78
     },
-    "overall": 76,
-    "grade": "A"
+    "overall": 81,
+    "grade": "A+"
   },
   {
     "id": 156,
     "name": "Leo Kovac",
     "position": "LIB",
     "stats": {
-      "attack": 82,
-      "defense": 95,
-      "serve": 82,
-      "block": 82,
-      "setting": 87,
-      "points": 61
+      "attack": 86,
+      "defense": 99,
+      "serve": 86,
+      "block": 86,
+      "setting": 91,
+      "points": 65
     },
-    "overall": 86,
-    "grade": "S-"
+    "overall": 91,
+    "grade": "S"
   },
   {
     "id": 157,
     "name": "Eren Keller",
     "position": "OH",
     "stats": {
-      "attack": 75,
-      "defense": 71,
-      "serve": 82,
-      "block": 79,
-      "setting": 77,
-      "points": 36
+      "attack": 79,
+      "defense": 75,
+      "serve": 86,
+      "block": 83,
+      "setting": 81,
+      "points": 40
     },
-    "overall": 73,
-    "grade": "A-"
+    "overall": 78,
+    "grade": "A"
   },
   {
     "id": 158,
     "name": "Eren Petrov",
     "position": "MB",
     "stats": {
-      "attack": 66,
-      "defense": 71,
-      "serve": 76,
-      "block": 80,
-      "setting": 64,
-      "points": 11
+      "attack": 70,
+      "defense": 75,
+      "serve": 80,
+      "block": 84,
+      "setting": 68,
+      "points": 15
     },
-    "overall": 67,
-    "grade": "B"
+    "overall": 72,
+    "grade": "A-"
   },
   {
     "id": 159,
     "name": "Ivan Silva",
     "position": "S",
     "stats": {
-      "attack": 73,
-      "defense": 75,
-      "serve": 71,
-      "block": 78,
-      "setting": 79,
-      "points": 41
+      "attack": 77,
+      "defense": 79,
+      "serve": 75,
+      "block": 82,
+      "setting": 83,
+      "points": 45
     },
-    "overall": 74,
-    "grade": "A-"
+    "overall": 79,
+    "grade": "A+"
   },
   {
     "id": 160,
     "name": "Sami Ishikawa",
     "position": "MB",
     "stats": {
-      "attack": 73,
-      "defense": 64,
-      "serve": 73,
-      "block": 75,
-      "setting": 68,
-      "points": 43
+      "attack": 77,
+      "defense": 68,
+      "serve": 77,
+      "block": 79,
+      "setting": 72,
+      "points": 47
     },
-    "overall": 70,
-    "grade": "B+"
+    "overall": 75,
+    "grade": "A"
   },
   {
     "id": 161,
     "name": "Ivan Santos",
     "position": "OH",
     "stats": {
-      "attack": 76,
-      "defense": 75,
-      "serve": 76,
-      "block": 73,
-      "setting": 77,
-      "points": 36
-    },
-    "overall": 72,
-    "grade": "A-"
-  },
-  {
-    "id": 162,
-    "name": "David Petrov",
-    "position": "MB",
-    "stats": {
-      "attack": 79,
-      "defense": 80,
-      "serve": 91,
-      "block": 94,
-      "setting": 79,
-      "points": 10
-    },
-    "overall": 78,
-    "grade": "A"
-  },
-  {
-    "id": 163,
-    "name": "Noah Popovic",
-    "position": "MB",
-    "stats": {
-      "attack": 63,
-      "defense": 72,
-      "serve": 71,
-      "block": 66,
-      "setting": 61,
-      "points": 19
-    },
-    "overall": 64,
-    "grade": "B"
-  },
-  {
-    "id": 164,
-    "name": "Marco Yilmaz",
-    "position": "OPP",
-    "stats": {
-      "attack": 73,
-      "defense": 74,
-      "serve": 65,
-      "block": 62,
-      "setting": 70,
-      "points": 56
-    },
-    "overall": 70,
-    "grade": "B+"
-  },
-  {
-    "id": 165,
-    "name": "Arda Novak",
-    "position": "OH",
-    "stats": {
-      "attack": 83,
-      "defense": 74,
-      "serve": 82,
-      "block": 84,
-      "setting": 75,
+      "attack": 80,
+      "defense": 79,
+      "serve": 80,
+      "block": 77,
+      "setting": 81,
       "points": 40
     },
     "overall": 77,
     "grade": "A"
   },
   {
+    "id": 162,
+    "name": "David Petrov",
+    "position": "MB",
+    "stats": {
+      "attack": 83,
+      "defense": 84,
+      "serve": 95,
+      "block": 98,
+      "setting": 83,
+      "points": 14
+    },
+    "overall": 83,
+    "grade": "S-"
+  },
+  {
+    "id": 163,
+    "name": "Noah Popovic",
+    "position": "MB",
+    "stats": {
+      "attack": 67,
+      "defense": 76,
+      "serve": 75,
+      "block": 70,
+      "setting": 65,
+      "points": 23
+    },
+    "overall": 69,
+    "grade": "B+"
+  },
+  {
+    "id": 164,
+    "name": "Marco Yilmaz",
+    "position": "OPP",
+    "stats": {
+      "attack": 77,
+      "defense": 78,
+      "serve": 69,
+      "block": 66,
+      "setting": 74,
+      "points": 60
+    },
+    "overall": 75,
+    "grade": "A"
+  },
+  {
+    "id": 165,
+    "name": "Arda Novak",
+    "position": "OH",
+    "stats": {
+      "attack": 87,
+      "defense": 78,
+      "serve": 86,
+      "block": 88,
+      "setting": 79,
+      "points": 44
+    },
+    "overall": 82,
+    "grade": "A+"
+  },
+  {
     "id": 166,
     "name": "Leo Costa",
     "position": "OPP",
     "stats": {
-      "attack": 71,
-      "defense": 68,
-      "serve": 73,
-      "block": 76,
-      "setting": 70,
-      "points": 44
+      "attack": 75,
+      "defense": 72,
+      "serve": 77,
+      "block": 80,
+      "setting": 74,
+      "points": 48
     },
-    "overall": 71,
-    "grade": "B+"
+    "overall": 76,
+    "grade": "A"
   },
   {
     "id": 167,
     "name": "Ivan Nakamura",
     "position": "OPP",
     "stats": {
-      "attack": 86,
-      "defense": 92,
-      "serve": 84,
-      "block": 83,
-      "setting": 91,
-      "points": 54
+      "attack": 90,
+      "defense": 96,
+      "serve": 88,
+      "block": 87,
+      "setting": 95,
+      "points": 58
     },
-    "overall": 86,
-    "grade": "S-"
+    "overall": 91,
+    "grade": "S"
   },
   {
     "id": 168,
     "name": "Eren Novak",
     "position": "MB",
     "stats": {
-      "attack": 56,
-      "defense": 62,
-      "serve": 60,
-      "block": 66,
-      "setting": 52,
-      "points": 108
+      "attack": 60,
+      "defense": 66,
+      "serve": 64,
+      "block": 70,
+      "setting": 56,
+      "points": 99
     },
-    "overall": 66,
-    "grade": "B"
+    "overall": 71,
+    "grade": "A-"
   },
   {
     "id": 169,
     "name": "Arda Popovic",
     "position": "MB",
     "stats": {
-      "attack": 78,
-      "defense": 76,
-      "serve": 66,
-      "block": 77,
-      "setting": 74,
-      "points": 32
+      "attack": 82,
+      "defense": 80,
+      "serve": 70,
+      "block": 81,
+      "setting": 78,
+      "points": 36
     },
-    "overall": 73,
-    "grade": "A-"
+    "overall": 78,
+    "grade": "A"
   },
   {
     "id": 170,
     "name": "Timo Kovac",
     "position": "LIB",
     "stats": {
-      "attack": 66,
-      "defense": 74,
-      "serve": 63,
-      "block": 66,
-      "setting": 56,
-      "points": 59
+      "attack": 70,
+      "defense": 78,
+      "serve": 67,
+      "block": 70,
+      "setting": 60,
+      "points": 63
     },
-    "overall": 68,
-    "grade": "B+"
+    "overall": 73,
+    "grade": "A-"
   },
   {
     "id": 171,
     "name": "Milan Petrov",
     "position": "LIB",
     "stats": {
-      "attack": 64,
-      "defense": 61,
-      "serve": 57,
-      "block": 62,
-      "setting": 64,
-      "points": 18
+      "attack": 68,
+      "defense": 65,
+      "serve": 61,
+      "block": 66,
+      "setting": 68,
+      "points": 22
     },
-    "overall": 60,
-    "grade": "B-"
+    "overall": 65,
+    "grade": "B"
   },
   {
     "id": 172,
     "name": "Jonas Popovic",
     "position": "MB",
     "stats": {
-      "attack": 80,
-      "defense": 86,
-      "serve": 86,
-      "block": 98,
-      "setting": 87,
-      "points": 61
+      "attack": 84,
+      "defense": 90,
+      "serve": 90,
+      "block": 99,
+      "setting": 91,
+      "points": 65
     },
-    "overall": 86,
-    "grade": "S-"
+    "overall": 91,
+    "grade": "S"
   },
   {
     "id": 173,
     "name": "Noah Novak",
     "position": "MB",
     "stats": {
-      "attack": 75,
-      "defense": 68,
-      "serve": 72,
-      "block": 83,
-      "setting": 63,
-      "points": 48
+      "attack": 79,
+      "defense": 72,
+      "serve": 76,
+      "block": 87,
+      "setting": 67,
+      "points": 52
     },
-    "overall": 72,
-    "grade": "A-"
+    "overall": 77,
+    "grade": "A"
   },
   {
     "id": 174,
     "name": "Milan Nakamura",
     "position": "MB",
     "stats": {
-      "attack": 85,
-      "defense": 89,
-      "serve": 89,
-      "block": 97,
-      "setting": 81,
-      "points": 75
+      "attack": 89,
+      "defense": 93,
+      "serve": 93,
+      "block": 99,
+      "setting": 85,
+      "points": 79
     },
-    "overall": 89,
-    "grade": "S"
+    "overall": 94,
+    "grade": "S+"
   },
   {
     "id": 175,
     "name": "Leo Popovic",
     "position": "S",
     "stats": {
-      "attack": 61,
-      "defense": 62,
-      "serve": 54,
-      "block": 59,
-      "setting": 71,
-      "points": 38
+      "attack": 65,
+      "defense": 66,
+      "serve": 58,
+      "block": 63,
+      "setting": 75,
+      "points": 42
     },
-    "overall": 62,
-    "grade": "B-"
+    "overall": 67,
+    "grade": "B+"
   },
   {
     "id": 176,
     "name": "Noah Kovac",
     "position": "OPP",
     "stats": {
-      "attack": 66,
-      "defense": 66,
-      "serve": 53,
-      "block": 65,
-      "setting": 64,
-      "points": 90
+      "attack": 70,
+      "defense": 70,
+      "serve": 57,
+      "block": 69,
+      "setting": 68,
+      "points": 94
     },
-    "overall": 68,
-    "grade": "B+"
+    "overall": 73,
+    "grade": "A-"
   },
   {
     "id": 177,
     "name": "Milan Santos",
     "position": "LIB",
     "stats": {
-      "attack": 84,
-      "defense": 97,
-      "serve": 84,
-      "block": 79,
-      "setting": 76,
-      "points": 93
+      "attack": 88,
+      "defense": 99,
+      "serve": 88,
+      "block": 83,
+      "setting": 80,
+      "points": 97
     },
-    "overall": 89,
-    "grade": "S"
+    "overall": 94,
+    "grade": "S+"
   },
   {
     "id": 178,
     "name": "Ivan Muller",
     "position": "OH",
     "stats": {
-      "attack": 75,
-      "defense": 68,
-      "serve": 77,
-      "block": 64,
-      "setting": 70,
-      "points": 118
+      "attack": 79,
+      "defense": 72,
+      "serve": 81,
+      "block": 68,
+      "setting": 74,
+      "points": 99
     },
-    "overall": 77,
-    "grade": "A"
+    "overall": 82,
+    "grade": "A+"
   },
   {
     "id": 179,
     "name": "Nico Ishikawa",
     "position": "OH",
     "stats": {
-      "attack": 94,
-      "defense": 85,
-      "serve": 89,
-      "block": 88,
-      "setting": 89,
-      "points": 30
+      "attack": 98,
+      "defense": 89,
+      "serve": 93,
+      "block": 92,
+      "setting": 93,
+      "points": 34
     },
-    "overall": 85,
-    "grade": "S-"
+    "overall": 90,
+    "grade": "S"
   },
   {
     "id": 180,
     "name": "Nico Petrov",
     "position": "S",
     "stats": {
-      "attack": 81,
-      "defense": 82,
-      "serve": 89,
-      "block": 81,
-      "setting": 92,
-      "points": 66
+      "attack": 85,
+      "defense": 86,
+      "serve": 93,
+      "block": 85,
+      "setting": 96,
+      "points": 70
     },
-    "overall": 85,
-    "grade": "S-"
+    "overall": 90,
+    "grade": "S"
   },
   {
     "id": 181,
     "name": "Sami Novak",
     "position": "OH",
     "stats": {
-      "attack": 73,
-      "defense": 68,
-      "serve": 60,
-      "block": 62,
-      "setting": 62,
-      "points": 39
+      "attack": 77,
+      "defense": 72,
+      "serve": 64,
+      "block": 66,
+      "setting": 66,
+      "points": 43
     },
-    "overall": 65,
-    "grade": "B"
+    "overall": 70,
+    "grade": "B+"
   },
   {
     "id": 182,
     "name": "Noah Santos",
     "position": "S",
     "stats": {
-      "attack": 58,
-      "defense": 69,
-      "serve": 69,
-      "block": 66,
-      "setting": 80,
-      "points": 63
+      "attack": 62,
+      "defense": 73,
+      "serve": 73,
+      "block": 70,
+      "setting": 84,
+      "points": 67
     },
-    "overall": 69,
-    "grade": "B+"
+    "overall": 74,
+    "grade": "A-"
   },
   {
     "id": 183,
     "name": "Milan Yilmaz",
     "position": "OH",
     "stats": {
-      "attack": 80,
-      "defense": 63,
-      "serve": 75,
-      "block": 78,
-      "setting": 63,
-      "points": 55
+      "attack": 84,
+      "defense": 67,
+      "serve": 79,
+      "block": 82,
+      "setting": 67,
+      "points": 59
     },
-    "overall": 72,
-    "grade": "A-"
+    "overall": 77,
+    "grade": "A"
   },
   {
     "id": 184,
     "name": "Kenji Yilmaz",
     "position": "MB",
     "stats": {
-      "attack": 91,
-      "defense": 85,
-      "serve": 93,
-      "block": 93,
-      "setting": 86,
-      "points": 65
+      "attack": 95,
+      "defense": 89,
+      "serve": 97,
+      "block": 97,
+      "setting": 90,
+      "points": 69
     },
-    "overall": 89,
-    "grade": "S"
+    "overall": 94,
+    "grade": "S+"
   },
   {
     "id": 185,
     "name": "Alex Nakamura",
     "position": "S",
     "stats": {
-      "attack": 72,
-      "defense": 65,
-      "serve": 74,
-      "block": 64,
-      "setting": 70,
-      "points": 60
+      "attack": 76,
+      "defense": 69,
+      "serve": 78,
+      "block": 68,
+      "setting": 74,
+      "points": 64
     },
-    "overall": 71,
-    "grade": "B+"
+    "overall": 76,
+    "grade": "A"
   },
   {
     "id": 186,
     "name": "Alex Silva",
     "position": "LIB",
     "stats": {
-      "attack": 83,
-      "defense": 84,
-      "serve": 84,
-      "block": 75,
-      "setting": 71,
-      "points": 43
+      "attack": 87,
+      "defense": 88,
+      "serve": 88,
+      "block": 79,
+      "setting": 75,
+      "points": 47
     },
-    "overall": 80,
-    "grade": "A+"
+    "overall": 85,
+    "grade": "S-"
   },
   {
     "id": 187,
     "name": "Jonas Novak",
     "position": "S",
     "stats": {
-      "attack": 74,
-      "defense": 74,
-      "serve": 76,
-      "block": 72,
-      "setting": 87,
-      "points": 42
+      "attack": 78,
+      "defense": 78,
+      "serve": 80,
+      "block": 76,
+      "setting": 91,
+      "points": 46
     },
-    "overall": 75,
-    "grade": "A-"
+    "overall": 80,
+    "grade": "A+"
   },
   {
     "id": 188,
     "name": "David Kovac",
     "position": "OH",
     "stats": {
-      "attack": 79,
-      "defense": 84,
-      "serve": 80,
-      "block": 75,
-      "setting": 74,
-      "points": 106
+      "attack": 83,
+      "defense": 88,
+      "serve": 84,
+      "block": 79,
+      "setting": 78,
+      "points": 99
     },
-    "overall": 83,
-    "grade": "A+"
+    "overall": 88,
+    "grade": "S"
   },
   {
     "id": 189,
     "name": "Eren Novak",
     "position": "OH",
     "stats": {
-      "attack": 81,
-      "defense": 80,
-      "serve": 83,
-      "block": 80,
-      "setting": 91,
-      "points": 95
+      "attack": 85,
+      "defense": 84,
+      "serve": 87,
+      "block": 84,
+      "setting": 95,
+      "points": 99
     },
-    "overall": 84,
-    "grade": "S-"
+    "overall": 89,
+    "grade": "S"
   },
   {
     "id": 190,
     "name": "Milan Garcia",
     "position": "OH",
     "stats": {
-      "attack": 85,
-      "defense": 83,
-      "serve": 77,
-      "block": 75,
-      "setting": 77,
-      "points": 49
+      "attack": 89,
+      "defense": 87,
+      "serve": 81,
+      "block": 79,
+      "setting": 81,
+      "points": 53
     },
-    "overall": 79,
-    "grade": "A"
+    "overall": 84,
+    "grade": "S-"
   },
   {
     "id": 191,
     "name": "Alex Costa",
     "position": "OH",
     "stats": {
-      "attack": 76,
-      "defense": 71,
-      "serve": 65,
-      "block": 61,
-      "setting": 66,
-      "points": 23
+      "attack": 80,
+      "defense": 75,
+      "serve": 69,
+      "block": 65,
+      "setting": 70,
+      "points": 27
     },
-    "overall": 66,
-    "grade": "B"
+    "overall": 71,
+    "grade": "A-"
   },
   {
     "id": 192,
     "name": "Ivan Muller",
     "position": "MB",
     "stats": {
-      "attack": 69,
-      "defense": 79,
-      "serve": 81,
-      "block": 87,
-      "setting": 70,
-      "points": 74
+      "attack": 73,
+      "defense": 83,
+      "serve": 85,
+      "block": 91,
+      "setting": 74,
+      "points": 78
     },
-    "overall": 78,
-    "grade": "A"
+    "overall": 83,
+    "grade": "S-"
   },
   {
     "id": 193,
     "name": "Alex Yilmaz",
     "position": "MB",
     "stats": {
-      "attack": 78,
-      "defense": 66,
-      "serve": 76,
-      "block": 82,
-      "setting": 77,
-      "points": 100
+      "attack": 82,
+      "defense": 70,
+      "serve": 80,
+      "block": 86,
+      "setting": 81,
+      "points": 99
     },
-    "overall": 80,
-    "grade": "A+"
+    "overall": 85,
+    "grade": "S-"
   },
   {
     "id": 194,
     "name": "Mateo Ishikawa",
     "position": "OPP",
     "stats": {
-      "attack": 89,
-      "defense": 88,
-      "serve": 87,
-      "block": 86,
-      "setting": 81,
-      "points": 51
+      "attack": 93,
+      "defense": 92,
+      "serve": 91,
+      "block": 90,
+      "setting": 85,
+      "points": 55
     },
-    "overall": 85,
-    "grade": "S-"
+    "overall": 90,
+    "grade": "S"
   },
   {
     "id": 195,
     "name": "Luca Petrov",
     "position": "OPP",
     "stats": {
-      "attack": 100,
-      "defense": 85,
-      "serve": 92,
-      "block": 90,
-      "setting": 88,
-      "points": 13
+      "attack": 99,
+      "defense": 89,
+      "serve": 96,
+      "block": 94,
+      "setting": 92,
+      "points": 17
     },
-    "overall": 86,
-    "grade": "S-"
+    "overall": 91,
+    "grade": "S"
   },
   {
     "id": 196,
     "name": "Jonas Ishikawa",
     "position": "S",
     "stats": {
-      "attack": 71,
-      "defense": 76,
-      "serve": 73,
-      "block": 75,
-      "setting": 83,
-      "points": 86
+      "attack": 75,
+      "defense": 80,
+      "serve": 77,
+      "block": 79,
+      "setting": 87,
+      "points": 90
     },
-    "overall": 79,
-    "grade": "A"
+    "overall": 84,
+    "grade": "S-"
   },
   {
     "id": 197,
     "name": "Alex Hansen",
     "position": "MB",
     "stats": {
-      "attack": 86,
-      "defense": 82,
-      "serve": 87,
-      "block": 101,
-      "setting": 95,
-      "points": 81
+      "attack": 90,
+      "defense": 86,
+      "serve": 91,
+      "block": 99,
+      "setting": 99,
+      "points": 85
     },
-    "overall": 90,
-    "grade": "S"
+    "overall": 95,
+    "grade": "S+"
   },
   {
     "id": 198,
     "name": "David Popovic",
     "position": "OPP",
     "stats": {
-      "attack": 95,
-      "defense": 86,
-      "serve": 72,
-      "block": 74,
-      "setting": 81,
-      "points": 38
+      "attack": 99,
+      "defense": 90,
+      "serve": 76,
+      "block": 78,
+      "setting": 85,
+      "points": 42
     },
-    "overall": 82,
-    "grade": "A+"
+    "overall": 87,
+    "grade": "S-"
   },
   {
     "id": 199,
     "name": "Eren Petrov",
     "position": "S",
     "stats": {
-      "attack": 82,
-      "defense": 86,
-      "serve": 82,
-      "block": 84,
-      "setting": 91,
-      "points": 55
+      "attack": 86,
+      "defense": 90,
+      "serve": 86,
+      "block": 88,
+      "setting": 95,
+      "points": 59
     },
-    "overall": 84,
-    "grade": "S-"
+    "overall": 89,
+    "grade": "S"
   },
   {
     "id": 200,
     "name": "Timo Petrov",
     "position": "S",
     "stats": {
-      "attack": 65,
-      "defense": 61,
-      "serve": 64,
-      "block": 68,
-      "setting": 71,
-      "points": 105
+      "attack": 69,
+      "defense": 65,
+      "serve": 68,
+      "block": 72,
+      "setting": 75,
+      "points": 99
     },
-    "overall": 72,
-    "grade": "A-"
+    "overall": 77,
+    "grade": "A"
   },
   {
     "id": 201,
     "name": "Leo Novak",
     "position": "LIB",
     "stats": {
-      "attack": 71,
-      "defense": 74,
-      "serve": 65,
-      "block": 59,
-      "setting": 62,
-      "points": 47
+      "attack": 75,
+      "defense": 78,
+      "serve": 69,
+      "block": 63,
+      "setting": 66,
+      "points": 51
     },
-    "overall": 69,
-    "grade": "B+"
+    "overall": 74,
+    "grade": "A-"
   },
   {
     "id": 202,
     "name": "Arda Ishikawa",
     "position": "OPP",
     "stats": {
-      "attack": 67,
-      "defense": 63,
-      "serve": 67,
-      "block": 60,
-      "setting": 60,
-      "points": 80
+      "attack": 71,
+      "defense": 67,
+      "serve": 71,
+      "block": 64,
+      "setting": 64,
+      "points": 84
     },
-    "overall": 68,
-    "grade": "B+"
+    "overall": 73,
+    "grade": "A-"
   },
   {
     "id": 203,
     "name": "Noah Popovic",
     "position": "MB",
     "stats": {
-      "attack": 92,
-      "defense": 80,
-      "serve": 77,
-      "block": 94,
-      "setting": 92,
-      "points": 71
+      "attack": 96,
+      "defense": 84,
+      "serve": 81,
+      "block": 98,
+      "setting": 96,
+      "points": 75
     },
-    "overall": 88,
-    "grade": "S"
+    "overall": 93,
+    "grade": "S+"
   },
   {
     "id": 204,
     "name": "Jonas Ishikawa",
     "position": "S",
     "stats": {
-      "attack": 81,
-      "defense": 88,
-      "serve": 95,
-      "block": 83,
-      "setting": 92,
-      "points": 61
+      "attack": 85,
+      "defense": 92,
+      "serve": 99,
+      "block": 87,
+      "setting": 96,
+      "points": 65
     },
-    "overall": 87,
-    "grade": "S-"
+    "overall": 92,
+    "grade": "S"
   },
   {
     "id": 205,
     "name": "Luca Keller",
     "position": "S",
     "stats": {
-      "attack": 71,
-      "defense": 74,
-      "serve": 74,
-      "block": 79,
-      "setting": 82,
-      "points": 41
+      "attack": 75,
+      "defense": 78,
+      "serve": 78,
+      "block": 83,
+      "setting": 86,
+      "points": 45
     },
-    "overall": 74,
-    "grade": "A-"
+    "overall": 79,
+    "grade": "A+"
   },
   {
     "id": 206,
     "name": "Mateo Keller",
     "position": "OH",
     "stats": {
-      "attack": 81,
-      "defense": 81,
-      "serve": 83,
-      "block": 83,
-      "setting": 78,
-      "points": 120
+      "attack": 85,
+      "defense": 85,
+      "serve": 87,
+      "block": 87,
+      "setting": 82,
+      "points": 99
     },
-    "overall": 86,
-    "grade": "S-"
+    "overall": 91,
+    "grade": "S"
   },
   {
     "id": 207,
     "name": "Mateo Petrov",
     "position": "LIB",
     "stats": {
-      "attack": 69,
-      "defense": 81,
-      "serve": 74,
-      "block": 74,
-      "setting": 76,
-      "points": 94
+      "attack": 73,
+      "defense": 85,
+      "serve": 78,
+      "block": 78,
+      "setting": 80,
+      "points": 98
     },
-    "overall": 79,
-    "grade": "A"
+    "overall": 84,
+    "grade": "S-"
   },
   {
     "id": 208,
     "name": "Leo Novak",
     "position": "OH",
     "stats": {
-      "attack": 62,
-      "defense": 60,
-      "serve": 55,
-      "block": 68,
-      "setting": 69,
-      "points": 98
+      "attack": 66,
+      "defense": 64,
+      "serve": 59,
+      "block": 72,
+      "setting": 73,
+      "points": 99
     },
-    "overall": 67,
-    "grade": "B"
+    "overall": 72,
+    "grade": "A-"
   },
   {
     "id": 209,
     "name": "David Petrov",
     "position": "LIB",
     "stats": {
-      "attack": 58,
-      "defense": 70,
-      "serve": 60,
-      "block": 65,
-      "setting": 53,
-      "points": 97
+      "attack": 62,
+      "defense": 74,
+      "serve": 64,
+      "block": 69,
+      "setting": 57,
+      "points": 99
     },
-    "overall": 68,
-    "grade": "B+"
+    "overall": 73,
+    "grade": "A-"
   },
   {
     "id": 210,
     "name": "Timo Muller",
     "position": "OPP",
     "stats": {
-      "attack": 89,
-      "defense": 88,
-      "serve": 78,
-      "block": 82,
-      "setting": 79,
-      "points": 44
+      "attack": 93,
+      "defense": 92,
+      "serve": 82,
+      "block": 86,
+      "setting": 83,
+      "points": 48
     },
-    "overall": 83,
-    "grade": "A+"
+    "overall": 88,
+    "grade": "S"
   },
   {
     "id": 211,
     "name": "Luca Kovac",
     "position": "OPP",
     "stats": {
-      "attack": 72,
-      "defense": 64,
-      "serve": 69,
-      "block": 58,
-      "setting": 69,
-      "points": 98
+      "attack": 76,
+      "defense": 68,
+      "serve": 73,
+      "block": 62,
+      "setting": 73,
+      "points": 99
     },
-    "overall": 72,
-    "grade": "A-"
+    "overall": 77,
+    "grade": "A"
   },
   {
     "id": 212,
     "name": "Kenji Petrov",
     "position": "MB",
     "stats": {
-      "attack": 81,
-      "defense": 80,
-      "serve": 68,
-      "block": 75,
-      "setting": 79,
-      "points": 104
+      "attack": 85,
+      "defense": 84,
+      "serve": 72,
+      "block": 79,
+      "setting": 83,
+      "points": 99
     },
-    "overall": 82,
-    "grade": "A+"
+    "overall": 87,
+    "grade": "S-"
   },
   {
     "id": 213,
     "name": "Timo Kovac",
     "position": "MB",
     "stats": {
-      "attack": 59,
-      "defense": 52,
-      "serve": 60,
-      "block": 61,
-      "setting": 57,
-      "points": 70
+      "attack": 63,
+      "defense": 56,
+      "serve": 64,
+      "block": 65,
+      "setting": 61,
+      "points": 74
     },
-    "overall": 61,
-    "grade": "B-"
+    "overall": 66,
+    "grade": "B"
   },
   {
     "id": 214,
     "name": "Nico Costa",
     "position": "LIB",
     "stats": {
-      "attack": 63,
-      "defense": 81,
-      "serve": 73,
-      "block": 60,
-      "setting": 73,
-      "points": 54
+      "attack": 67,
+      "defense": 85,
+      "serve": 77,
+      "block": 64,
+      "setting": 77,
+      "points": 58
     },
-    "overall": 71,
-    "grade": "B+"
+    "overall": 76,
+    "grade": "A"
   },
   {
     "id": 215,
     "name": "Jonas Rossi",
     "position": "S",
     "stats": {
-      "attack": 74,
-      "defense": 76,
-      "serve": 81,
-      "block": 84,
-      "setting": 96,
-      "points": 46
+      "attack": 78,
+      "defense": 80,
+      "serve": 85,
+      "block": 88,
+      "setting": 99,
+      "points": 50
     },
-    "overall": 79,
-    "grade": "A"
+    "overall": 84,
+    "grade": "S-"
   },
   {
     "id": 216,
     "name": "Marco Garcia",
     "position": "S",
     "stats": {
-      "attack": 62,
-      "defense": 60,
-      "serve": 62,
-      "block": 55,
-      "setting": 74,
-      "points": 120
+      "attack": 66,
+      "defense": 64,
+      "serve": 66,
+      "block": 59,
+      "setting": 78,
+      "points": 99
     },
-    "overall": 71,
-    "grade": "B+"
+    "overall": 76,
+    "grade": "A"
   },
   {
     "id": 217,
     "name": "Alex Popovic",
     "position": "LIB",
     "stats": {
-      "attack": 91,
-      "defense": 100,
-      "serve": 78,
-      "block": 83,
-      "setting": 88,
-      "points": 89
+      "attack": 95,
+      "defense": 99,
+      "serve": 82,
+      "block": 87,
+      "setting": 92,
+      "points": 93
     },
-    "overall": 92,
+    "overall": 97,
     "grade": "S+"
   },
   {
@@ -3904,434 +3904,434 @@
     "name": "Nico Muller",
     "position": "S",
     "stats": {
-      "attack": 57,
-      "defense": 59,
-      "serve": 55,
-      "block": 60,
-      "setting": 75,
+      "attack": 61,
+      "defense": 63,
+      "serve": 59,
+      "block": 64,
+      "setting": 79,
       "points": 99
     },
-    "overall": 67,
-    "grade": "B"
+    "overall": 72,
+    "grade": "A-"
   },
   {
     "id": 219,
     "name": "Ivan Kovac",
     "position": "S",
     "stats": {
-      "attack": 77,
-      "defense": 75,
-      "serve": 79,
-      "block": 70,
-      "setting": 93,
-      "points": 21
+      "attack": 81,
+      "defense": 79,
+      "serve": 83,
+      "block": 74,
+      "setting": 97,
+      "points": 25
     },
-    "overall": 75,
-    "grade": "A-"
+    "overall": 80,
+    "grade": "A+"
   },
   {
     "id": 220,
     "name": "Ivan Garcia",
     "position": "OPP",
     "stats": {
-      "attack": 91,
-      "defense": 84,
-      "serve": 95,
-      "block": 89,
-      "setting": 88,
-      "points": 63
+      "attack": 95,
+      "defense": 88,
+      "serve": 99,
+      "block": 93,
+      "setting": 92,
+      "points": 67
     },
-    "overall": 89,
-    "grade": "S"
+    "overall": 94,
+    "grade": "S+"
   },
   {
     "id": 221,
     "name": "David Novak",
     "position": "S",
     "stats": {
-      "attack": 68,
-      "defense": 76,
-      "serve": 70,
-      "block": 68,
-      "setting": 76,
-      "points": 45
+      "attack": 72,
+      "defense": 80,
+      "serve": 74,
+      "block": 72,
+      "setting": 80,
+      "points": 49
     },
-    "overall": 71,
-    "grade": "B+"
+    "overall": 76,
+    "grade": "A"
   },
   {
     "id": 222,
     "name": "Jonas Costa",
     "position": "S",
     "stats": {
-      "attack": 83,
-      "defense": 75,
-      "serve": 84,
-      "block": 84,
-      "setting": 100,
-      "points": 120
+      "attack": 87,
+      "defense": 79,
+      "serve": 88,
+      "block": 88,
+      "setting": 99,
+      "points": 99
     },
-    "overall": 90,
-    "grade": "S"
+    "overall": 95,
+    "grade": "S+"
   },
   {
     "id": 223,
     "name": "Nico Hansen",
     "position": "OPP",
     "stats": {
-      "attack": 84,
-      "defense": 75,
-      "serve": 77,
-      "block": 79,
-      "setting": 75,
-      "points": 34
+      "attack": 88,
+      "defense": 79,
+      "serve": 81,
+      "block": 83,
+      "setting": 79,
+      "points": 38
     },
-    "overall": 76,
-    "grade": "A"
+    "overall": 81,
+    "grade": "A+"
   },
   {
     "id": 224,
     "name": "Kenji Novak",
     "position": "OPP",
     "stats": {
-      "attack": 98,
-      "defense": 78,
-      "serve": 87,
-      "block": 92,
-      "setting": 89,
-      "points": 59
+      "attack": 99,
+      "defense": 82,
+      "serve": 91,
+      "block": 96,
+      "setting": 93,
+      "points": 63
     },
-    "overall": 89,
-    "grade": "S"
+    "overall": 94,
+    "grade": "S+"
   },
   {
     "id": 225,
     "name": "David Kovac",
     "position": "OPP",
     "stats": {
-      "attack": 72,
-      "defense": 57,
-      "serve": 68,
-      "block": 57,
-      "setting": 68,
-      "points": 11
+      "attack": 76,
+      "defense": 61,
+      "serve": 72,
+      "block": 61,
+      "setting": 72,
+      "points": 15
     },
-    "overall": 62,
-    "grade": "B-"
+    "overall": 67,
+    "grade": "B+"
   },
   {
     "id": 226,
     "name": "Mateo Yilmaz",
     "position": "OPP",
     "stats": {
-      "attack": 82,
-      "defense": 72,
-      "serve": 85,
-      "block": 78,
-      "setting": 80,
-      "points": 89
+      "attack": 86,
+      "defense": 76,
+      "serve": 89,
+      "block": 82,
+      "setting": 84,
+      "points": 93
     },
-    "overall": 82,
-    "grade": "A+"
+    "overall": 87,
+    "grade": "S-"
   },
   {
     "id": 227,
     "name": "Luca Yilmaz",
     "position": "S",
     "stats": {
-      "attack": 72,
-      "defense": 70,
-      "serve": 75,
-      "block": 61,
-      "setting": 72,
-      "points": 40
+      "attack": 76,
+      "defense": 74,
+      "serve": 79,
+      "block": 65,
+      "setting": 76,
+      "points": 44
     },
-    "overall": 70,
-    "grade": "B+"
+    "overall": 75,
+    "grade": "A"
   },
   {
     "id": 228,
     "name": "Eren Santos",
     "position": "MB",
     "stats": {
-      "attack": 65,
-      "defense": 55,
-      "serve": 55,
-      "block": 74,
-      "setting": 57,
-      "points": 98
+      "attack": 69,
+      "defense": 59,
+      "serve": 59,
+      "block": 78,
+      "setting": 61,
+      "points": 99
     },
-    "overall": 67,
-    "grade": "B"
+    "overall": 72,
+    "grade": "A-"
   },
   {
     "id": 229,
     "name": "Alex Kovac",
     "position": "MB",
     "stats": {
-      "attack": 61,
-      "defense": 69,
-      "serve": 71,
-      "block": 79,
-      "setting": 73,
-      "points": 28
+      "attack": 65,
+      "defense": 73,
+      "serve": 75,
+      "block": 83,
+      "setting": 77,
+      "points": 32
     },
-    "overall": 67,
-    "grade": "B"
+    "overall": 72,
+    "grade": "A-"
   },
   {
     "id": 230,
     "name": "Mateo Keller",
     "position": "OPP",
     "stats": {
-      "attack": 84,
-      "defense": 76,
-      "serve": 76,
-      "block": 73,
-      "setting": 83,
-      "points": 89
+      "attack": 88,
+      "defense": 80,
+      "serve": 80,
+      "block": 77,
+      "setting": 87,
+      "points": 93
     },
-    "overall": 82,
-    "grade": "A+"
+    "overall": 87,
+    "grade": "S-"
   },
   {
     "id": 231,
     "name": "David Costa",
     "position": "OPP",
     "stats": {
-      "attack": 80,
-      "defense": 75,
-      "serve": 82,
-      "block": 76,
-      "setting": 82,
-      "points": 42
+      "attack": 84,
+      "defense": 79,
+      "serve": 86,
+      "block": 80,
+      "setting": 86,
+      "points": 46
     },
-    "overall": 77,
-    "grade": "A"
+    "overall": 82,
+    "grade": "A+"
   },
   {
     "id": 232,
     "name": "Nico Costa",
     "position": "OH",
     "stats": {
-      "attack": 69,
-      "defense": 61,
-      "serve": 73,
-      "block": 70,
-      "setting": 68,
-      "points": 91
+      "attack": 73,
+      "defense": 65,
+      "serve": 77,
+      "block": 74,
+      "setting": 72,
+      "points": 95
     },
-    "overall": 71,
-    "grade": "B+"
+    "overall": 76,
+    "grade": "A"
   },
   {
     "id": 233,
     "name": "Timo Garcia",
     "position": "S",
     "stats": {
-      "attack": 86,
-      "defense": 83,
-      "serve": 89,
-      "block": 92,
-      "setting": 90,
-      "points": 40
+      "attack": 90,
+      "defense": 87,
+      "serve": 93,
+      "block": 96,
+      "setting": 94,
+      "points": 44
     },
-    "overall": 86,
-    "grade": "S-"
+    "overall": 91,
+    "grade": "S"
   },
   {
     "id": 234,
     "name": "Arda Keller",
     "position": "S",
     "stats": {
-      "attack": 68,
-      "defense": 59,
-      "serve": 71,
-      "block": 67,
-      "setting": 69,
-      "points": 82
+      "attack": 72,
+      "defense": 63,
+      "serve": 75,
+      "block": 71,
+      "setting": 73,
+      "points": 86
     },
-    "overall": 71,
-    "grade": "B+"
+    "overall": 76,
+    "grade": "A"
   },
   {
     "id": 235,
     "name": "David Yilmaz",
     "position": "OH",
     "stats": {
-      "attack": 92,
-      "defense": 85,
-      "serve": 89,
-      "block": 85,
-      "setting": 84,
-      "points": 89
+      "attack": 96,
+      "defense": 89,
+      "serve": 93,
+      "block": 89,
+      "setting": 88,
+      "points": 93
     },
-    "overall": 89,
-    "grade": "S"
+    "overall": 94,
+    "grade": "S+"
   },
   {
     "id": 236,
     "name": "Noah Popovic",
     "position": "MB",
     "stats": {
-      "attack": 54,
-      "defense": 62,
-      "serve": 67,
-      "block": 62,
-      "setting": 64,
-      "points": 103
+      "attack": 58,
+      "defense": 66,
+      "serve": 71,
+      "block": 66,
+      "setting": 68,
+      "points": 99
     },
-    "overall": 67,
-    "grade": "B"
+    "overall": 72,
+    "grade": "A-"
   },
   {
     "id": 237,
     "name": "Luca Costa",
     "position": "OPP",
     "stats": {
-      "attack": 77,
-      "defense": 72,
-      "serve": 64,
-      "block": 65,
-      "setting": 63,
-      "points": 110
+      "attack": 81,
+      "defense": 76,
+      "serve": 68,
+      "block": 69,
+      "setting": 67,
+      "points": 99
     },
-    "overall": 76,
-    "grade": "A"
+    "overall": 81,
+    "grade": "A+"
   },
   {
     "id": 238,
     "name": "Arda Hansen",
     "position": "LIB",
     "stats": {
-      "attack": 74,
-      "defense": 81,
-      "serve": 74,
-      "block": 81,
-      "setting": 75,
-      "points": 105
+      "attack": 78,
+      "defense": 85,
+      "serve": 78,
+      "block": 85,
+      "setting": 79,
+      "points": 99
     },
-    "overall": 83,
-    "grade": "A+"
+    "overall": 88,
+    "grade": "S"
   },
   {
     "id": 239,
     "name": "Ivan Garcia",
     "position": "MB",
     "stats": {
-      "attack": 82,
-      "defense": 84,
-      "serve": 87,
-      "block": 100,
-      "setting": 91,
-      "points": 21
+      "attack": 86,
+      "defense": 88,
+      "serve": 91,
+      "block": 99,
+      "setting": 95,
+      "points": 25
     },
-    "overall": 83,
-    "grade": "A+"
+    "overall": 88,
+    "grade": "S"
   },
   {
     "id": 240,
     "name": "Alex Petrov",
     "position": "S",
     "stats": {
-      "attack": 70,
-      "defense": 81,
-      "serve": 78,
-      "block": 75,
-      "setting": 89,
-      "points": 115
+      "attack": 74,
+      "defense": 85,
+      "serve": 82,
+      "block": 79,
+      "setting": 93,
+      "points": 99
     },
-    "overall": 84,
-    "grade": "S-"
+    "overall": 89,
+    "grade": "S"
   },
   {
     "id": 241,
     "name": "Ivan Popovic",
     "position": "MB",
     "stats": {
-      "attack": 72,
-      "defense": 57,
-      "serve": 67,
-      "block": 72,
-      "setting": 59,
-      "points": 91
+      "attack": 76,
+      "defense": 61,
+      "serve": 71,
+      "block": 76,
+      "setting": 63,
+      "points": 95
     },
-    "overall": 71,
-    "grade": "B+"
+    "overall": 76,
+    "grade": "A"
   },
   {
     "id": 242,
     "name": "Sami Popovic",
     "position": "S",
     "stats": {
-      "attack": 66,
-      "defense": 67,
-      "serve": 64,
-      "block": 64,
-      "setting": 82,
-      "points": 73
+      "attack": 70,
+      "defense": 71,
+      "serve": 68,
+      "block": 68,
+      "setting": 86,
+      "points": 77
     },
-    "overall": 71,
-    "grade": "B+"
+    "overall": 76,
+    "grade": "A"
   },
   {
     "id": 243,
     "name": "Ivan Novak",
     "position": "OH",
     "stats": {
-      "attack": 87,
-      "defense": 90,
-      "serve": 92,
-      "block": 89,
-      "setting": 91,
-      "points": 85
+      "attack": 91,
+      "defense": 94,
+      "serve": 96,
+      "block": 93,
+      "setting": 95,
+      "points": 89
     },
-    "overall": 90,
-    "grade": "S"
+    "overall": 95,
+    "grade": "S+"
   },
   {
     "id": 244,
     "name": "Mateo Popovic",
     "position": "OPP",
     "stats": {
-      "attack": 76,
-      "defense": 66,
-      "serve": 61,
-      "block": 54,
-      "setting": 64,
-      "points": 37
+      "attack": 80,
+      "defense": 70,
+      "serve": 65,
+      "block": 58,
+      "setting": 68,
+      "points": 41
     },
-    "overall": 65,
-    "grade": "B"
+    "overall": 70,
+    "grade": "B+"
   },
   {
     "id": 245,
     "name": "Nico Novak",
     "position": "S",
     "stats": {
-      "attack": 88,
-      "defense": 80,
-      "serve": 88,
-      "block": 88,
-      "setting": 88,
-      "points": 60
+      "attack": 92,
+      "defense": 84,
+      "serve": 92,
+      "block": 92,
+      "setting": 92,
+      "points": 64
     },
-    "overall": 87,
-    "grade": "S-"
+    "overall": 92,
+    "grade": "S"
   },
   {
     "id": 246,
     "name": "Milan Silva",
     "position": "MB",
     "stats": {
-      "attack": 94,
-      "defense": 82,
-      "serve": 86,
-      "block": 88,
-      "setting": 81,
-      "points": 110
+      "attack": 98,
+      "defense": 86,
+      "serve": 90,
+      "block": 92,
+      "setting": 85,
+      "points": 99
     },
-    "overall": 92,
+    "overall": 97,
     "grade": "S+"
   },
   {
@@ -4339,794 +4339,794 @@
     "name": "Eren Ishikawa",
     "position": "MB",
     "stats": {
-      "attack": 81,
-      "defense": 77,
-      "serve": 81,
-      "block": 89,
-      "setting": 82,
-      "points": 52
+      "attack": 85,
+      "defense": 81,
+      "serve": 85,
+      "block": 93,
+      "setting": 86,
+      "points": 56
     },
-    "overall": 81,
-    "grade": "A+"
+    "overall": 86,
+    "grade": "S-"
   },
   {
     "id": 248,
     "name": "Alex Petrov",
     "position": "OPP",
     "stats": {
-      "attack": 89,
-      "defense": 81,
-      "serve": 85,
-      "block": 82,
-      "setting": 80,
-      "points": 94
+      "attack": 93,
+      "defense": 85,
+      "serve": 89,
+      "block": 86,
+      "setting": 84,
+      "points": 98
     },
-    "overall": 87,
-    "grade": "S-"
+    "overall": 92,
+    "grade": "S"
   },
   {
     "id": 249,
     "name": "Noah Kovac",
     "position": "OH",
     "stats": {
-      "attack": 73,
-      "defense": 71,
-      "serve": 61,
-      "block": 66,
-      "setting": 69,
-      "points": 16
+      "attack": 77,
+      "defense": 75,
+      "serve": 65,
+      "block": 70,
+      "setting": 73,
+      "points": 20
     },
-    "overall": 65,
-    "grade": "B"
+    "overall": 70,
+    "grade": "B+"
   },
   {
     "id": 250,
     "name": "Mateo Hansen",
     "position": "OPP",
     "stats": {
-      "attack": 63,
-      "defense": 68,
-      "serve": 67,
-      "block": 64,
-      "setting": 56,
-      "points": 67
+      "attack": 67,
+      "defense": 72,
+      "serve": 71,
+      "block": 68,
+      "setting": 60,
+      "points": 71
     },
-    "overall": 66,
-    "grade": "B"
+    "overall": 71,
+    "grade": "A-"
   },
   {
     "id": 251,
     "name": "Eren Keller",
     "position": "LIB",
     "stats": {
-      "attack": 60,
-      "defense": 75,
-      "serve": 51,
-      "block": 52,
-      "setting": 66,
-      "points": 118
+      "attack": 64,
+      "defense": 79,
+      "serve": 55,
+      "block": 56,
+      "setting": 70,
+      "points": 99
     },
-    "overall": 70,
-    "grade": "B+"
+    "overall": 75,
+    "grade": "A"
   },
   {
     "id": 252,
     "name": "Mateo Popovic",
     "position": "S",
     "stats": {
-      "attack": 68,
-      "defense": 67,
-      "serve": 55,
-      "block": 55,
-      "setting": 73,
-      "points": 87
+      "attack": 72,
+      "defense": 71,
+      "serve": 59,
+      "block": 59,
+      "setting": 77,
+      "points": 91
     },
-    "overall": 69,
-    "grade": "B+"
+    "overall": 74,
+    "grade": "A-"
   },
   {
     "id": 253,
     "name": "Luca Ishikawa",
     "position": "OPP",
     "stats": {
-      "attack": 76,
-      "defense": 70,
-      "serve": 67,
-      "block": 72,
-      "setting": 71,
-      "points": 22
+      "attack": 80,
+      "defense": 74,
+      "serve": 71,
+      "block": 76,
+      "setting": 75,
+      "points": 26
     },
-    "overall": 69,
-    "grade": "B+"
+    "overall": 74,
+    "grade": "A-"
   },
   {
     "id": 254,
     "name": "Milan Nakamura",
     "position": "OH",
     "stats": {
-      "attack": 76,
-      "defense": 77,
-      "serve": 74,
-      "block": 78,
-      "setting": 76,
-      "points": 63
+      "attack": 80,
+      "defense": 81,
+      "serve": 78,
+      "block": 82,
+      "setting": 80,
+      "points": 67
     },
-    "overall": 76,
-    "grade": "A"
+    "overall": 81,
+    "grade": "A+"
   },
   {
     "id": 255,
     "name": "Jonas Nakamura",
     "position": "OH",
     "stats": {
-      "attack": 73,
-      "defense": 71,
-      "serve": 64,
-      "block": 75,
-      "setting": 62,
-      "points": 21
+      "attack": 77,
+      "defense": 75,
+      "serve": 68,
+      "block": 79,
+      "setting": 66,
+      "points": 25
     },
-    "overall": 66,
-    "grade": "B"
+    "overall": 71,
+    "grade": "A-"
   },
   {
     "id": 256,
     "name": "Luca Nakamura",
     "position": "OH",
     "stats": {
-      "attack": 69,
-      "defense": 57,
-      "serve": 54,
-      "block": 63,
-      "setting": 56,
-      "points": 62
+      "attack": 73,
+      "defense": 61,
+      "serve": 58,
+      "block": 67,
+      "setting": 60,
+      "points": 66
     },
-    "overall": 62,
-    "grade": "B-"
+    "overall": 67,
+    "grade": "B+"
   },
   {
     "id": 257,
     "name": "Mateo Yilmaz",
     "position": "MB",
     "stats": {
-      "attack": 80,
-      "defense": 88,
-      "serve": 88,
-      "block": 98,
-      "setting": 82,
-      "points": 83
+      "attack": 84,
+      "defense": 92,
+      "serve": 92,
+      "block": 99,
+      "setting": 86,
+      "points": 87
     },
-    "overall": 88,
-    "grade": "S"
+    "overall": 93,
+    "grade": "S+"
   },
   {
     "id": 258,
     "name": "Milan Ishikawa",
     "position": "LIB",
     "stats": {
-      "attack": 86,
-      "defense": 88,
-      "serve": 74,
-      "block": 82,
-      "setting": 82,
-      "points": 24
+      "attack": 90,
+      "defense": 92,
+      "serve": 78,
+      "block": 86,
+      "setting": 86,
+      "points": 28
     },
-    "overall": 80,
-    "grade": "A+"
+    "overall": 85,
+    "grade": "S-"
   },
   {
     "id": 259,
     "name": "Eren Muller",
     "position": "MB",
     "stats": {
-      "attack": 63,
-      "defense": 71,
-      "serve": 63,
-      "block": 76,
-      "setting": 71,
+      "attack": 67,
+      "defense": 75,
+      "serve": 67,
+      "block": 80,
+      "setting": 75,
       "points": 99
     },
-    "overall": 73,
-    "grade": "A-"
+    "overall": 78,
+    "grade": "A"
   },
   {
     "id": 260,
     "name": "Jonas Rossi",
     "position": "MB",
     "stats": {
-      "attack": 55,
-      "defense": 54,
-      "serve": 62,
-      "block": 60,
-      "setting": 54,
-      "points": 104
+      "attack": 59,
+      "defense": 58,
+      "serve": 66,
+      "block": 64,
+      "setting": 58,
+      "points": 99
     },
-    "overall": 63,
-    "grade": "B-"
+    "overall": 68,
+    "grade": "B+"
   },
   {
     "id": 261,
     "name": "Luca Santos",
     "position": "OH",
     "stats": {
-      "attack": 77,
-      "defense": 78,
-      "serve": 79,
-      "block": 80,
-      "setting": 76,
-      "points": 30
+      "attack": 81,
+      "defense": 82,
+      "serve": 83,
+      "block": 84,
+      "setting": 80,
+      "points": 34
     },
-    "overall": 74,
-    "grade": "A-"
+    "overall": 79,
+    "grade": "A+"
   },
   {
     "id": 262,
     "name": "Sami Santos",
     "position": "MB",
     "stats": {
-      "attack": 62,
-      "defense": 61,
-      "serve": 64,
-      "block": 73,
-      "setting": 61,
-      "points": 96
+      "attack": 66,
+      "defense": 65,
+      "serve": 68,
+      "block": 77,
+      "setting": 65,
+      "points": 99
     },
-    "overall": 69,
-    "grade": "B+"
+    "overall": 74,
+    "grade": "A-"
   },
   {
     "id": 263,
     "name": "Timo Garcia",
     "position": "OH",
     "stats": {
-      "attack": 89,
-      "defense": 86,
-      "serve": 85,
-      "block": 84,
-      "setting": 79,
-      "points": 37
+      "attack": 93,
+      "defense": 90,
+      "serve": 89,
+      "block": 88,
+      "setting": 83,
+      "points": 41
     },
-    "overall": 82,
-    "grade": "A+"
+    "overall": 87,
+    "grade": "S-"
   },
   {
     "id": 264,
     "name": "Ivan Rossi",
     "position": "LIB",
     "stats": {
-      "attack": 66,
-      "defense": 82,
-      "serve": 78,
-      "block": 72,
-      "setting": 64,
-      "points": 38
+      "attack": 70,
+      "defense": 86,
+      "serve": 82,
+      "block": 76,
+      "setting": 68,
+      "points": 42
     },
-    "overall": 72,
-    "grade": "A-"
+    "overall": 77,
+    "grade": "A"
   },
   {
     "id": 265,
     "name": "Marco Kovac",
     "position": "S",
     "stats": {
-      "attack": 65,
-      "defense": 62,
-      "serve": 60,
-      "block": 64,
-      "setting": 75,
-      "points": 51
+      "attack": 69,
+      "defense": 66,
+      "serve": 64,
+      "block": 68,
+      "setting": 79,
+      "points": 55
     },
-    "overall": 66,
-    "grade": "B"
+    "overall": 71,
+    "grade": "A-"
   },
   {
     "id": 266,
     "name": "Alex Garcia",
     "position": "OH",
     "stats": {
-      "attack": 91,
-      "defense": 78,
-      "serve": 77,
-      "block": 85,
-      "setting": 80,
-      "points": 74
+      "attack": 95,
+      "defense": 82,
+      "serve": 81,
+      "block": 89,
+      "setting": 84,
+      "points": 78
     },
-    "overall": 84,
-    "grade": "S-"
+    "overall": 89,
+    "grade": "S"
   },
   {
     "id": 267,
     "name": "Arda Silva",
     "position": "LIB",
     "stats": {
-      "attack": 63,
-      "defense": 85,
-      "serve": 62,
-      "block": 76,
-      "setting": 64,
-      "points": 120
+      "attack": 67,
+      "defense": 89,
+      "serve": 66,
+      "block": 80,
+      "setting": 68,
+      "points": 99
     },
-    "overall": 78,
-    "grade": "A"
+    "overall": 83,
+    "grade": "S-"
   },
   {
     "id": 268,
     "name": "Mateo Keller",
     "position": "MB",
     "stats": {
-      "attack": 75,
-      "defense": 71,
-      "serve": 65,
-      "block": 82,
-      "setting": 62,
-      "points": 51
+      "attack": 79,
+      "defense": 75,
+      "serve": 69,
+      "block": 86,
+      "setting": 66,
+      "points": 55
     },
-    "overall": 72,
-    "grade": "A-"
+    "overall": 77,
+    "grade": "A"
   },
   {
     "id": 269,
     "name": "Nico Yilmaz",
     "position": "OPP",
     "stats": {
-      "attack": 91,
-      "defense": 74,
-      "serve": 85,
-      "block": 75,
-      "setting": 79,
-      "points": 65
+      "attack": 95,
+      "defense": 78,
+      "serve": 89,
+      "block": 79,
+      "setting": 83,
+      "points": 69
     },
-    "overall": 82,
-    "grade": "A+"
+    "overall": 87,
+    "grade": "S-"
   },
   {
     "id": 270,
     "name": "Kenji Hansen",
     "position": "LIB",
     "stats": {
-      "attack": 64,
-      "defense": 71,
-      "serve": 62,
-      "block": 59,
-      "setting": 62,
-      "points": 109
+      "attack": 68,
+      "defense": 75,
+      "serve": 66,
+      "block": 63,
+      "setting": 66,
+      "points": 99
     },
-    "overall": 72,
-    "grade": "A-"
+    "overall": 77,
+    "grade": "A"
   },
   {
     "id": 271,
     "name": "Luca Hansen",
     "position": "OPP",
     "stats": {
-      "attack": 81,
-      "defense": 76,
-      "serve": 81,
-      "block": 81,
-      "setting": 74,
-      "points": 40
+      "attack": 85,
+      "defense": 80,
+      "serve": 85,
+      "block": 85,
+      "setting": 78,
+      "points": 44
     },
-    "overall": 77,
-    "grade": "A"
+    "overall": 82,
+    "grade": "A+"
   },
   {
     "id": 272,
     "name": "Noah Petrov",
     "position": "OH",
     "stats": {
-      "attack": 66,
-      "defense": 60,
-      "serve": 58,
-      "block": 61,
-      "setting": 71,
-      "points": 69
+      "attack": 70,
+      "defense": 64,
+      "serve": 62,
+      "block": 65,
+      "setting": 75,
+      "points": 73
     },
-    "overall": 65,
-    "grade": "B"
+    "overall": 70,
+    "grade": "B+"
   },
   {
     "id": 273,
     "name": "Nico Popovic",
     "position": "LIB",
     "stats": {
-      "attack": 89,
+      "attack": 93,
       "defense": 99,
-      "serve": 83,
-      "block": 93,
-      "setting": 81,
-      "points": 70
+      "serve": 87,
+      "block": 97,
+      "setting": 85,
+      "points": 74
     },
-    "overall": 91,
-    "grade": "S"
+    "overall": 96,
+    "grade": "S+"
   },
   {
     "id": 274,
     "name": "Sami Muller",
     "position": "S",
     "stats": {
-      "attack": 59,
-      "defense": 69,
-      "serve": 60,
-      "block": 67,
-      "setting": 82,
-      "points": 67
+      "attack": 63,
+      "defense": 73,
+      "serve": 64,
+      "block": 71,
+      "setting": 86,
+      "points": 71
     },
-    "overall": 68,
-    "grade": "B+"
+    "overall": 73,
+    "grade": "A-"
   },
   {
     "id": 275,
     "name": "Marco Rossi",
     "position": "OH",
     "stats": {
-      "attack": 90,
-      "defense": 78,
-      "serve": 78,
-      "block": 88,
-      "setting": 90,
-      "points": 84
+      "attack": 94,
+      "defense": 82,
+      "serve": 82,
+      "block": 92,
+      "setting": 94,
+      "points": 88
     },
-    "overall": 86,
-    "grade": "S-"
+    "overall": 91,
+    "grade": "S"
   },
   {
     "id": 276,
     "name": "Marco Garcia",
     "position": "LIB",
     "stats": {
-      "attack": 85,
+      "attack": 89,
       "defense": 99,
-      "serve": 94,
-      "block": 83,
-      "setting": 80,
-      "points": 67
+      "serve": 98,
+      "block": 87,
+      "setting": 84,
+      "points": 71
     },
-    "overall": 90,
-    "grade": "S"
+    "overall": 95,
+    "grade": "S+"
   },
   {
     "id": 277,
     "name": "Jonas Santos",
     "position": "OH",
     "stats": {
-      "attack": 62,
-      "defense": 53,
-      "serve": 59,
-      "block": 66,
-      "setting": 66,
-      "points": 77
+      "attack": 66,
+      "defense": 57,
+      "serve": 63,
+      "block": 70,
+      "setting": 70,
+      "points": 81
     },
-    "overall": 63,
-    "grade": "B-"
+    "overall": 68,
+    "grade": "B+"
   },
   {
     "id": 278,
     "name": "Leo Rossi",
     "position": "LIB",
     "stats": {
-      "attack": 70,
-      "defense": 83,
-      "serve": 74,
-      "block": 71,
-      "setting": 62,
-      "points": 111
+      "attack": 74,
+      "defense": 87,
+      "serve": 78,
+      "block": 75,
+      "setting": 66,
+      "points": 99
     },
-    "overall": 80,
-    "grade": "A+"
+    "overall": 85,
+    "grade": "S-"
   },
   {
     "id": 279,
     "name": "Luca Rossi",
     "position": "MB",
     "stats": {
-      "attack": 65,
-      "defense": 62,
-      "serve": 61,
-      "block": 65,
-      "setting": 63,
-      "points": 20
+      "attack": 69,
+      "defense": 66,
+      "serve": 65,
+      "block": 69,
+      "setting": 67,
+      "points": 24
     },
-    "overall": 61,
-    "grade": "B-"
+    "overall": 66,
+    "grade": "B"
   },
   {
     "id": 280,
     "name": "Noah Costa",
     "position": "LIB",
     "stats": {
-      "attack": 70,
-      "defense": 83,
-      "serve": 65,
-      "block": 63,
-      "setting": 70,
-      "points": 81
+      "attack": 74,
+      "defense": 87,
+      "serve": 69,
+      "block": 67,
+      "setting": 74,
+      "points": 85
     },
-    "overall": 75,
-    "grade": "A-"
+    "overall": 80,
+    "grade": "A+"
   },
   {
     "id": 281,
     "name": "Jonas Yilmaz",
     "position": "S",
     "stats": {
-      "attack": 56,
-      "defense": 67,
-      "serve": 65,
-      "block": 54,
-      "setting": 75,
-      "points": 49
+      "attack": 60,
+      "defense": 71,
+      "serve": 69,
+      "block": 58,
+      "setting": 79,
+      "points": 53
     },
-    "overall": 63,
-    "grade": "B-"
+    "overall": 68,
+    "grade": "B+"
   },
   {
     "id": 282,
     "name": "Milan Rossi",
     "position": "OPP",
     "stats": {
-      "attack": 103,
-      "defense": 86,
-      "serve": 87,
-      "block": 84,
-      "setting": 84,
-      "points": 19
+      "attack": 99,
+      "defense": 90,
+      "serve": 91,
+      "block": 88,
+      "setting": 88,
+      "points": 23
     },
-    "overall": 86,
-    "grade": "S-"
+    "overall": 91,
+    "grade": "S"
   },
   {
     "id": 283,
     "name": "Ivan Hansen",
     "position": "MB",
     "stats": {
-      "attack": 75,
-      "defense": 84,
-      "serve": 78,
-      "block": 94,
-      "setting": 78,
-      "points": 30
+      "attack": 79,
+      "defense": 88,
+      "serve": 82,
+      "block": 98,
+      "setting": 82,
+      "points": 34
     },
-    "overall": 78,
-    "grade": "A"
+    "overall": 83,
+    "grade": "S-"
   },
   {
     "id": 284,
     "name": "Leo Santos",
     "position": "OPP",
     "stats": {
-      "attack": 73,
-      "defense": 77,
-      "serve": 75,
-      "block": 71,
-      "setting": 78,
-      "points": 88
+      "attack": 77,
+      "defense": 81,
+      "serve": 79,
+      "block": 75,
+      "setting": 82,
+      "points": 92
     },
-    "overall": 78,
-    "grade": "A"
+    "overall": 83,
+    "grade": "S-"
   },
   {
     "id": 285,
     "name": "Nico Novak",
     "position": "MB",
     "stats": {
-      "attack": 74,
-      "defense": 76,
-      "serve": 82,
-      "block": 81,
-      "setting": 78,
-      "points": 96
+      "attack": 78,
+      "defense": 80,
+      "serve": 86,
+      "block": 85,
+      "setting": 82,
+      "points": 99
     },
-    "overall": 81,
-    "grade": "A+"
+    "overall": 86,
+    "grade": "S-"
   },
   {
     "id": 286,
     "name": "Nico Garcia",
     "position": "LIB",
     "stats": {
-      "attack": 83,
-      "defense": 96,
-      "serve": 87,
-      "block": 79,
-      "setting": 80,
-      "points": 112
+      "attack": 87,
+      "defense": 99,
+      "serve": 91,
+      "block": 83,
+      "setting": 84,
+      "points": 99
     },
-    "overall": 91,
-    "grade": "S"
+    "overall": 96,
+    "grade": "S+"
   },
   {
     "id": 287,
     "name": "Noah Yilmaz",
     "position": "LIB",
     "stats": {
-      "attack": 59,
-      "defense": 83,
-      "serve": 69,
-      "block": 61,
-      "setting": 61,
-      "points": 46
+      "attack": 63,
+      "defense": 87,
+      "serve": 73,
+      "block": 65,
+      "setting": 65,
+      "points": 50
     },
-    "overall": 68,
-    "grade": "B+"
+    "overall": 73,
+    "grade": "A-"
   },
   {
     "id": 288,
     "name": "Leo Petrov",
     "position": "OH",
     "stats": {
-      "attack": 73,
-      "defense": 77,
-      "serve": 66,
-      "block": 71,
-      "setting": 78,
-      "points": 54
+      "attack": 77,
+      "defense": 81,
+      "serve": 70,
+      "block": 75,
+      "setting": 82,
+      "points": 58
     },
-    "overall": 72,
-    "grade": "A-"
+    "overall": 77,
+    "grade": "A"
   },
   {
     "id": 289,
     "name": "Mateo Kovac",
     "position": "OH",
     "stats": {
-      "attack": 78,
-      "defense": 69,
-      "serve": 74,
-      "block": 64,
-      "setting": 73,
-      "points": 38
+      "attack": 82,
+      "defense": 73,
+      "serve": 78,
+      "block": 68,
+      "setting": 77,
+      "points": 42
     },
-    "overall": 70,
-    "grade": "B+"
+    "overall": 75,
+    "grade": "A"
   },
   {
     "id": 290,
     "name": "Jonas Costa",
     "position": "OH",
     "stats": {
-      "attack": 68,
-      "defense": 57,
-      "serve": 57,
-      "block": 54,
-      "setting": 62,
-      "points": 116
+      "attack": 72,
+      "defense": 61,
+      "serve": 61,
+      "block": 58,
+      "setting": 66,
+      "points": 99
     },
-    "overall": 67,
-    "grade": "B"
+    "overall": 72,
+    "grade": "A-"
   },
   {
     "id": 291,
     "name": "Noah Muller",
     "position": "S",
     "stats": {
-      "attack": 87,
-      "defense": 86,
-      "serve": 72,
-      "block": 74,
-      "setting": 82,
-      "points": 42
+      "attack": 91,
+      "defense": 90,
+      "serve": 76,
+      "block": 78,
+      "setting": 86,
+      "points": 46
     },
-    "overall": 81,
-    "grade": "A+"
+    "overall": 86,
+    "grade": "S-"
   },
   {
     "id": 292,
     "name": "Noah Hansen",
     "position": "OPP",
     "stats": {
-      "attack": 101,
-      "defense": 83,
-      "serve": 89,
-      "block": 87,
-      "setting": 89,
-      "points": 25
+      "attack": 99,
+      "defense": 87,
+      "serve": 93,
+      "block": 91,
+      "setting": 93,
+      "points": 29
     },
-    "overall": 87,
-    "grade": "S-"
+    "overall": 92,
+    "grade": "S"
   },
   {
     "id": 293,
     "name": "Eren Nakamura",
     "position": "OH",
     "stats": {
-      "attack": 89,
-      "defense": 72,
-      "serve": 73,
-      "block": 85,
-      "setting": 70,
-      "points": 90
+      "attack": 93,
+      "defense": 76,
+      "serve": 77,
+      "block": 89,
+      "setting": 74,
+      "points": 94
     },
-    "overall": 82,
-    "grade": "A+"
+    "overall": 87,
+    "grade": "S-"
   },
   {
     "id": 294,
     "name": "Eren Santos",
     "position": "LIB",
     "stats": {
-      "attack": 63,
-      "defense": 77,
-      "serve": 54,
-      "block": 65,
-      "setting": 61,
-      "points": 83
+      "attack": 67,
+      "defense": 81,
+      "serve": 58,
+      "block": 69,
+      "setting": 65,
+      "points": 87
     },
-    "overall": 70,
-    "grade": "B+"
+    "overall": 75,
+    "grade": "A"
   },
   {
     "id": 295,
     "name": "Leo Popovic",
     "position": "S",
     "stats": {
-      "attack": 73,
-      "defense": 82,
-      "serve": 73,
-      "block": 71,
-      "setting": 93,
-      "points": 70
+      "attack": 77,
+      "defense": 86,
+      "serve": 77,
+      "block": 75,
+      "setting": 97,
+      "points": 74
     },
-    "overall": 79,
-    "grade": "A"
+    "overall": 84,
+    "grade": "S-"
   },
   {
     "id": 296,
     "name": "Kenji Rossi",
     "position": "OH",
     "stats": {
-      "attack": 63,
-      "defense": 69,
-      "serve": 60,
-      "block": 69,
-      "setting": 65,
-      "points": 103
+      "attack": 67,
+      "defense": 73,
+      "serve": 64,
+      "block": 73,
+      "setting": 69,
+      "points": 99
     },
-    "overall": 70,
-    "grade": "B+"
+    "overall": 75,
+    "grade": "A"
   },
   {
     "id": 297,
     "name": "Jonas Ishikawa",
     "position": "OH",
     "stats": {
-      "attack": 67,
-      "defense": 61,
-      "serve": 56,
-      "block": 65,
-      "setting": 66,
-      "points": 90
+      "attack": 71,
+      "defense": 65,
+      "serve": 60,
+      "block": 69,
+      "setting": 70,
+      "points": 94
     },
-    "overall": 67,
-    "grade": "B"
+    "overall": 72,
+    "grade": "A-"
   },
   {
     "id": 298,
     "name": "Noah Silva",
     "position": "OPP",
     "stats": {
-      "attack": 94,
-      "defense": 73,
-      "serve": 81,
-      "block": 78,
-      "setting": 73,
-      "points": 111
+      "attack": 98,
+      "defense": 77,
+      "serve": 85,
+      "block": 82,
+      "setting": 77,
+      "points": 99
     },
-    "overall": 87,
-    "grade": "S-"
+    "overall": 92,
+    "grade": "S"
   },
   {
     "id": 299,
     "name": "Marco Rossi",
     "position": "OPP",
     "stats": {
-      "attack": 96,
-      "defense": 91,
-      "serve": 94,
-      "block": 87,
-      "setting": 80,
-      "points": 106
+      "attack": 99,
+      "defense": 95,
+      "serve": 98,
+      "block": 91,
+      "setting": 84,
+      "points": 99
     },
-    "overall": 95,
+    "overall": 99,
     "grade": "S+"
   },
   {
@@ -5134,29 +5134,29 @@
     "name": "Sami Rossi",
     "position": "OPP",
     "stats": {
-      "attack": 86,
-      "defense": 87,
-      "serve": 85,
-      "block": 80,
-      "setting": 88,
-      "points": 65
+      "attack": 90,
+      "defense": 91,
+      "serve": 89,
+      "block": 84,
+      "setting": 92,
+      "points": 69
     },
-    "overall": 85,
-    "grade": "S-"
+    "overall": 90,
+    "grade": "S"
   },
   {
     "id": 301,
     "name": "Nico Costa",
     "position": "S",
     "stats": {
-      "attack": 92,
-      "defense": 90,
-      "serve": 85,
-      "block": 95,
-      "setting": 105,
-      "points": 57
+      "attack": 96,
+      "defense": 94,
+      "serve": 89,
+      "block": 99,
+      "setting": 99,
+      "points": 61
     },
-    "overall": 92,
+    "overall": 97,
     "grade": "S+"
   },
   {
@@ -5164,269 +5164,269 @@
     "name": "Timo Muller",
     "position": "LIB",
     "stats": {
-      "attack": 65,
-      "defense": 64,
-      "serve": 65,
-      "block": 57,
-      "setting": 61,
-      "points": 51
+      "attack": 69,
+      "defense": 68,
+      "serve": 69,
+      "block": 61,
+      "setting": 65,
+      "points": 55
     },
-    "overall": 65,
-    "grade": "B"
+    "overall": 70,
+    "grade": "B+"
   },
   {
     "id": 303,
     "name": "Luca Rossi",
     "position": "OH",
     "stats": {
-      "attack": 85,
-      "defense": 80,
-      "serve": 85,
-      "block": 84,
-      "setting": 76,
-      "points": 98
+      "attack": 89,
+      "defense": 84,
+      "serve": 89,
+      "block": 88,
+      "setting": 80,
+      "points": 99
     },
-    "overall": 85,
-    "grade": "S-"
+    "overall": 90,
+    "grade": "S"
   },
   {
     "id": 304,
     "name": "Arda Garcia",
     "position": "S",
     "stats": {
-      "attack": 62,
-      "defense": 64,
-      "serve": 59,
-      "block": 52,
-      "setting": 63,
-      "points": 95
+      "attack": 66,
+      "defense": 68,
+      "serve": 63,
+      "block": 56,
+      "setting": 67,
+      "points": 99
     },
-    "overall": 67,
-    "grade": "B"
+    "overall": 72,
+    "grade": "A-"
   },
   {
     "id": 305,
     "name": "Arda Hansen",
     "position": "S",
     "stats": {
-      "attack": 80,
-      "defense": 75,
-      "serve": 79,
-      "block": 89,
-      "setting": 86,
-      "points": 26
+      "attack": 84,
+      "defense": 79,
+      "serve": 83,
+      "block": 93,
+      "setting": 90,
+      "points": 30
     },
-    "overall": 78,
-    "grade": "A"
+    "overall": 83,
+    "grade": "S-"
   },
   {
     "id": 306,
     "name": "Eren Muller",
     "position": "OH",
     "stats": {
-      "attack": 86,
-      "defense": 81,
-      "serve": 82,
-      "block": 71,
-      "setting": 74,
-      "points": 96
+      "attack": 90,
+      "defense": 85,
+      "serve": 86,
+      "block": 75,
+      "setting": 78,
+      "points": 99
     },
-    "overall": 83,
-    "grade": "A+"
+    "overall": 88,
+    "grade": "S"
   },
   {
     "id": 307,
     "name": "Arda Rossi",
     "position": "S",
     "stats": {
-      "attack": 66,
-      "defense": 68,
-      "serve": 75,
-      "block": 76,
-      "setting": 84,
-      "points": 93
+      "attack": 70,
+      "defense": 72,
+      "serve": 79,
+      "block": 80,
+      "setting": 88,
+      "points": 97
     },
-    "overall": 77,
-    "grade": "A"
+    "overall": 82,
+    "grade": "A+"
   },
   {
     "id": 308,
     "name": "Eren Silva",
     "position": "MB",
     "stats": {
-      "attack": 55,
-      "defense": 65,
-      "serve": 62,
-      "block": 61,
-      "setting": 58,
-      "points": 109
+      "attack": 59,
+      "defense": 69,
+      "serve": 66,
+      "block": 65,
+      "setting": 62,
+      "points": 99
     },
-    "overall": 67,
-    "grade": "B"
+    "overall": 72,
+    "grade": "A-"
   },
   {
     "id": 309,
     "name": "Nico Novak",
     "position": "MB",
     "stats": {
-      "attack": 78,
-      "defense": 84,
-      "serve": 75,
-      "block": 80,
-      "setting": 73,
-      "points": 119
+      "attack": 82,
+      "defense": 88,
+      "serve": 79,
+      "block": 84,
+      "setting": 77,
+      "points": 99
     },
-    "overall": 85,
-    "grade": "S-"
+    "overall": 90,
+    "grade": "S"
   },
   {
     "id": 310,
     "name": "Nico Ishikawa",
     "position": "OH",
     "stats": {
-      "attack": 97,
-      "defense": 80,
-      "serve": 88,
-      "block": 89,
-      "setting": 80,
-      "points": 80
+      "attack": 99,
+      "defense": 84,
+      "serve": 92,
+      "block": 93,
+      "setting": 84,
+      "points": 84
     },
-    "overall": 89,
-    "grade": "S"
+    "overall": 94,
+    "grade": "S+"
   },
   {
     "id": 311,
     "name": "Sami Costa",
     "position": "LIB",
     "stats": {
-      "attack": 64,
-      "defense": 74,
-      "serve": 70,
-      "block": 66,
-      "setting": 62,
-      "points": 35
+      "attack": 68,
+      "defense": 78,
+      "serve": 74,
+      "block": 70,
+      "setting": 66,
+      "points": 39
     },
-    "overall": 67,
-    "grade": "B"
+    "overall": 72,
+    "grade": "A-"
   },
   {
     "id": 312,
     "name": "Eren Muller",
     "position": "OPP",
     "stats": {
-      "attack": 73,
-      "defense": 76,
-      "serve": 76,
-      "block": 79,
-      "setting": 69,
-      "points": 88
+      "attack": 77,
+      "defense": 80,
+      "serve": 80,
+      "block": 83,
+      "setting": 73,
+      "points": 92
     },
-    "overall": 78,
-    "grade": "A"
+    "overall": 83,
+    "grade": "S-"
   },
   {
     "id": 313,
     "name": "Luca Petrov",
     "position": "OH",
     "stats": {
-      "attack": 82,
-      "defense": 75,
-      "serve": 75,
-      "block": 64,
-      "setting": 66,
-      "points": 50
+      "attack": 86,
+      "defense": 79,
+      "serve": 79,
+      "block": 68,
+      "setting": 70,
+      "points": 54
     },
-    "overall": 73,
-    "grade": "A-"
+    "overall": 78,
+    "grade": "A"
   },
   {
     "id": 314,
     "name": "Nico Garcia",
     "position": "OH",
     "stats": {
-      "attack": 87,
-      "defense": 75,
-      "serve": 76,
-      "block": 75,
-      "setting": 84,
-      "points": 74
+      "attack": 91,
+      "defense": 79,
+      "serve": 80,
+      "block": 79,
+      "setting": 88,
+      "points": 78
     },
-    "overall": 81,
-    "grade": "A+"
+    "overall": 86,
+    "grade": "S-"
   },
   {
     "id": 315,
     "name": "Ivan Hansen",
     "position": "OH",
     "stats": {
-      "attack": 68,
-      "defense": 59,
-      "serve": 59,
-      "block": 64,
-      "setting": 61,
-      "points": 54
+      "attack": 72,
+      "defense": 63,
+      "serve": 63,
+      "block": 68,
+      "setting": 65,
+      "points": 58
     },
-    "overall": 63,
-    "grade": "B-"
+    "overall": 68,
+    "grade": "B+"
   },
   {
     "id": 316,
     "name": "Sami Yilmaz",
     "position": "LIB",
     "stats": {
-      "attack": 60,
-      "defense": 68,
-      "serve": 60,
-      "block": 56,
-      "setting": 61,
-      "points": 88
+      "attack": 64,
+      "defense": 72,
+      "serve": 64,
+      "block": 60,
+      "setting": 65,
+      "points": 92
     },
-    "overall": 67,
-    "grade": "B"
+    "overall": 72,
+    "grade": "A-"
   },
   {
     "id": 317,
     "name": "Luca Hansen",
     "position": "LIB",
     "stats": {
-      "attack": 75,
-      "defense": 84,
-      "serve": 75,
-      "block": 80,
-      "setting": 71,
-      "points": 115
+      "attack": 79,
+      "defense": 88,
+      "serve": 79,
+      "block": 84,
+      "setting": 75,
+      "points": 99
     },
-    "overall": 84,
-    "grade": "S-"
+    "overall": 89,
+    "grade": "S"
   },
   {
     "id": 318,
     "name": "Luca Kovac",
     "position": "OH",
     "stats": {
-      "attack": 93,
-      "defense": 86,
-      "serve": 93,
-      "block": 80,
-      "setting": 95,
-      "points": 90
+      "attack": 97,
+      "defense": 90,
+      "serve": 97,
+      "block": 84,
+      "setting": 99,
+      "points": 94
     },
-    "overall": 91,
-    "grade": "S"
+    "overall": 96,
+    "grade": "S+"
   },
   {
     "id": 319,
     "name": "Sami Popovic",
     "position": "LIB",
     "stats": {
-      "attack": 89,
-      "defense": 105,
-      "serve": 87,
-      "block": 92,
-      "setting": 89,
-      "points": 68
+      "attack": 93,
+      "defense": 99,
+      "serve": 91,
+      "block": 96,
+      "setting": 93,
+      "points": 72
     },
-    "overall": 93,
+    "overall": 98,
     "grade": "S+"
   },
   {
@@ -5434,59 +5434,59 @@
     "name": "Marco Ishikawa",
     "position": "OH",
     "stats": {
-      "attack": 82,
-      "defense": 79,
-      "serve": 78,
-      "block": 70,
-      "setting": 74,
-      "points": 87
+      "attack": 86,
+      "defense": 83,
+      "serve": 82,
+      "block": 74,
+      "setting": 78,
+      "points": 91
     },
-    "overall": 80,
-    "grade": "A+"
+    "overall": 85,
+    "grade": "S-"
   },
   {
     "id": 321,
     "name": "Jonas Yilmaz",
     "position": "OPP",
     "stats": {
-      "attack": 90,
-      "defense": 83,
-      "serve": 84,
-      "block": 76,
-      "setting": 83,
-      "points": 75
+      "attack": 94,
+      "defense": 87,
+      "serve": 88,
+      "block": 80,
+      "setting": 87,
+      "points": 79
     },
-    "overall": 85,
-    "grade": "S-"
+    "overall": 90,
+    "grade": "S"
   },
   {
     "id": 322,
     "name": "Ivan Rossi",
     "position": "LIB",
     "stats": {
-      "attack": 71,
-      "defense": 70,
-      "serve": 65,
-      "block": 71,
-      "setting": 64,
-      "points": 28
+      "attack": 75,
+      "defense": 74,
+      "serve": 69,
+      "block": 75,
+      "setting": 68,
+      "points": 32
     },
-    "overall": 68,
-    "grade": "B+"
+    "overall": 73,
+    "grade": "A-"
   },
   {
     "id": 323,
     "name": "Marco Petrov",
     "position": "OH",
     "stats": {
-      "attack": 97,
-      "defense": 93,
-      "serve": 87,
-      "block": 85,
-      "setting": 90,
-      "points": 83
+      "attack": 99,
+      "defense": 97,
+      "serve": 91,
+      "block": 89,
+      "setting": 94,
+      "points": 87
     },
-    "overall": 92,
+    "overall": 97,
     "grade": "S+"
   },
   {
@@ -5494,239 +5494,239 @@
     "name": "Milan Muller",
     "position": "MB",
     "stats": {
-      "attack": 70,
-      "defense": 69,
-      "serve": 70,
-      "block": 72,
-      "setting": 70,
-      "points": 12
+      "attack": 74,
+      "defense": 73,
+      "serve": 74,
+      "block": 76,
+      "setting": 74,
+      "points": 16
     },
-    "overall": 66,
-    "grade": "B"
+    "overall": 71,
+    "grade": "A-"
   },
   {
     "id": 325,
     "name": "Kenji Hansen",
     "position": "OH",
     "stats": {
-      "attack": 76,
-      "defense": 70,
-      "serve": 75,
-      "block": 65,
-      "setting": 65,
-      "points": 46
+      "attack": 80,
+      "defense": 74,
+      "serve": 79,
+      "block": 69,
+      "setting": 69,
+      "points": 50
     },
-    "overall": 70,
-    "grade": "B+"
+    "overall": 75,
+    "grade": "A"
   },
   {
     "id": 326,
     "name": "David Petrov",
     "position": "S",
     "stats": {
-      "attack": 67,
-      "defense": 70,
-      "serve": 80,
-      "block": 71,
-      "setting": 85,
-      "points": 103
+      "attack": 71,
+      "defense": 74,
+      "serve": 84,
+      "block": 75,
+      "setting": 89,
+      "points": 99
     },
-    "overall": 79,
-    "grade": "A"
+    "overall": 84,
+    "grade": "S-"
   },
   {
     "id": 327,
     "name": "Kenji Rossi",
     "position": "MB",
     "stats": {
-      "attack": 63,
-      "defense": 52,
-      "serve": 57,
-      "block": 70,
-      "setting": 60,
-      "points": 19
+      "attack": 67,
+      "defense": 56,
+      "serve": 61,
+      "block": 74,
+      "setting": 64,
+      "points": 23
     },
-    "overall": 58,
-    "grade": "C+"
+    "overall": 63,
+    "grade": "B"
   },
   {
     "id": 328,
     "name": "Nico Muller",
     "position": "S",
     "stats": {
-      "attack": 75,
-      "defense": 70,
-      "serve": 71,
-      "block": 70,
-      "setting": 89,
-      "points": 57
+      "attack": 79,
+      "defense": 74,
+      "serve": 75,
+      "block": 74,
+      "setting": 93,
+      "points": 61
     },
-    "overall": 75,
-    "grade": "A-"
+    "overall": 80,
+    "grade": "A+"
   },
   {
     "id": 329,
     "name": "Arda Muller",
     "position": "MB",
     "stats": {
-      "attack": 60,
-      "defense": 66,
-      "serve": 55,
-      "block": 63,
-      "setting": 55,
-      "points": 27
+      "attack": 64,
+      "defense": 70,
+      "serve": 59,
+      "block": 67,
+      "setting": 59,
+      "points": 31
     },
-    "overall": 59,
-    "grade": "C+"
+    "overall": 64,
+    "grade": "B"
   },
   {
     "id": 330,
     "name": "David Hansen",
     "position": "MB",
     "stats": {
-      "attack": 68,
-      "defense": 68,
-      "serve": 74,
-      "block": 82,
-      "setting": 69,
-      "points": 60
+      "attack": 72,
+      "defense": 72,
+      "serve": 78,
+      "block": 86,
+      "setting": 73,
+      "points": 64
     },
-    "overall": 72,
-    "grade": "A-"
+    "overall": 77,
+    "grade": "A"
   },
   {
     "id": 331,
     "name": "Sami Keller",
     "position": "LIB",
     "stats": {
-      "attack": 75,
-      "defense": 79,
-      "serve": 75,
-      "block": 60,
-      "setting": 71,
-      "points": 52
+      "attack": 79,
+      "defense": 83,
+      "serve": 79,
+      "block": 64,
+      "setting": 75,
+      "points": 56
     },
-    "overall": 74,
-    "grade": "A-"
+    "overall": 79,
+    "grade": "A+"
   },
   {
     "id": 332,
     "name": "Mateo Keller",
     "position": "OH",
     "stats": {
-      "attack": 64,
-      "defense": 74,
-      "serve": 67,
-      "block": 66,
-      "setting": 60,
-      "points": 84
+      "attack": 68,
+      "defense": 78,
+      "serve": 71,
+      "block": 70,
+      "setting": 64,
+      "points": 88
     },
-    "overall": 69,
-    "grade": "B+"
+    "overall": 74,
+    "grade": "A-"
   },
   {
     "id": 333,
     "name": "Leo Hansen",
     "position": "S",
     "stats": {
-      "attack": 82,
-      "defense": 74,
-      "serve": 77,
-      "block": 71,
-      "setting": 83,
-      "points": 34
+      "attack": 86,
+      "defense": 78,
+      "serve": 81,
+      "block": 75,
+      "setting": 87,
+      "points": 38
     },
-    "overall": 76,
-    "grade": "A"
+    "overall": 81,
+    "grade": "A+"
   },
   {
     "id": 334,
     "name": "Nico Rossi",
     "position": "OH",
     "stats": {
-      "attack": 72,
-      "defense": 76,
-      "serve": 69,
-      "block": 76,
-      "setting": 78,
-      "points": 118
+      "attack": 76,
+      "defense": 80,
+      "serve": 73,
+      "block": 80,
+      "setting": 82,
+      "points": 99
     },
-    "overall": 79,
-    "grade": "A"
+    "overall": 84,
+    "grade": "S-"
   },
   {
     "id": 335,
     "name": "Noah Hansen",
     "position": "OH",
     "stats": {
-      "attack": 71,
-      "defense": 71,
-      "serve": 68,
-      "block": 66,
-      "setting": 61,
-      "points": 68
+      "attack": 75,
+      "defense": 75,
+      "serve": 72,
+      "block": 70,
+      "setting": 65,
+      "points": 72
     },
-    "overall": 70,
-    "grade": "B+"
+    "overall": 75,
+    "grade": "A"
   },
   {
     "id": 336,
     "name": "Jonas Hansen",
     "position": "LIB",
     "stats": {
-      "attack": 69,
-      "defense": 86,
-      "serve": 67,
-      "block": 68,
-      "setting": 69,
-      "points": 81
+      "attack": 73,
+      "defense": 90,
+      "serve": 71,
+      "block": 72,
+      "setting": 73,
+      "points": 85
     },
-    "overall": 76,
-    "grade": "A"
+    "overall": 81,
+    "grade": "A+"
   },
   {
     "id": 337,
     "name": "Eren Petrov",
     "position": "MB",
     "stats": {
-      "attack": 83,
-      "defense": 80,
-      "serve": 89,
-      "block": 92,
-      "setting": 89,
-      "points": 54
+      "attack": 87,
+      "defense": 84,
+      "serve": 93,
+      "block": 96,
+      "setting": 93,
+      "points": 58
     },
-    "overall": 84,
-    "grade": "S-"
+    "overall": 89,
+    "grade": "S"
   },
   {
     "id": 338,
     "name": "Timo Petrov",
     "position": "LIB",
     "stats": {
-      "attack": 65,
-      "defense": 75,
-      "serve": 64,
-      "block": 57,
-      "setting": 62,
-      "points": 15
+      "attack": 69,
+      "defense": 79,
+      "serve": 68,
+      "block": 61,
+      "setting": 66,
+      "points": 19
     },
-    "overall": 63,
-    "grade": "B-"
+    "overall": 68,
+    "grade": "B+"
   },
   {
     "id": 339,
     "name": "Luca Rossi",
     "position": "MB",
     "stats": {
-      "attack": 93,
-      "defense": 87,
-      "serve": 94,
-      "block": 93,
-      "setting": 85,
-      "points": 115
+      "attack": 97,
+      "defense": 91,
+      "serve": 98,
+      "block": 97,
+      "setting": 89,
+      "points": 99
     },
-    "overall": 95,
+    "overall": 99,
     "grade": "S+"
   },
   {
@@ -5734,44 +5734,44 @@
     "name": "Timo Costa",
     "position": "LIB",
     "stats": {
-      "attack": 75,
-      "defense": 81,
-      "serve": 70,
-      "block": 74,
-      "setting": 74,
-      "points": 16
+      "attack": 79,
+      "defense": 85,
+      "serve": 74,
+      "block": 78,
+      "setting": 78,
+      "points": 20
     },
-    "overall": 72,
-    "grade": "A-"
+    "overall": 77,
+    "grade": "A"
   },
   {
     "id": 341,
     "name": "Eren Popovic",
     "position": "LIB",
     "stats": {
-      "attack": 58,
-      "defense": 70,
-      "serve": 70,
-      "block": 67,
-      "setting": 72,
-      "points": 22
+      "attack": 62,
+      "defense": 74,
+      "serve": 74,
+      "block": 71,
+      "setting": 76,
+      "points": 26
     },
-    "overall": 64,
-    "grade": "B"
+    "overall": 69,
+    "grade": "B+"
   },
   {
     "id": 342,
     "name": "Alex Hansen",
     "position": "OPP",
     "stats": {
-      "attack": 92,
-      "defense": 92,
-      "serve": 94,
-      "block": 94,
-      "setting": 85,
-      "points": 106
+      "attack": 96,
+      "defense": 96,
+      "serve": 98,
+      "block": 98,
+      "setting": 89,
+      "points": 99
     },
-    "overall": 95,
+    "overall": 99,
     "grade": "S+"
   },
   {
@@ -5779,554 +5779,554 @@
     "name": "Jonas Petrov",
     "position": "MB",
     "stats": {
-      "attack": 71,
-      "defense": 72,
-      "serve": 77,
-      "block": 79,
-      "setting": 75,
-      "points": 63
+      "attack": 75,
+      "defense": 76,
+      "serve": 81,
+      "block": 83,
+      "setting": 79,
+      "points": 67
     },
-    "overall": 75,
-    "grade": "A-"
+    "overall": 80,
+    "grade": "A+"
   },
   {
     "id": 344,
     "name": "Marco Yilmaz",
     "position": "OPP",
     "stats": {
-      "attack": 85,
-      "defense": 67,
-      "serve": 71,
-      "block": 63,
-      "setting": 62,
-      "points": 48
+      "attack": 89,
+      "defense": 71,
+      "serve": 75,
+      "block": 67,
+      "setting": 66,
+      "points": 52
     },
-    "overall": 72,
-    "grade": "A-"
+    "overall": 77,
+    "grade": "A"
   },
   {
     "id": 345,
     "name": "Ivan Costa",
     "position": "LIB",
     "stats": {
-      "attack": 69,
-      "defense": 84,
-      "serve": 75,
-      "block": 64,
-      "setting": 74,
-      "points": 44
+      "attack": 73,
+      "defense": 88,
+      "serve": 79,
+      "block": 68,
+      "setting": 78,
+      "points": 48
     },
-    "overall": 73,
-    "grade": "A-"
+    "overall": 78,
+    "grade": "A"
   },
   {
     "id": 346,
     "name": "Ivan Rossi",
     "position": "OPP",
     "stats": {
-      "attack": 77,
-      "defense": 63,
-      "serve": 60,
-      "block": 55,
-      "setting": 65,
-      "points": 111
+      "attack": 81,
+      "defense": 67,
+      "serve": 64,
+      "block": 59,
+      "setting": 69,
+      "points": 99
     },
-    "overall": 73,
-    "grade": "A-"
+    "overall": 78,
+    "grade": "A"
   },
   {
     "id": 347,
     "name": "Milan Ishikawa",
     "position": "MB",
     "stats": {
-      "attack": 81,
-      "defense": 82,
-      "serve": 79,
-      "block": 79,
-      "setting": 81,
-      "points": 95
+      "attack": 85,
+      "defense": 86,
+      "serve": 83,
+      "block": 83,
+      "setting": 85,
+      "points": 99
     },
-    "overall": 84,
-    "grade": "S-"
+    "overall": 89,
+    "grade": "S"
   },
   {
     "id": 348,
     "name": "Leo Ishikawa",
     "position": "OH",
     "stats": {
-      "attack": 80,
-      "defense": 72,
-      "serve": 65,
-      "block": 73,
-      "setting": 77,
-      "points": 40
+      "attack": 84,
+      "defense": 76,
+      "serve": 69,
+      "block": 77,
+      "setting": 81,
+      "points": 44
     },
-    "overall": 72,
-    "grade": "A-"
+    "overall": 77,
+    "grade": "A"
   },
   {
     "id": 349,
     "name": "Timo Rossi",
     "position": "S",
     "stats": {
-      "attack": 59,
-      "defense": 67,
-      "serve": 70,
-      "block": 66,
-      "setting": 70,
-      "points": 95
+      "attack": 63,
+      "defense": 71,
+      "serve": 74,
+      "block": 70,
+      "setting": 74,
+      "points": 99
     },
-    "overall": 71,
-    "grade": "B+"
+    "overall": 76,
+    "grade": "A"
   },
   {
     "id": 350,
     "name": "Nico Petrov",
     "position": "OH",
     "stats": {
-      "attack": 72,
-      "defense": 64,
-      "serve": 58,
-      "block": 64,
-      "setting": 66,
-      "points": 88
+      "attack": 76,
+      "defense": 68,
+      "serve": 62,
+      "block": 68,
+      "setting": 70,
+      "points": 92
     },
-    "overall": 69,
-    "grade": "B+"
+    "overall": 74,
+    "grade": "A-"
   },
   {
     "id": 351,
     "name": "Eren Ishikawa",
     "position": "OPP",
     "stats": {
-      "attack": 77,
-      "defense": 79,
-      "serve": 76,
-      "block": 78,
-      "setting": 80,
-      "points": 106
+      "attack": 81,
+      "defense": 83,
+      "serve": 80,
+      "block": 82,
+      "setting": 84,
+      "points": 99
     },
-    "overall": 83,
-    "grade": "A+"
+    "overall": 88,
+    "grade": "S"
   },
   {
     "id": 352,
     "name": "Milan Muller",
     "position": "LIB",
     "stats": {
-      "attack": 59,
-      "defense": 81,
-      "serve": 68,
-      "block": 59,
-      "setting": 60,
-      "points": 17
+      "attack": 63,
+      "defense": 85,
+      "serve": 72,
+      "block": 63,
+      "setting": 64,
+      "points": 21
     },
-    "overall": 64,
-    "grade": "B"
+    "overall": 69,
+    "grade": "B+"
   },
   {
     "id": 353,
     "name": "Milan Keller",
     "position": "LIB",
     "stats": {
-      "attack": 71,
-      "defense": 82,
-      "serve": 77,
-      "block": 81,
-      "setting": 70,
-      "points": 97
+      "attack": 75,
+      "defense": 86,
+      "serve": 81,
+      "block": 85,
+      "setting": 74,
+      "points": 99
     },
-    "overall": 81,
-    "grade": "A+"
+    "overall": 86,
+    "grade": "S-"
   },
   {
     "id": 354,
     "name": "David Silva",
     "position": "OPP",
     "stats": {
-      "attack": 100,
-      "defense": 79,
-      "serve": 92,
-      "block": 82,
-      "setting": 91,
-      "points": 68
+      "attack": 99,
+      "defense": 83,
+      "serve": 96,
+      "block": 86,
+      "setting": 95,
+      "points": 72
     },
-    "overall": 90,
-    "grade": "S"
+    "overall": 95,
+    "grade": "S+"
   },
   {
     "id": 355,
     "name": "Marco Hansen",
     "position": "LIB",
     "stats": {
-      "attack": 73,
-      "defense": 74,
-      "serve": 76,
-      "block": 72,
-      "setting": 64,
-      "points": 105
+      "attack": 77,
+      "defense": 78,
+      "serve": 80,
+      "block": 76,
+      "setting": 68,
+      "points": 99
     },
-    "overall": 79,
-    "grade": "A"
+    "overall": 84,
+    "grade": "S-"
   },
   {
     "id": 356,
     "name": "Luca Kovac",
     "position": "OPP",
     "stats": {
-      "attack": 82,
-      "defense": 65,
-      "serve": 64,
-      "block": 65,
-      "setting": 78,
-      "points": 14
+      "attack": 86,
+      "defense": 69,
+      "serve": 68,
+      "block": 69,
+      "setting": 82,
+      "points": 18
     },
-    "overall": 68,
-    "grade": "B+"
+    "overall": 73,
+    "grade": "A-"
   },
   {
     "id": 357,
     "name": "Mateo Ishikawa",
     "position": "MB",
     "stats": {
-      "attack": 78,
-      "defense": 87,
-      "serve": 85,
-      "block": 94,
-      "setting": 88,
-      "points": 58
+      "attack": 82,
+      "defense": 91,
+      "serve": 89,
+      "block": 98,
+      "setting": 92,
+      "points": 62
     },
-    "overall": 84,
-    "grade": "S-"
+    "overall": 89,
+    "grade": "S"
   },
   {
     "id": 358,
     "name": "Luca Popovic",
     "position": "S",
     "stats": {
-      "attack": 84,
-      "defense": 91,
-      "serve": 83,
-      "block": 85,
-      "setting": 102,
-      "points": 77
+      "attack": 88,
+      "defense": 95,
+      "serve": 87,
+      "block": 89,
+      "setting": 99,
+      "points": 81
     },
-    "overall": 90,
-    "grade": "S"
+    "overall": 95,
+    "grade": "S+"
   },
   {
     "id": 359,
     "name": "Eren Yilmaz",
     "position": "OPP",
     "stats": {
-      "attack": 58,
-      "defense": 59,
-      "serve": 64,
-      "block": 63,
-      "setting": 62,
-      "points": 115
+      "attack": 62,
+      "defense": 63,
+      "serve": 68,
+      "block": 67,
+      "setting": 66,
+      "points": 99
     },
-    "overall": 68,
-    "grade": "B+"
+    "overall": 73,
+    "grade": "A-"
   },
   {
     "id": 360,
     "name": "Eren Garcia",
     "position": "OPP",
     "stats": {
-      "attack": 73,
-      "defense": 69,
-      "serve": 67,
-      "block": 64,
-      "setting": 62,
-      "points": 113
+      "attack": 77,
+      "defense": 73,
+      "serve": 71,
+      "block": 68,
+      "setting": 66,
+      "points": 99
     },
-    "overall": 75,
-    "grade": "A-"
+    "overall": 80,
+    "grade": "A+"
   },
   {
     "id": 361,
     "name": "Alex Novak",
     "position": "S",
     "stats": {
-      "attack": 58,
-      "defense": 59,
-      "serve": 57,
-      "block": 70,
-      "setting": 67,
-      "points": 41
+      "attack": 62,
+      "defense": 63,
+      "serve": 61,
+      "block": 74,
+      "setting": 71,
+      "points": 45
     },
-    "overall": 62,
-    "grade": "B-"
+    "overall": 67,
+    "grade": "B+"
   },
   {
     "id": 362,
     "name": "Kenji Garcia",
     "position": "OH",
     "stats": {
-      "attack": 68,
-      "defense": 58,
-      "serve": 61,
-      "block": 66,
-      "setting": 64,
-      "points": 114
+      "attack": 72,
+      "defense": 62,
+      "serve": 65,
+      "block": 70,
+      "setting": 68,
+      "points": 99
     },
-    "overall": 70,
-    "grade": "B+"
+    "overall": 75,
+    "grade": "A"
   },
   {
     "id": 363,
     "name": "Jonas Keller",
     "position": "LIB",
     "stats": {
-      "attack": 79,
-      "defense": 86,
-      "serve": 78,
-      "block": 73,
-      "setting": 76,
-      "points": 62
+      "attack": 83,
+      "defense": 90,
+      "serve": 82,
+      "block": 77,
+      "setting": 80,
+      "points": 66
     },
-    "overall": 80,
-    "grade": "A+"
+    "overall": 85,
+    "grade": "S-"
   },
   {
     "id": 364,
     "name": "Timo Kovac",
     "position": "MB",
     "stats": {
-      "attack": 72,
-      "defense": 80,
-      "serve": 82,
-      "block": 76,
-      "setting": 78,
-      "points": 92
+      "attack": 76,
+      "defense": 84,
+      "serve": 86,
+      "block": 80,
+      "setting": 82,
+      "points": 96
     },
-    "overall": 80,
-    "grade": "A+"
+    "overall": 85,
+    "grade": "S-"
   },
   {
     "id": 365,
     "name": "Jonas Santos",
     "position": "S",
     "stats": {
-      "attack": 76,
-      "defense": 67,
-      "serve": 72,
-      "block": 75,
-      "setting": 78,
-      "points": 106
+      "attack": 80,
+      "defense": 71,
+      "serve": 76,
+      "block": 79,
+      "setting": 82,
+      "points": 99
     },
-    "overall": 80,
-    "grade": "A+"
+    "overall": 85,
+    "grade": "S-"
   },
   {
     "id": 366,
     "name": "David Novak",
     "position": "LIB",
     "stats": {
-      "attack": 84,
-      "defense": 96,
-      "serve": 81,
-      "block": 91,
-      "setting": 78,
-      "points": 81
+      "attack": 88,
+      "defense": 99,
+      "serve": 85,
+      "block": 95,
+      "setting": 82,
+      "points": 85
     },
-    "overall": 89,
-    "grade": "S"
+    "overall": 94,
+    "grade": "S+"
   },
   {
     "id": 367,
     "name": "Mateo Hansen",
     "position": "S",
     "stats": {
-      "attack": 70,
-      "defense": 78,
-      "serve": 73,
-      "block": 74,
-      "setting": 82,
-      "points": 52
+      "attack": 74,
+      "defense": 82,
+      "serve": 77,
+      "block": 78,
+      "setting": 86,
+      "points": 56
     },
-    "overall": 75,
-    "grade": "A-"
+    "overall": 80,
+    "grade": "A+"
   },
   {
     "id": 368,
     "name": "Nico Yilmaz",
     "position": "OH",
     "stats": {
-      "attack": 68,
-      "defense": 67,
-      "serve": 62,
-      "block": 69,
-      "setting": 73,
-      "points": 96
+      "attack": 72,
+      "defense": 71,
+      "serve": 66,
+      "block": 73,
+      "setting": 77,
+      "points": 99
     },
-    "overall": 71,
-    "grade": "B+"
+    "overall": 76,
+    "grade": "A"
   },
   {
     "id": 369,
     "name": "Marco Yilmaz",
     "position": "LIB",
     "stats": {
-      "attack": 58,
-      "defense": 68,
-      "serve": 67,
-      "block": 58,
-      "setting": 62,
-      "points": 48
+      "attack": 62,
+      "defense": 72,
+      "serve": 71,
+      "block": 62,
+      "setting": 66,
+      "points": 52
     },
-    "overall": 64,
-    "grade": "B"
+    "overall": 69,
+    "grade": "B+"
   },
   {
     "id": 370,
     "name": "Milan Costa",
     "position": "OH",
     "stats": {
-      "attack": 64,
-      "defense": 71,
-      "serve": 63,
-      "block": 62,
-      "setting": 68,
-      "points": 40
+      "attack": 68,
+      "defense": 75,
+      "serve": 67,
+      "block": 66,
+      "setting": 72,
+      "points": 44
     },
-    "overall": 64,
-    "grade": "B"
+    "overall": 69,
+    "grade": "B+"
   },
   {
     "id": 371,
     "name": "Jonas Muller",
     "position": "LIB",
     "stats": {
-      "attack": 71,
-      "defense": 83,
-      "serve": 70,
-      "block": 68,
-      "setting": 67,
-      "points": 56
+      "attack": 75,
+      "defense": 87,
+      "serve": 74,
+      "block": 72,
+      "setting": 71,
+      "points": 60
     },
-    "overall": 74,
-    "grade": "A-"
+    "overall": 79,
+    "grade": "A+"
   },
   {
     "id": 372,
     "name": "David Garcia",
     "position": "LIB",
     "stats": {
-      "attack": 68,
-      "defense": 73,
-      "serve": 59,
-      "block": 64,
-      "setting": 63,
-      "points": 62
+      "attack": 72,
+      "defense": 77,
+      "serve": 63,
+      "block": 68,
+      "setting": 67,
+      "points": 66
     },
-    "overall": 69,
-    "grade": "B+"
+    "overall": 74,
+    "grade": "A-"
   },
   {
     "id": 373,
     "name": "Eren Santos",
     "position": "OH",
     "stats": {
-      "attack": 59,
-      "defense": 62,
-      "serve": 67,
-      "block": 63,
-      "setting": 58,
-      "points": 35
+      "attack": 63,
+      "defense": 66,
+      "serve": 71,
+      "block": 67,
+      "setting": 62,
+      "points": 39
     },
-    "overall": 60,
-    "grade": "B-"
+    "overall": 65,
+    "grade": "B"
   },
   {
     "id": 374,
     "name": "Eren Nakamura",
     "position": "MB",
     "stats": {
-      "attack": 75,
-      "defense": 83,
-      "serve": 78,
-      "block": 84,
-      "setting": 83,
-      "points": 102
+      "attack": 79,
+      "defense": 87,
+      "serve": 82,
+      "block": 88,
+      "setting": 87,
+      "points": 99
     },
-    "overall": 84,
-    "grade": "S-"
+    "overall": 89,
+    "grade": "S"
   },
   {
     "id": 375,
     "name": "Nico Ishikawa",
     "position": "S",
     "stats": {
-      "attack": 84,
-      "defense": 78,
-      "serve": 77,
-      "block": 88,
-      "setting": 88,
-      "points": 79
+      "attack": 88,
+      "defense": 82,
+      "serve": 81,
+      "block": 92,
+      "setting": 92,
+      "points": 83
     },
-    "overall": 85,
-    "grade": "S-"
+    "overall": 90,
+    "grade": "S"
   },
   {
     "id": 376,
     "name": "Marco Yilmaz",
     "position": "OH",
     "stats": {
-      "attack": 84,
-      "defense": 78,
-      "serve": 77,
-      "block": 90,
-      "setting": 81,
-      "points": 117
+      "attack": 88,
+      "defense": 82,
+      "serve": 81,
+      "block": 94,
+      "setting": 85,
+      "points": 99
     },
-    "overall": 87,
-    "grade": "S-"
+    "overall": 92,
+    "grade": "S"
   },
   {
     "id": 377,
     "name": "Luca Santos",
     "position": "OPP",
     "stats": {
-      "attack": 62,
-      "defense": 60,
-      "serve": 68,
-      "block": 65,
-      "setting": 55,
-      "points": 89
+      "attack": 66,
+      "defense": 64,
+      "serve": 72,
+      "block": 69,
+      "setting": 59,
+      "points": 93
     },
-    "overall": 67,
-    "grade": "B"
+    "overall": 72,
+    "grade": "A-"
   },
   {
     "id": 378,
     "name": "David Popovic",
     "position": "LIB",
     "stats": {
-      "attack": 65,
-      "defense": 75,
-      "serve": 78,
-      "block": 65,
-      "setting": 65,
-      "points": 77
+      "attack": 69,
+      "defense": 79,
+      "serve": 82,
+      "block": 69,
+      "setting": 69,
+      "points": 81
     },
-    "overall": 73,
-    "grade": "A-"
+    "overall": 78,
+    "grade": "A"
   },
   {
     "id": 379,
     "name": "Sami Kovac",
     "position": "MB",
     "stats": {
-      "attack": 79,
-      "defense": 71,
-      "serve": 69,
-      "block": 77,
-      "setting": 70,
-      "points": 40
+      "attack": 83,
+      "defense": 75,
+      "serve": 73,
+      "block": 81,
+      "setting": 74,
+      "points": 44
     },
-    "overall": 73,
-    "grade": "A-"
+    "overall": 78,
+    "grade": "A"
   }
 ]
