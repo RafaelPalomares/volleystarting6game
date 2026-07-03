@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #0a0a1a;
+  color: #f0f0f0;
+  overflow-x: hidden;
+}
+
+.glow-red {
+  box-shadow: 0 0 30px rgba(233, 69, 96, 0.4), 0 0 60px rgba(233, 69, 96, 0.1);
+}
+
+.glow-gold {
+  box-shadow: 0 0 30px rgba(251, 191, 36, 0.4), 0 0 60px rgba(251, 191, 36, 0.1);
+}
+
+.gradient-border {
+  position: relative;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  border: 1px solid rgba(233, 69, 96, 0.3);
+}
+
+.stat-bar {
+  height: 6px;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+}
+
+.stat-bar-fill {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.8s ease-out;
+}
