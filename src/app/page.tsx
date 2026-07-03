@@ -191,6 +191,17 @@ export default function Home() {
             <a href="/stats" className="text-[11px] text-gray-600 hover:text-white transition-colors">📊 Stats</a>
             <a href="/premium" className="text-[11px] text-yellow-500/70 hover:text-yellow-400 transition-colors">⭐ Premium</a>
           </div>
+
+          {/* Footer */}
+          <div className="mt-6 flex justify-center gap-3 text-[10px] text-gray-700">
+            <a href="/about" className="hover:text-gray-400">About</a>
+            <span>•</span>
+            <a href="/privacy" className="hover:text-gray-400">Privacy</a>
+            <span>•</span>
+            <a href="/terms" className="hover:text-gray-400">Terms</a>
+            <span>•</span>
+            <a href="/imprint" className="hover:text-gray-400">Imprint</a>
+          </div>
         </motion.div>
       </div>
     );
