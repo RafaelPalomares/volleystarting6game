@@ -5,7 +5,9 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { newGame, spin, spinDaily, calculateResult, type GameState, type GameMode } from '@/lib/game';
 import { getDailySeed, getDailySpins, getDailyDateString, hasDailyBeenPlayed, saveDailyResult, getDailyResult } from '@/lib/daily';
 import { generateShareText, shareResult, copyToClipboard } from '@/lib/share';
+import { saveGameRecord } from '@/lib/stats';
 import { Player, COUNTRIES, PLAYERS } from '@/data/players';
+import { AdBanner, usePremiumStatus } from '@/components/ads';
 
 export default function Home() {
   const [game, setGame] = useState<GameState | null>(null);
@@ -68,6 +70,19 @@ export default function Home() {
         saveDailyResult(result.overall, result.grade);
         setDailyPlayed(true);
       }
+      // Save to history
+      saveGameRecord({
+        overall: result.overall,
+        grade: result.grade,
+        mode: game.mode,
+        roster: newRoster.map((s) => ({
+          name: s.player?.name || '',
+          position: s.position,
+          overall: s.player?.overall || 0,
+          country: s.player?.country || '',
+        })),
+        timestamp: Date.now(),
+      });
       setGame({ ...game, round: nextRound, roster: newRoster, currentSpin: null, isComplete: true, result });
     } else {
       setGame({ ...game, round: nextRound, roster: newRoster, currentSpin: null });
@@ -170,6 +185,12 @@ export default function Home() {
           </div>
 
           <p className="mt-8 text-[10px] text-gray-700">Real VNL 2026 data • {getDailyDateString()}</p>
+
+          {/* Nav links */}
+          <div className="mt-4 flex justify-center gap-4">
+            <a href="/stats" className="text-[11px] text-gray-600 hover:text-white transition-colors">📊 Stats</a>
+            <a href="/premium" className="text-[11px] text-yellow-500/70 hover:text-yellow-400 transition-colors">⭐ Premium</a>
+          </div>
         </motion.div>
       </div>
     );
